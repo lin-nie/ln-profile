@@ -8,18 +8,18 @@
       </section>
     </div>
     <ul class="show-list">
-      <li v-html="words.News.new1"></li>
-      <li v-html="words.News.new2"></li>
-      <li v-html="words.News.new3"></li>
-      <li v-html="words.News.new1"></li>
-      <li v-html="words.News.new2"></li>
-      <li v-html="words.News.new3"></li>
-      <li v-html="words.News.new1"></li>
-      <li v-html="words.News.new2"></li>
-      <li v-html="words.News.new3"></li>
-      <li v-html="words.News.new1"></li>
-      <li v-html="words.News.new2"></li>
-      <li v-html="words.News.new3"></li>
+      <li v-html="words.news.new1"></li>
+      <li v-html="words.news.new2"></li>
+      <li v-html="words.news.new3"></li>
+      <li v-html="words.news.new1"></li>
+      <li v-html="words.news.new2"></li>
+      <li v-html="words.news.new3"></li>
+      <li v-html="words.news.new1"></li>
+      <li v-html="words.news.new2"></li>
+      <li v-html="words.news.new3"></li>
+      <li v-html="words.news.new1"></li>
+      <li v-html="words.news.new2"></li>
+      <li v-html="words.news.new3"></li>
     </ul>
   </div>
 </template>
@@ -52,7 +52,8 @@ export default class Profile extends Vue {
     background-color: #f8f9fa !important;
     border-radius: 0.25rem !important;
     li {
-      font-size: 18px;
+      font-size: 20px;
+      font-family: "Noto Sans SC";
       line-height: 1.6em;
       a {
         color: #007bff;

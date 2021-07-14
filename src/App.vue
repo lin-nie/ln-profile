@@ -5,6 +5,8 @@
     <info-list></info-list>
     <New></New>
     <Biography></Biography>
+    <ResearchInterest></ResearchInterest>
+    <PublicationAndPatent></PublicationAndPatent>
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import InfoList from "./components/InfoList.vue";
 import Profile from "./components/Profile.vue";
 import New from "./components/New.vue";
 import Biography from "./components/Biography.vue";
+import ResearchInterest from "./components/ResearchInterest.vue";
+import PublicationAndPatent from "./components/PublicationAndPatent.vue";
 
 @Component({
   components: {
@@ -23,6 +27,8 @@ import Biography from "./components/Biography.vue";
     InfoList,
     New,
     Biography,
+    ResearchInterest,
+    PublicationAndPatent,
   },
 })
 export default class App extends Vue {}

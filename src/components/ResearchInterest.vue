@@ -1,23 +1,16 @@
 <template>
-  <div class="biography-wrapper wrapper-style">
+  <div class="research-wrapper wrapper-style">
     <div>
       <section class="title">
         <h2>
-          Biography
+          Research Interest
         </h2>
       </section>
     </div>
-    <div>
-        <p class="biography-content">
-            {{words.biography.bio1.introduce}}<br>
-            {{words.biography.bio1.brief1}}<br>
-            {{words.biography.bio1.brief2}}
-        </p>
-        <p class="biography-content">
-            {{words.biography.bio2.introduce}}<br>
-            {{words.biography.bio2.brief1}}<br>
-            {{words.biography.bio2.brief2}}
-        </p>
+    <div class="research-content">
+      <p v-for="interest in words.researchInterest">
+        {{ interest }}
+      </p>
     </div>
   </div>
 </template>
@@ -41,10 +34,9 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
-.biography-content{
+.research-content{
     font-size: 20px;
     font-family: "Noto Sans SC";
-    line-height: 1.7em;
-    margin-bottom: 16px;
+    line-height: 1.8em;
 }
 </style>
