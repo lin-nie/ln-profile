@@ -1,0 +1,65 @@
+<template>
+  <div class="new-wrapper wrapper-style">
+    <div>
+      <section class="title">
+        <h2>
+          News
+        </h2>
+      </section>
+    </div>
+    <ul class="show-list">
+      <li v-html="words.News.new1"></li>
+      <li v-html="words.News.new2"></li>
+      <li v-html="words.News.new3"></li>
+      <li v-html="words.News.new1"></li>
+      <li v-html="words.News.new2"></li>
+      <li v-html="words.News.new3"></li>
+      <li v-html="words.News.new1"></li>
+      <li v-html="words.News.new2"></li>
+      <li v-html="words.News.new3"></li>
+      <li v-html="words.News.new1"></li>
+      <li v-html="words.News.new2"></li>
+      <li v-html="words.News.new3"></li>
+    </ul>
+  </div>
+</template>
+
+<script lang="ts">
+import { word } from "@/store";
+import { Component, Prop, Vue } from "vue-property-decorator";
+import { State, Getter, Action, Mutation, namespace } from "vuex-class";
+
+@Component
+export default class Profile extends Vue {
+  @Getter("words") words?: word;
+  @State("dictionary") dictionary: any;
+
+  get LanguageItems() {
+    return Object.keys(this.dictionary).map((key) => {
+      return this.dictionary[key].__identity;
+    });
+  }
+}
+</script>
+
+<style lang="scss">
+.new-wrapper {
+  .show-list {
+    max-height: 320px;
+    overflow: auto;
+    border: 1px solid #dee2e6;
+    padding: 8px 0 0 46px;
+    background-color: #f8f9fa !important;
+    border-radius: 0.25rem !important;
+    li {
+      font-size: 18px;
+      line-height: 1.6em;
+      a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+      }
+    }
+  }
+}
+</style>
