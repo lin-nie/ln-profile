@@ -7,6 +7,9 @@
     <Biography></Biography>
     <ResearchInterest></ResearchInterest>
     <PublicationAndPatent></PublicationAndPatent>
+    <softwareCopyrght></softwareCopyrght>
+    <awards></awards>
+    <projects></projects>
   </div>
 </template>
 
@@ -19,6 +22,9 @@ import New from "./components/New.vue";
 import Biography from "./components/Biography.vue";
 import ResearchInterest from "./components/ResearchInterest.vue";
 import PublicationAndPatent from "./components/PublicationAndPatent.vue";
+import softwareCopyrght from "./components/SoftwareCopyrght.vue";
+import awards from "./components/Awards.vue";
+import projects from "./components/Projects.vue";
 
 @Component({
   components: {
@@ -29,6 +35,9 @@ import PublicationAndPatent from "./components/PublicationAndPatent.vue";
     Biography,
     ResearchInterest,
     PublicationAndPatent,
+    softwareCopyrght,
+    awards,
+    projects
   },
 })
 export default class App extends Vue {}
@@ -39,7 +48,7 @@ export default class App extends Vue {}
 .wrapper-style{
   width: 1160px;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 30px;
   overflow: hidden;
 }
 

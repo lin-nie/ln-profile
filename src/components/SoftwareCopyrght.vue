@@ -1,17 +1,18 @@
 <template>
-  <div class="research-wrapper wrapper-style">
+  <div class="copyrght-wrapper wrapper-style">
     <div>
       <section class="title">
         <h2>
-          {{words.researchTitle}}
+          {{ words.copyrghtTitle }}
         </h2>
       </section>
     </div>
-    <div class="research-content">
-      <p v-for="interest in words.researchInterest">
-        {{ interest }}
-      </p>
-    </div>
+    <ul class="copyrght-content">
+      <li v-for="msg in words.softwareCopyrght">
+        <strong>{{ msg.name }}</strong>
+        <p v-html="msg.author"></p>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -34,9 +35,13 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
-.research-content{
-    font-size: 20px;
-    font-family: "Noto Sans SC";
-    line-height: 1.8em;
+.copyrght-content {
+  font-family: "Noto Sans SC";
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 1.8em;
+  li {
+    margin-bottom: 10px;
+  }
 }
 </style>

@@ -1,17 +1,16 @@
 <template>
-  <div class="research-wrapper wrapper-style">
+  <div class="awards-wrapper wrapper-style">
     <div>
       <section class="title">
         <h2>
-          {{words.researchTitle}}
+          {{ words.awardsTitle }}
         </h2>
       </section>
     </div>
-    <div class="research-content">
-      <p v-for="interest in words.researchInterest">
-        {{ interest }}
-      </p>
-    </div>
+    <ul class="awards-content" v-for="msg in words.awards">
+      <p>{{ msg.subtitle }}</p>
+      <li v-for="content in msg.content">{{ content }}</li>
+    </ul>
   </div>
 </template>
 
@@ -34,9 +33,18 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
-.research-content{
-    font-size: 20px;
-    font-family: "Noto Sans SC";
-    line-height: 1.8em;
+.awards-content {
+  font-family: "Noto Sans SC";
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 1.6em;
+  font-weight: 600;
+  p{
+      font-size: 25px;
+      margin: 15px 0 10px -30px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
 }
 </style>

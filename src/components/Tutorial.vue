@@ -1,17 +1,6 @@
 <template>
-  <div class="research-wrapper wrapper-style">
-    <div>
-      <section class="title">
-        <h2>
-          {{words.researchTitle}}
-        </h2>
-      </section>
-    </div>
-    <div class="research-content">
-      <p v-for="interest in words.researchInterest">
-        {{ interest }}
-      </p>
-    </div>
+  <div class="tutorial-wrapper wrapper-style">
+      
   </div>
 </template>
 
@@ -33,10 +22,5 @@ export default class Profile extends Vue {
 }
 </script>
 
-<style scoped lang="scss">
-.research-content{
-    font-size: 20px;
-    font-family: "Noto Sans SC";
-    line-height: 1.8em;
-}
+<style scoped>
 </style>

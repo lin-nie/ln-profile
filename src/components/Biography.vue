@@ -3,7 +3,7 @@
     <div>
       <section class="title">
         <h2>
-          Biography
+          {{words.biographyTitle}}
         </h2>
       </section>
     </div>

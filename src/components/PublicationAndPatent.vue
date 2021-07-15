@@ -4,7 +4,7 @@
       <div>
         <section class="title">
           <h2>
-            Conference Publication
+            {{words.conferenceTitle}}
           </h2>
         </section>
       </div>
@@ -20,7 +20,7 @@
       <div>
         <section class="title">
           <h2>
-            Journal Publication
+            {{words.journalTitle}}
           </h2>
         </section>
       </div>
@@ -36,7 +36,7 @@
       <div>
         <section class="title">
           <h2>
-            Patent
+            {{words.patentTitle}}
           </h2>
         </section>
       </div>
