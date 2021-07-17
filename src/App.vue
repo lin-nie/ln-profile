@@ -58,18 +58,28 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+
+html{
+  font-size: 16px;
+}
+
+body{
+    font-family: segoeui,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+
+}
+
 // 组件基础样式
 .wrapper-style {
-  width: 940px;
-  margin-left: 23%;
+  width: 760px;
+  margin-left: 22%;
   margin-top: 50px;
   overflow: hidden;
 }
 
 // 组件标题样式
 .title {
-  font-size: 20px;
-  margin-bottom: 14px;
+  font-size: 1rem;
+  margin-bottom: .9rem;
   &::after {
     content: "";
     display: block;
@@ -79,7 +89,7 @@ export default class App extends Vue {}
 }
 
 .container{
-  width: 1300px;
+  width: 1150px;
   margin: 0 auto;
 }
 </style>

@@ -30,21 +30,23 @@ export default class Profile extends Vue {
   // top: 100px;
   // left: 12%;
   margin-left: 0;
-  top:100px;
+  top: 78px;
   position: fixed;
   border: 1px solid #e0e0e0;
   box-shadow: 1px 1px 2px #e0e0e0;
   .name {
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 20px;
+    font-weight: 600;
   }
   ul {
+    background: #ffffff;
     list-style: none;
-    width: 220px;
-    height: 600px;
+    width: 200px;
+    height: 440px;
     padding-top: 30px;
-    padding-left: 25px;
-    font-size: 18px;
+    padding-left: 20px;
+    font-size: 0.95rem;
     line-height: 1.9;
     li {
       cursor: pointer;

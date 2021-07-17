@@ -37,9 +37,8 @@ export default class Profile extends Vue {
 
 <style scoped lang="scss">
 .content {
-  font-family: "Noto Sans SC";
   padding-left: 30px;
-  font-size: 20px;
+  font-size: .95rem;
   line-height: 1.8em;
   li {
     margin-bottom: 10px;

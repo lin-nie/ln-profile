@@ -47,13 +47,14 @@ export default class Header extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .header-wrapper{
-    height: 80px;
+    height: 60px;
     background: rgb(50, 58, 64);
   }
   .content-wrapper{
-    max-width: 1160px;
-    min-width: 1160px;
+    max-width: 850px;
+    min-width: 850px;
     margin: 0 auto;
+    padding-left: 200px;
     color: #FFF;
     display: flex;
     align-items: center;
@@ -65,14 +66,14 @@ export default class Header extends Vue {
       display: flex;
 
       .name{
-        font-size: 32px;
+        font-size: 1.5rem;
         font-weight: 700;
       }
 
       .blog{
         color: #a2a2a2;
-        margin-left: 1em;
-        font-size: 18px;
+        margin-left: 1.4em;
+        font-size: 1rem;
         margin-bottom: 4px;
         cursor: pointer;
         display: flex;
@@ -86,8 +87,8 @@ export default class Header extends Vue {
       align-items: center;
 
       .language-item {
-        font-size: 18px;
-        line-height: 18px;
+        font-size: .9rem;
+        line-height: 16px;
         display: flex;
         align-items: center;
         cursor: pointer;

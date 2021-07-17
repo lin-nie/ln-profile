@@ -114,7 +114,7 @@ const en = {
   patent: [
     {
       name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
-      author: `<strong>Nie Lin</strong>, Chanzhi Liu`,
+      author: `<a href="#">Nie Lin</a>, Chanzhi Liu`,
       number: `CN 202022246705.5`,
     },
     {
@@ -127,7 +127,7 @@ const en = {
   softwareCopyrght: [
     {
       name: `No.6578941357 in Software Copyrght: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
-      author: `<strong>Nie Lin</strong>, Ye Ding`,
+      author: `<a href="">Nie Lin</a>, Ye Ding`,
     },
     {
       name: `No.6578941357 in Software Copyrght: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,

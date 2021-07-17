@@ -35,7 +35,7 @@ export default class Profile extends Vue {
 
 <style scoped lang="scss">
 .research-content{
-    font-size: 20px;
+    font-size: .95rem;
     font-family: "Noto Sans SC";
     line-height: 1.8em;
 }

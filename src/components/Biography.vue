@@ -42,8 +42,7 @@ export default class Profile extends Vue {
 
 <style scoped lang="scss">
 .biography-content{
-    font-size: 20px;
-    font-family: "Noto Sans SC";
+    font-size: 16px;
     line-height: 1.7em;
     margin-bottom: 16px;
 }

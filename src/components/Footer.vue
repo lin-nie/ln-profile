@@ -27,7 +27,7 @@ export default class Profile extends Vue {
 
 <style scoped lang="scss">
 .footer-wrapper {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.8em;
   .update {
     font-style: italic;

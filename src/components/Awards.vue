@@ -34,13 +34,13 @@ export default class Profile extends Vue {
 
 <style scoped lang="scss">
 .awards-content {
-  font-family: "Noto Sans SC";
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.6em;
-  font-weight: 600;
+  // font-weight: 600;
   p{
-      font-size: 25px;
+    font-weight: 600;
+      font-size: 18px;
       margin: 15px 0 10px -30px;
   }
   li {

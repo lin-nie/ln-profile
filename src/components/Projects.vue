@@ -54,26 +54,26 @@ export default class Profile extends Vue {
 
 .projects-img {
   float: left;
-  width: 400px;
+  min-width: 290px;
+  max-width: 290px;
   margin-right: 20px;
   border-radius: 5px;
   border: 1px solid #b3b3b3;
   overflow: hidden;
   img {
-    width: 400px;
+    width: 100%;
   }
 }
 
 .projects-wrapper {
   .content {
-      padding-top: 10px;
     strong {
-      font-size: 28px;
+      font-size: 1.3rem;
     }
-    font-size: 20px;
+    font-size: .9rem;
     line-height: 2em;
     .label{
-        font-size: 14px;
+        font-size: .6rem;
         font-weight: 600;
         border-radius: .25em;
         background: #007bff;

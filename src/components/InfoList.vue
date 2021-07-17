@@ -112,9 +112,9 @@ export default class extends Vue {
 
 <style lang="scss" scoped>
 .info-list-wrapper {
-  width: 1000px;
-  margin-left: 23%;
-  margin-top: 36px;
+  width: 800px;
+  margin-left: 22%;
+  margin-top: 30px;
   &:after {
     content: "";
     display: block;
@@ -126,16 +126,23 @@ export default class extends Vue {
   padding: 6px 0;
 }
 
+.long-info-list{
+  font-size: .85rem;
+  white-space: nowrap;
+}
+
 .short-list-wrapper {
   float: left;
   overflow: hidden;
   margin-right: 24px;
+  font-size: .85rem;
 }
 
 .icons {
   display: flex;
   float: right;
   margin-top: 40px;
+  margin-right: 40px;
 
   .icon {
     cursor: pointer;

@@ -40,7 +40,8 @@ export default class Profile extends Vue {
     flex-wrap: wrap;
     justify-content: space-between;
     img{
-        max-width: 450px;
+        max-width: 350px;
+        min-width: 350px;
     }
 }
 </style>

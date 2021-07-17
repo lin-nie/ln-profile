@@ -52,8 +52,7 @@ export default class Profile extends Vue {
     background-color: #f8f9fa !important;
     border-radius: 0.25rem !important;
     li {
-      font-size: 20px;
-      font-family: "Noto Sans SC";
+      font-size: .95rem;
       line-height: 1.6em;
       a {
         color: #007bff;
