@@ -112,8 +112,8 @@ export default class extends Vue {
 
 <style lang="scss" scoped>
 .info-list-wrapper {
-  width: 1160px;
-  margin: 0 auto;
+  width: 1000px;
+  margin-left: 23%;
   margin-top: 36px;
   &:after {
     content: "";

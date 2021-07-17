@@ -74,7 +74,8 @@ export default class Profile extends Vue {
   font-size: 20px;
   line-height: 1.8em;
   .content {
-    font-family: "Noto Sans SC";
+    // font-family: "Noto Sans SC";
+    font-family: "Source Sans Pro";
     padding-left: 30px;
     li {
       margin-bottom: 10px;

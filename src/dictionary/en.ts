@@ -20,6 +20,23 @@ const en = {
   phone: "Phone: +86 131 383 50 137",
   web: "Web: linnie.com.cn",
   newTitle: "New",
+  navigation: {
+    name: "Nie Lin",
+    address: [
+      "Home",
+      "New",
+      "Biography",
+      "Exchange Experience",
+      "Resear Interest",
+      "Conference Publication",
+      "Journal Publication",
+      "Patent",
+      "Software Copyrght",
+      "Awards",
+      "Projects",
+      "Tutorial"
+    ]
+  },
   news: {
     new1: `[ 2021.06 ] Our team (I and Fixstars) implemented the 4-bit PQ algorithm on ARM for the faiss library, enabling 60x speedup. [<a href="https://github.com/facebookresearch/faiss/issues/1812">issue</a>] [<a href="https://github.com/facebookresearch/faiss/pull/1815">PR</a>] [<a href="https://proc-cpuinfo.fixstars.com/2021/06/make-faiss-4bitpq-60x-faster-on-aarch64/">blog by Imaizumi (in Japanese)</a>] [<a href="https://mti-lab.github.io/blog/yusuke%20matsui/research/2021/06/21/4bitpq.html">blog by Matsui (in Japanese)</a>]`,
     new2: `[ 2021.05 ] I was selected as <a href="http://cvpr2021.thecvf.com/node/184">an outstanding reviewer for CVPR 2021</a>.`,
@@ -38,6 +55,8 @@ const en = {
       brief2: "Dongguan University Of Technology",
     },
   },
+  exchangeTitle: "Exchange Experience",
+  exchangeImgName: ["清华大学", "NUS", "TORONTO", "香港科技大学"],
   researchTitle: "Research Interest",
   researchInterest: [
     "1.xxxxxxxxxxxx",
@@ -47,6 +66,11 @@ const en = {
   ],
   conferenceTitle: "Conference Publication",
   conferencePublication: [
+    {
+      name: `Building a Manga Dataset "Manga109" with Annotations for Multimedia Applications`,
+      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
+      date: "IEEE International Conference on Computer Vision (ICCV),2021",
+    },
     {
       name: `Building a Manga Dataset "Manga109" with Annotations for Multimedia Applications`,
       author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
@@ -187,6 +211,18 @@ const en = {
       match: "ICCV 2021",
     },
   ],
+  tutorialTitle: "Tutorial",
+  tutorial: [
+    {
+      name: "PQTable:XXXXXXXXXXXXXXXX",
+      author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      match: `IEEE Transactions on Multimedia(TMM),2018`
+    }
+  ],
+  footer: {
+    period: `© 2016 - 2021   Nie Lin`,
+    lastUpdated: `Last updated: April 30,2021`
+  }
 };
 
 export type enType = typeof en;

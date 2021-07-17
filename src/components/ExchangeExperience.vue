@@ -1,19 +1,17 @@
 <template>
-  <div class="tutorial-wrapper wrapper-style">
+  <div class="experience-wrapper wrapper-style">
     <div>
       <section class="title">
         <h2>
-          {{ words.tutorialTitle }}
+          {{ words.exchangeTitle }}
         </h2>
       </section>
     </div>
-    <ul class="content">
-      <li v-for="msg in words.tutorial">
-        <strong>{{ msg.name }}</strong>
-        <p v-html="msg.author"></p>
-        {{ msg.match }}
-      </li>
-    </ul>
+    <div class="img-box">
+      <div class="exchange-img" v-for="name in words.exchangeImgName">
+        <img :src="require(`@/assets/experienceImg/${name}.jpg`)" alt="" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -36,13 +34,13 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
-.content {
-  font-family: "Noto Sans SC";
-  padding-left: 30px;
-  font-size: 20px;
-  line-height: 1.8em;
-  li {
-    margin-bottom: 10px;
-  }
+.img-box{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    img{
+        max-width: 450px;
+    }
 }
 </style>

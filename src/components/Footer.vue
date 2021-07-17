@@ -1,19 +1,9 @@
 <template>
-  <div class="tutorial-wrapper wrapper-style">
-    <div>
-      <section class="title">
-        <h2>
-          {{ words.tutorialTitle }}
-        </h2>
-      </section>
-    </div>
-    <ul class="content">
-      <li v-for="msg in words.tutorial">
-        <strong>{{ msg.name }}</strong>
-        <p v-html="msg.author"></p>
-        {{ msg.match }}
-      </li>
-    </ul>
+  <div class="footer-wrapper wrapper-style">
+    <p>{{ words.footer.period }}</p>
+    <p class="update">
+      <strong>{{ words.footer.lastUpdated }}</strong>
+    </p>
   </div>
 </template>
 
@@ -36,13 +26,14 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
-.content {
-  font-family: "Noto Sans SC";
-  padding-left: 30px;
+.footer-wrapper {
   font-size: 20px;
   line-height: 1.8em;
-  li {
-    margin-bottom: 10px;
+  .update {
+    font-style: italic;
+    padding-left: 1em;
   }
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 </style>

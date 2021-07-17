@@ -21,7 +21,7 @@
           {{ words.department }}
           <i style="font-weight: 600">{{ words.researchStudent }}</i>
         </p>
-        <hr style="margin-top: 18px"/>
+        <hr style="margin-top: 15px"/>
         <div class="introduction">
           <p>
             {{ words.personalIntroduction }}
@@ -58,10 +58,10 @@ export default class Profile extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .profile-wrapper {
-  width: 1160px;
-  margin: 0 auto;
-  margin-top: 20px;
-  overflow: hidden;
+  width: 1000px;
+  margin-left: 23%;
+  margin-top: 30px;
+  // overflow: hidden;
 }
 .profile-info-wrapper {
   .profile-image {
@@ -79,6 +79,7 @@ export default class Profile extends Vue {
 
 .name {
   font-size: 48px;
+  margin-top: -10px;
 }
 
 .profile {
@@ -87,14 +88,16 @@ export default class Profile extends Vue {
 
 .advance-line {
   font-weight: 600;
+  white-space: nowrap
 }
 
 .small-line{
   font-size: 18px;
+  white-space: nowrap
 }
 
 .introduction {
-  margin-top: 18px;
+  margin-top: 15px;
   p{
     font-size: 18px;
   }

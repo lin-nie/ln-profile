@@ -1,15 +1,21 @@
 <template>
   <div id="app">
     <Header></Header>
-    <Profile></Profile>
-    <info-list></info-list>
-    <New></New>
-    <Biography></Biography>
-    <ResearchInterest></ResearchInterest>
-    <PublicationAndPatent></PublicationAndPatent>
-    <softwareCopyrght></softwareCopyrght>
-    <awards></awards>
-    <projects></projects>
+    <div class="container">
+      <Profile></Profile>
+      <info-list></info-list>
+      <NavigationBar></NavigationBar>
+      <New></New>
+      <Biography></Biography>
+      <ExchangeExperience></ExchangeExperience>
+      <ResearchInterest></ResearchInterest>
+      <PublicationAndPatent></PublicationAndPatent>
+      <SoftwareCopyrght></SoftwareCopyrght>
+      <Awards></Awards>
+      <Projects></Projects>
+      <Tutorial></Tutorial>
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 
@@ -18,26 +24,34 @@ import { Component, Vue } from "vue-property-decorator";
 import Header from "./components/Header.vue";
 import InfoList from "./components/InfoList.vue";
 import Profile from "./components/Profile.vue";
+import NavigationBar from "./components/NavigationBar.vue";
 import New from "./components/New.vue";
 import Biography from "./components/Biography.vue";
+import ExchangeExperience from "./components/ExchangeExperience.vue";
 import ResearchInterest from "./components/ResearchInterest.vue";
 import PublicationAndPatent from "./components/PublicationAndPatent.vue";
-import softwareCopyrght from "./components/SoftwareCopyrght.vue";
-import awards from "./components/Awards.vue";
-import projects from "./components/Projects.vue";
+import SoftwareCopyrght from "./components/SoftwareCopyrght.vue";
+import Awards from "./components/Awards.vue";
+import Projects from "./components/Projects.vue";
+import Tutorial from "./components/Tutorial.vue";
+import Footer from "./components/Footer.vue";
 
 @Component({
   components: {
     Header,
     Profile,
     InfoList,
+    NavigationBar,
     New,
     Biography,
+    ExchangeExperience,
     ResearchInterest,
     PublicationAndPatent,
-    softwareCopyrght,
-    awards,
-    projects
+    SoftwareCopyrght,
+    Awards,
+    Projects,
+    Tutorial,
+    Footer,
   },
 })
 export default class App extends Vue {}
@@ -45,22 +59,27 @@ export default class App extends Vue {}
 
 <style lang="scss">
 // 组件基础样式
-.wrapper-style{
-  width: 1160px;
-  margin: 0 auto;
-  margin-top: 30px;
+.wrapper-style {
+  width: 940px;
+  margin-left: 23%;
+  margin-top: 50px;
   overflow: hidden;
 }
 
 // 组件标题样式
-.title{
+.title {
   font-size: 20px;
   margin-bottom: 14px;
-  &::after{
+  &::after {
     content: "";
     display: block;
     margin-top: 4px;
     border: 1px solid #b3b3b3;
   }
+}
+
+.container{
+  width: 1300px;
+  margin: 0 auto;
 }
 </style>
