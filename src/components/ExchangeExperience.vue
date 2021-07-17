@@ -13,8 +13,7 @@
           :src="require(`@/assets/experienceImg/${msg.imgName}.jpg`)"
           alt=""
         />
-        <div class="mask-desc">
-          {{ msg.intro }}
+        <div class="mask-desc" v-html="msg.intro">
         </div>
       </div>
     </div>

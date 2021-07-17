@@ -59,7 +59,7 @@ const en = {
   exchange: [
     {
       imgName: "清华大学",
-      intro: "清华大学介绍"
+      intro: `清华大学介绍 <br><p style="font-size: 20px">qinghua</p> `
     },
     {
       imgName: "NUS",
