@@ -21,9 +21,6 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 import {
   State,
   Getter,
-  Action,
-  Mutation,
-  namespace
 } from 'vuex-class';
 
 @Component
@@ -53,6 +50,7 @@ export default class Header extends Vue {
     left: 0;
     right: 0;
     top: 0;
+    z-index: 1;
   }
   .content-wrapper{
     max-width: 850px;
@@ -100,12 +98,12 @@ export default class Header extends Vue {
         transition: all ease .3s;
 
         &:hover{
-          margin-top: -0.5em;
+          // margin-top: -0.5em;
+          padding-bottom: 0.5em; // 防止抖动
         }
       }
 
       .language-item + .language-item{
-        
         &::before{
           content: "/";
           padding: 0 5px;
