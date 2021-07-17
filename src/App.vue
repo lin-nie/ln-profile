@@ -70,7 +70,7 @@ body{
 
 // 组件基础样式
 .wrapper-style {
-  width: 760px;
+  width: 870px;
   margin-left: 22%;
   margin-top: 50px;
   overflow: hidden;
@@ -91,5 +91,6 @@ body{
 .container{
   width: 1150px;
   margin: 0 auto;
+  margin-top: 89px;
 }
 </style>

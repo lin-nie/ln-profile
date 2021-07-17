@@ -74,9 +74,6 @@ export default class extends Vue {
 
   setColor(item: any) {
     item.hovTheme = item.theme;
-    if (item.hovTheme === "#fff") {
-      item.bgC = "#000";
-    }
   }
 
   resetColor(item: any) {
@@ -92,9 +89,8 @@ export default class extends Vue {
     },
     {
       hovTheme: "#000",
-      icon: ["fab", "github-square"],
-      theme: "#fff",
-      bgC: "#fff",
+      icon: ["fab", "github"],
+      theme: "lightseagreen",
     },
     {
       hovTheme: "#000",
@@ -112,7 +108,7 @@ export default class extends Vue {
 
 <style lang="scss" scoped>
 .info-list-wrapper {
-  width: 800px;
+  width: 870px;
   margin-left: 22%;
   margin-top: 30px;
   &:after {
@@ -142,7 +138,6 @@ export default class extends Vue {
   display: flex;
   float: right;
   margin-top: 40px;
-  margin-right: 40px;
 
   .icon {
     cursor: pointer;

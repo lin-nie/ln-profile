@@ -49,6 +49,10 @@ export default class Header extends Vue {
   .header-wrapper{
     height: 60px;
     background: rgb(50, 58, 64);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
   }
   .content-wrapper{
     max-width: 850px;
