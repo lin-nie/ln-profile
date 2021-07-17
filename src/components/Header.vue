@@ -95,7 +95,8 @@ export default class Header extends Vue {
         align-items: center;
         cursor: pointer;
         background: rgb(50, 58, 64);
-        transition: all ease .3s;
+        transition: all linear .2s;
+        box-sizing: border-box;
 
         &:hover{
           // margin-top: -0.5em;
