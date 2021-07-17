@@ -2,7 +2,7 @@ const en = {
   __identity: "English",
   __langKey: "en",
   name: "Nie Lin",
-  blog: "Blog",
+  blog: "My Blog",
   degree: "Undergraduate Student (B3)",
   major: "Computer Science Software Engineering (GPA: 3.6+ Rank: 1th Place)",
   academy: "School of Electrical Engineering and Intelligentization, DGUT",
@@ -27,12 +27,12 @@ const en = {
       "New",
       "Biography",
       "Exchange Experience",
-      "Resear Interest",
+      "Awards",
+      "Research Interest",
       "Conference Publication",
       "Journal Publication",
       "Patent",
       "Software Copyrght",
-      "Awards",
       "Projects",
       "Tutorial"
     ]
@@ -81,76 +81,6 @@ const en = {
     "3.xxxxxxxxxxxxxxxxxxxxxxxx",
     "4.xxxxxxxxxxxxxxx",
   ],
-  conferenceTitle: "Conference Publication",
-  conferencePublication: [
-    {
-      name: `Building a Manga Dataset "Manga109" with Annotations for Multimedia Applications`,
-      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
-      date: "IEEE International Conference on Computer Vision (ICCV),2021",
-    },
-    {
-      name: `Building a Manga Dataset "Manga109" with Annotations for Multimedia Applications`,
-      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
-      date: "IEEE International Conference on Computer Vision (ICCV),2021",
-    },
-    {
-      name: `Building a Manga Dataset "Manga109" with Annotations for Multimedia Applications`,
-      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
-      date: "IEEE International Conference on Computer Vision (ICCV),2021",
-    },
-    {
-      name: `Building a Manga Dataset "Manga109" with Annotations for Multimedia Applications`,
-      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
-      date: "IEEE International Conference on Computer Vision (ICCV),2021",
-    },
-    {
-      name: `Building a Manga Dataset "Manga109" with Annotations for Multimedia Applications`,
-      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
-      date: "IEEE International Conference on Computer Vision (ICCV),2021",
-    },
-  ],
-  journalTitle: "Publication",
-  journalPublication: [
-    {
-      name: `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
-      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
-      date: `IEEE Transactions on Multimedia(<strong>TMM</strong>),2018`,
-    },
-    {
-      name: `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
-      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
-      date: `IEEE Transactions on Multimedia(<strong>TMM</strong>),2018`,
-    },
-    {
-      name: `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
-      author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
-      date: `IEEE Transactions on Multimedia(<strong>TMM</strong>),2018`,
-    },
-  ],
-  patentTitle: "Patent",
-  patent: [
-    {
-      name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
-      author: `<a href="#">Nie Lin</a>, Chanzhi Liu`,
-      number: `CN 202022246705.5`,
-    },
-    {
-      name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
-      author: `<strong>Nie Lin</strong>, Chanzhi Liu`,
-      number: `CN 202022246705.5`,
-    },
-  ],
-  copyrghtTitle: "Software Copyrght",
-  softwareCopyrght: [
-    {
-      name: `No.6578941357 in Software Copyrght: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
-      author: `<a href="">Nie Lin</a>, Ye Ding`,
-    },
-    {
-      name: `No.6578941357 in Software Copyrght: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
-      author: `<strong>Nie Lin</strong>, Ye Ding`,
-    },
-  ],
   awardsTitle: "Awards",
   awards: [
     {
@@ -172,6 +102,46 @@ const en = {
       ],
     },
   ],
+  conferenceTitle: "Conference Publication",
+  conferencePublication: [
+    {
+      name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
+      author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
+      date: "IEEE International Conference on Signal and Image Processing (ICSIP),2021",
+    },
+
+  ],
+  journalTitle: "Journal Publication",
+  journalPublication: [
+    {
+      name: 'None',
+      //name: `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
+      //author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
+      //date: `IEEE Transactions on Multimedia(<strong>TMM</strong>),2018`,
+    },
+  ],
+  patentTitle: "Patent",
+  patent: [
+    {
+      name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
+      author: `<a href="">Nie Lin</a>, Chanzhi Liu`,
+      number: `CN 202022246705.5`,
+    },
+    {
+      name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
+      author: `<a href="">Nie Lin</a>, Chanzhi Liu`,
+      number: `CN 202022246705.5`,
+    },
+  ],
+  copyrghtTitle: "Software Copyrght",
+  softwareCopyrght: [
+    {
+      name: 'None',
+      //name: `No.6578941357 in Software Copyrght: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
+      //author: `<a href="">Nie Lin</a>, Ye Ding`,
+    },
+  ],
+
   projectsTitle: "Projects",
   projects: [
     {
