@@ -56,7 +56,24 @@ const en = {
     },
   },
   exchangeTitle: "Exchange Experience",
-  exchangeImgName: ["清华大学", "NUS", "TORONTO", "香港科技大学"],
+  exchange: [
+    {
+      imgName: "清华大学",
+      intro: "清华大学介绍"
+    },
+    {
+      imgName: "NUS",
+      intro: "NUS介绍"
+    },
+    {
+      imgName: "TORONTO",
+      intro: "TORONTO介绍"
+    },
+    {
+      imgName: "香港科技大学",
+      intro: "香港科技大学介绍"
+    },
+    ],
   researchTitle: "Research Interest",
   researchInterest: [
     "1.xxxxxxxxxxxx",

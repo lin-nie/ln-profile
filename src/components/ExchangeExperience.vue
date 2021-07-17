@@ -8,10 +8,13 @@
       </section>
     </div>
     <div class="img-box">
-      <div class="exchange-img" v-for="name in words.exchangeImgName">
-        <img :src="require(`@/assets/experienceImg/${name}.jpg`)" alt="" />
+      <div class="exchange-img" v-for="msg in words.exchange">
+        <img
+          :src="require(`@/assets/experienceImg/${msg.imgName}.jpg`)"
+          alt=""
+        />
         <div class="mask-desc">
-          一些介绍
+          {{ msg.intro }}
         </div>
       </div>
     </div>
@@ -37,41 +40,41 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
-.img-box{
-    padding: 0 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    img{
-        transition: all ease .3s;
-        max-width: 350px;
-        min-width: 350px;
+.img-box {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  img {
+    transition: all ease 0.3s;
+    max-width: 350px;
+    min-width: 350px;
+  }
+  .exchange-img {
+    position: relative;
+    overflow: hidden;
+    .mask-desc {
+      transition: all ease 0.3s;
+      opacity: 0;
+      background-color: #000000aa;
+      color: #f2f2f2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
     }
-    .exchange-img {
-      position: relative;
-      overflow: hidden;
+
+    &:hover {
+      cursor: pointer;
       .mask-desc {
-        transition: all ease .3s;
-        opacity: 0;
-        background-color: #000000aa;
-        color: #f2f2f2;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        opacity: 1;
       }
 
-      &:hover {
-        cursor: pointer;
-        .mask-desc {
-        opacity: 1;
-        }
-
-        img {
-          transform: scale(1.2);
-        }
+      img {
+        transform: scale(1.2);
       }
     }
+  }
 }
 </style>
