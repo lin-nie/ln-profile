@@ -30,9 +30,9 @@ Vue.component('font-awesome-layers-text', FontAwesomeLayersText)
 // import VueI18n from 'vue-i18n'
 
 // Vue.use(VueI18n);
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(ElementUI);
+// import ElementUI from 'element-ui';
+// import 'element-ui/lib/theme-chalk/index.css';
+// Vue.use(ElementUI);
 
 Vue.config.productionTip = false;
 

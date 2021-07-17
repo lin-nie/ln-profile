@@ -8,7 +8,16 @@ Vue.use(Vuex);
 
 export type word = enType;
 
-export default new Vuex.Store<any>({
+export type stateType = {
+  words:  enType | zhType | jpType,
+  dictionary: {
+    en: enType,
+    zh: zhType,
+    jp: jpType,
+  }
+};
+
+export default new Vuex.Store<stateType>({
   state: {
     words: EN as enType,
     dictionary: {
@@ -18,12 +27,12 @@ export default new Vuex.Store<any>({
     }
   },
   mutations: {
-    SET_LANGUAGE(state, payload) {
-      state.words = (state.dictionary[payload]) as any;
+    SET_LANGUAGE(state, payload: 'en' | 'zh' | 'jp') {
+      state.words = state.dictionary[payload];
     }
   },
   actions: {
-    setLanguage({ commit }, payload) {
+    setLanguage({ commit }, payload: 'en' | 'zh' | 'jp') {
       commit('SET_LANGUAGE', payload);
     }
   },

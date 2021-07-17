@@ -17,6 +17,7 @@
 </template>
 
 <script lang="ts">
+import { word } from '@/store';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import {
   State,
@@ -26,7 +27,7 @@ import {
 @Component
 export default class Header extends Vue {
   @Prop() private msg!: string;
-  @Getter('words') words: any;
+  @Getter('words') words!: word;
   @State('dictionary') dictionary: any;
 
   get LanguageItems () {
