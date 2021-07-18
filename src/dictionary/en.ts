@@ -3,21 +3,23 @@ const en = {
   __langKey: "en",
   name: "Nie Lin",
   blog: "My Blog",
-  degree: "Undergraduate Student (B3)",
+  degree: "Undergraduate Student (B4)",
   major: "Computer Science Software Engineering (GPA: 3.6+ Rank: 1th Place)",
   academy: "School of Electrical Engineering and Intelligentization, DGUT",
   department: "Department of Electronic Engineering, Tsinghua University ",
-  researchStudent: "(Research Student)",
-  personalIntroduction: `I am Nie Lin, I am from China, I am currently studying Computer Science and 
-  Software Engineering at DGUT. I love scientific research and mathematics 
-  very much. I am good at using machine learning, deep learning, and advers
-  arial learning for digital image processing. Welcome to communicate with me`,
+  researchStudent: "(Project Researcher)",
+  personalIntroduction: `I am Nie Lin, a college student from China.I am studying at DGUT in China now
+  and my major is Computer Software Engineering. At the same time, I am a project researcher of Tsinghua University, 
+  China Computer Federation (CCF) and China Society of Image and Graphics (CSIG).
+  My research interests are Computer Vision, Image Processing, Machine Learning and 
+  other Artificial Intelligence-related research. 
+  I have a strong interest and hobby in computer research, welcome to communicate with me.`,
   address1:
-    "Address1: Room 9A-411 AI-Net Laboratory, Songshan Lake Campus, Dongguan university of Technology, Dongguan, China",
+    "Address1: Room 9A-411 Institute of AI-Net Electronic Information & Artificial Intelligence, Songshan Lake, DGUT, Dongguan, China",
   address2:
-    "Address2: Gang Li's Laboratory, Department of Electronic Engineering, Tsinghua University, Beijing, China (Now)",
+    "Address2: Institute of Electronic Information Systems, Department of Electronic Engineering, Tsinghua University, Beijing, China",
   email: "Email: linnienirvana@gmail.com",
-  phone: "Phone: +86 131 383 50 137",
+  phone: "Phone: +86 131-3835-0137",
   web: "Web: linnie.com.cn",
   newTitle: "New",
   navigation: {
@@ -34,7 +36,7 @@ const en = {
       "Patent",
       "Software Copyrght",
       "Projects",
-      "Tutorial"
+      "Scientific Fund"
     ]
   },
   news: {
@@ -45,13 +47,13 @@ const en = {
   biographyTitle: "Biography",
   biography: {
     bio1: {
-      introduce: "(2020-)Research Group`s Student",
-      brief1: "Department of Electronic Engineering",
+      introduce: "(2020.6 - Now) Project Researcher",
+      brief1: "Institute of Electronic Information Systems",
       brief2: "Tsinghua University",
     },
     bio2: {
-      introduce: "(2018-)BSc in Computer Science Software Engineering (Now B3)",
-      brief1: "School of Electrical Engineering and Intelligentization",
+      introduce: "(2018.9 - 2022.7) BSc in Computer Science Software Engineering (Now B4)",
+      brief1: "Ai-Net Institute of Electronic Information & Artificial Intelligence",
       brief2: "Dongguan University Of Technology",
     },
   },
@@ -76,10 +78,11 @@ const en = {
     ],
   researchTitle: "Research Interest",
   researchInterest: [
-    "1.xxxxxxxxxxxx",
-    "2.xxxxxxxxxxxxxxxxx",
-    "3.xxxxxxxxxxxxxxxxxxxxxxxx",
-    "4.xxxxxxxxxxxxxxx",
+    "1.Computer Vision",
+    "2.Digital Image Processing",
+    "3.Machine Learning",
+    "4.Remote Sensing Images",
+    "5.........................."
   ],
   awardsTitle: "Awards",
   awards: [
@@ -124,21 +127,19 @@ const en = {
   patent: [
     {
       name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
-      author: `<a href="">Nie Lin</a>, Chanzhi Liu`,
-      number: `CN 202022246705.5`,
-    },
-    {
-      name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
-      author: `<a href="">Nie Lin</a>, Chanzhi Liu`,
+      author: `<a href="">Nie Lin</a>, Chanzhi Liu, Haofeng Li, Shihao Zou, Junyu Li,......`,
       number: `CN 202022246705.5`,
     },
   ],
   copyrghtTitle: "Software Copyrght",
   softwareCopyrght: [
     {
-      name: 'None',
-      //name: `No.6578941357 in Software Copyrght: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
-      //author: `<a href="">Nie Lin</a>, Ye Ding`,
+      name: 'OCR Recognition System for Japanese Postal Payment Notes',
+      Number: `No.A0003976 in SoftwareCopyright`,
+    },
+    {
+      name: 'Video copyright protection system based on artificial intelligence',
+      Number: `No.4840268 in SoftwareCopyright`,
     },
   ],
 
@@ -198,17 +199,18 @@ const en = {
       match: "ICCV 2021",
     },
   ],
-  tutorialTitle: "Tutorial",
+  tutorialTitle: "Scientific Fund",
   tutorial: [
     {
-      name: "PQTable:XXXXXXXXXXXXXXXX",
-      author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      name: `<a href="#">The National Natural Science Foundation of China</a>`,
+      //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
       match: `IEEE Transactions on Multimedia(TMM),2018`
     }
   ],
+
   footer: {
-    period: `© 2016 - 2021   Nie Lin`,
-    lastUpdated: `Last updated: April 30,2021`
+    period: `© 2018 - 2021   Nie Lin`,
+    lastUpdated: `Last updated: July 20,2021`
   }
 };
 

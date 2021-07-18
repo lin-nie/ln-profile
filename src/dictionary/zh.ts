@@ -4,16 +4,18 @@ const zh = {
   name: "林 涅",
   blog: "我的博客",
   degree: "本科生 (大四)",
-  major: "计算机 软件工程专业 (GPA: 3.6+    排名: 専攻 第 1名)",
+  major: "计算机 软件工程专业 (GPA: 3.6+ 排名: 专业第 1名)",
   academy: "电智化学院, 东莞理工",
   department: "电子工程系, 清华大学",
   researchStudent: "(项目研究员)",
-  personalIntroduction: `Hi，我是林涅，是一名来自中国的大学生。我现在就读于中国广东省东莞市的东莞理工
-  大学，专业是计算机软件工程专业。同时我也是中国计算机协会(CCF)、中国图像图形学学会(CSIG)等组织会员，`,
+  personalIntroduction: `Hi，我是林涅，是一名来自中国的大学生。我现在就读于中国的东莞理工大学，
+  专业是计算机软件工程专业，同时我是清华大学的项目研究人员，中国计算机协会(CCF)、中国图像图形学学会
+  (CSIG)等组织会员，我的研究兴趣爱好是计算机视觉，图像图形学，机器学习等人工智能有关的课题。
+  我对计算机研究有着浓厚的兴趣和爱好，欢迎和我交流。`,
   address1:
     "地址1: 中国广东省东莞市松山湖东莞理工9A-411 Ai-Net智能化研究所",
   address2:
-    "地址2: 中国北京市海淀区清华大学罗姆楼 信息系统研究所",
+    "地址2: 中国北京市海淀区清华大学罗姆楼 电子信息系统研究所",
   email: "个人邮箱: nie.lin@hotmail.com",
   phone: "个人电话: +86 131-3835-0137",
   web: "个人网站: linnie.com.cn",
@@ -32,7 +34,7 @@ const zh = {
       "发表专利",
       "软件著作",
       "项目经验",
-      "参与基金"
+      "科研基金"
     ]
   },
   news: {
@@ -43,17 +45,17 @@ const zh = {
   biographyTitle: "个人经历",
   biography: {
     bio1: {
-      introduce: "(2020-至今)  项目组研究员",
-      brief1: "电子工程系 信息系统研究所",
+      introduce: "(2020.6-至今)  项目研究员",
+      brief1: "电子信息系统研究所",
       brief2: "清华大学",
     },
     bio2: {
-      introduce: "(2018-至今)  计算机 软件工程在读",
-      brief1: "电子工程与智能化学院 Ai-Net研究所",
+      introduce: "(2018-至今)  计算机软件工程在读 (B4)",
+      brief1: "Ai-Net电子信息&人工智能研究所",
       brief2: "东莞理工大学",
     },
   },
-  exchangeTitle: "国际交流",
+  exchangeTitle: "国际交流sssss",
   exchange: [
     {
       imgName: "清华大学",
@@ -74,10 +76,11 @@ const zh = {
   ],
   researchTitle: "研究兴趣",
   researchInterest: [
-    "机器视觉",
-    "● xxxxxxxxxxxxxxxxx",
-    "● xxxxxxxxxxxxxxxxxxxxxxxx",
-    "● xxxxxxxxxxxxxxx",
+    "1.计算机视觉",
+    "2.数字图像处理",
+    "3.机器学习",
+    "4.遥感图像处理",
+    "5............",
   ],
   awardsTitle: "荣誉奖项",
   awards: [
@@ -121,20 +124,91 @@ const zh = {
   patentTitle: "发表专利",
   patent: [
     {
-      name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
-      author: `<a href="#">Nie Lin</a>, Chanzhi Liu`,
+      name: `一种基于模拟信号处理的汽车挡雨装置及汽车`,
+      author: `<a href="#">林涅</a>, 刘婵梓, 黎浩锋, 邹世豪, 李俊裕,.......`,
       number: `CN 202022246705.5`,
     },
   ],
   copyrghtTitle: "软件著作",
   softwareCopyrght: [
     {
-      name: '暂无',
-      //name: `No.6578941357 in Software Copyrght: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
-      //author: `<a href="">Nie Lin</a>, Ye Ding`,
+      name: '日文邮政支付票据 OCR识别安卓客户端App（日文邮政票 OCR App）',
+      Number: `软著登字第 A0003976号`,
+    },
+    {
+      name: '基于人工智能的视频版权保护系统',
+      Number: `软著登字第 4840268号`,
     },
   ],
 
+  projectsTitle: "项目经验",
+  projects: [
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+      label: ["Paper", "Project"],
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+      label: ["Paper", "Project"],
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+      label: ["Paper", "Project"],
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+    },
+    {
+      name: "Project Name",
+      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
+      match: "ICCV 2021",
+    },
+  ],
+  tutorialTitle: "Tutorial",
+  tutorial: [
+    {
+      name: "PQTable:XXXXXXXXXXXXXXXX",
+      author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      match: `IEEE Transactions on Multimedia(TMM),2018`
+    }
+  ],
+  footer: {
+    period: `© 2018 - 2021   林涅`,
+    lastUpdated: `上次更新: 2021年7月20日`
+  }
 }
 
 export type zhType = typeof zh;

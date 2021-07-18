@@ -100,7 +100,7 @@ export default class Profile extends Vue {
 .introduction {
   margin-top: 10px;
   p{
-    font-size: 1rem;
+    font-size: 0.83rem;
   }
 }
 
