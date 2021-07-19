@@ -3,14 +3,14 @@
     <div>
       <section class="title">
         <h2>
-          {{ words.tutorialTitle }}
+          {{ words.scientificFundTitle }}
         </h2>
       </section>
     </div>
     <ul class="content">
-      <li v-for="msg in words.tutorial">
-        <strong>{{ msg.name }}</strong>
-        <p v-html="msg.author"></p>
+      <li v-for="msg in words.scientificFund">
+        <strong v-html="msg.name"></strong>
+        <!-- <p v-html="msg.author"></p> -->
         {{ msg.match }}
       </li>
     </ul>

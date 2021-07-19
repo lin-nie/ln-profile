@@ -7,11 +7,11 @@
         </h2>
       </section>
     </div>
-    <div class="research-content">
-      <p v-for="interest in words.researchInterest">
+    <ul class="research-content">
+      <li v-for="interest in words.researchInterest">
         {{ interest }}
-      </p>
-    </div>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -35,6 +35,7 @@ export default class Profile extends Vue {
 
 <style scoped lang="scss">
 .research-content{
+  padding-left: 30px;
     font-size: .95rem;
     font-family: "Noto Sans SC";
     line-height: 1.8em;

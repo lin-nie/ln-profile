@@ -61,7 +61,7 @@ const en = {
   exchange: [
     {
       imgName: "清华大学",
-      intro: `清华大学介绍 <br><p style="font-size: 20px">qinghua</p> `
+      intro: `清华university介绍 <br><p style="font-size: 20px">qinghua</p> `
     },
     {
       imgName: "NUS",
@@ -78,11 +78,11 @@ const en = {
     ],
   researchTitle: "Research Interest",
   researchInterest: [
-    "1.Computer Vision",
-    "2.Digital Image Processing",
-    "3.Machine Learning",
-    "4.Remote Sensing Images",
-    "5.........................."
+    "Computer Vision",
+    "Digital Image Processing",
+    "Machine Learning",
+    "Remote Sensing Images",
+    ".........................."
   ],
   awardsTitle: "Awards",
   awards: [
@@ -199,8 +199,8 @@ const en = {
       match: "ICCV 2021",
     },
   ],
-  tutorialTitle: "Scientific Fund",
-  tutorial: [
+  scientificFundTitle: "Scientific Fund",
+  scientificFund: [
     {
       name: `<a href="#">The National Natural Science Foundation of China</a>`,
       //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,

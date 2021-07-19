@@ -64,11 +64,11 @@ const jp = {
       intro: `sdas<br> <p style="font-size: 40px">清华大学</p>`
     },
     {
-      imgName: "新加坡国立大学",
+      imgName: "NUS",
       intro: "NUS介绍"
     },
     {
-      imgName: "多伦多大学",
+      imgName: "TORONTO",
       intro: "加拿大多伦多大学介绍介绍"
     },
     {
@@ -199,10 +199,18 @@ const jp = {
     },
   ],
   tutorialTitle: "Tutorial",
-  tutorial: [
+  // tutorial: [
+  //   {
+  //     name: "PQTable:XXXXXXXXXXXXXXXX",
+  //     author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+  //     match: `IEEE Transactions on Multimedia(TMM),2018`
+  //   }
+  // ],
+  scientificFundTitle: "Scientific Fund",
+  scientificFund: [
     {
-      name: "PQTable:XXXXXXXXXXXXXXXX",
-      author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      name: `<a href="#">The National Natural Science Foundation of China</a>`,
+      //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
       match: `IEEE Transactions on Multimedia(TMM),2018`
     }
   ],

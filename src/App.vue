@@ -13,7 +13,7 @@
       <SoftwareCopyrght></SoftwareCopyrght>
       <Awards></Awards>
       <Projects></Projects>
-      <Tutorial></Tutorial>
+      <ScientificFund></ScientificFund>
       <Footer></Footer>
     </div>
   </div>
@@ -33,7 +33,7 @@ import PublicationAndPatent from "./components/PublicationAndPatent.vue";
 import SoftwareCopyrght from "./components/SoftwareCopyrght.vue";
 import Awards from "./components/Awards.vue";
 import Projects from "./components/Projects.vue";
-import Tutorial from "./components/Tutorial.vue";
+import ScientificFund from "./components/ScientificFund.vue";
 import Footer from "./components/Footer.vue";
 
 @Component({
@@ -50,7 +50,7 @@ import Footer from "./components/Footer.vue";
     SoftwareCopyrght,
     Awards,
     Projects,
-    Tutorial,
+    ScientificFund,
     Footer,
   },
 })
