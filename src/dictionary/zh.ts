@@ -34,7 +34,7 @@ const zh = {
       "发表专利",
       "软件著作",
       "项目经验",
-      "科研基金"
+      "参与基金"
     ]
   },
   news: {
@@ -205,12 +205,22 @@ const zh = {
   //     match: `IEEE Transactions on Multimedia(TMM),2018`
   //   }
   // ],
-  scientificFundTitle: "Scientific Fund",
+  scientificFundTitle: "参与基金",
   scientificFund: [
     {
-      name: `<a href="#">The National Natural Science Foundation of China</a>`,
+      name: `<a href="#">国家自然科学基金</a>`,
       //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
-      match: `IEEE Transactions on Multimedia(TMM),2018`
+      match: `国家自然科学基金号：No. 61971138`
+    },
+    {
+      name: `广东省基础与应用基础研究资助项目`,
+      //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      match: `国家自然科学基金号：No. 61971138`
+    },
+    {
+      name: `<a href="#">国家自然科学基金</a>`,
+      //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      match: `国家自然科学基金号：No. 61971138`
     }
   ],
   footer: {

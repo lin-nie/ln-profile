@@ -36,7 +36,7 @@ const en = {
       "Patent",
       "Software Copyrght",
       "Projects",
-      "Scientific Fund"
+      "Fund Participation"
     ]
   },
   news: {
@@ -199,12 +199,22 @@ const en = {
       match: "ICCV 2021",
     },
   ],
-  scientificFundTitle: "Scientific Fund",
+  scientificFundTitle: "Fund Participation",
   scientificFund: [
     {
-      name: `<a href="#">The National Natural Science Foundation of China</a>`,
+      name: `<a href="http://www.nsfc.gov.cn/">The National Natural Science Foundation of China</a>`,
       //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
-      match: `IEEE Transactions on Multimedia(TMM),2018`
+      match: `No. 61971138 in the Scientific Fund`
+    },
+    {
+      name: `Basic and Applied Basic Research Project of Guangdong Province under Grant`,
+      //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      match: `No. 2019A1515111149 in the Scientific Fund`
+    },
+    {
+      name: `Guangdong Higher Education Innovation and College Development Project`,
+      //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      match: `No. 2020ZDZX3047 in the Scientific Fund`
     }
   ],
 

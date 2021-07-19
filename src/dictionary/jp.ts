@@ -209,9 +209,9 @@ const jp = {
   scientificFundTitle: "Scientific Fund",
   scientificFund: [
     {
-      name: `<a href="#">The National Natural Science Foundation of China</a>`,
+      name: `<a href="#">国家自然科学ファンド</a>`,
       //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
-      match: `IEEE Transactions on Multimedia(TMM),2018`
+      match: `国家自然科学ファンド号：No. 61971138`
     }
   ],
   footer: {

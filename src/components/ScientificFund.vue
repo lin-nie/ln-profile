@@ -11,7 +11,7 @@
       <li v-for="msg in words.scientificFund">
         <strong v-html="msg.name"></strong>
         <!-- <p v-html="msg.author"></p> -->
-        {{ msg.match }}
+        <p v-html="msg.match"></p>
       </li>
     </ul>
   </div>

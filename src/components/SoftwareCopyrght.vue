@@ -10,7 +10,7 @@
     <ul class="copyrght-content">
       <li v-for="msg in words.softwareCopyrght">
         <strong>{{ msg.name }}</strong>
-        <p v-html="msg.author"></p>
+        <p v-html="msg.Number"></p>
       </li>
     </ul>
   </div>
