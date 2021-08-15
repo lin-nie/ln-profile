@@ -21,12 +21,12 @@ const jp = {
   email: "メアド: nie.lin@hotmail.com",
   phone: "電話番号: +86 131-3835-0137",
   web: "ホームページ: linnie.com.cn",
-  newTitle: "ニュース",
+  newTitle: "コアカリキュラム（点数）",
   navigation: {
     name: "リン ネエ",
     address: [
       "ホームページ",
-      "ニュース",
+      "コアカリキュラム",
       "バイオグラフィー",
       "国際交流",
       "研究興味",
@@ -39,10 +39,24 @@ const jp = {
       "研究ファンド"
     ]
   },
-  news: {
-    new1: `[ 2021.06 ] Our team (I and Fixstars) implemented the 4-bit PQ algorithm on ARM for the faiss library, enabling 60x speedup. [<a href="https://github.com/facebookresearch/faiss/issues/1812">issue</a>] [<a href="https://github.com/facebookresearch/faiss/pull/1815">PR</a>] [<a href="https://proc-cpuinfo.fixstars.com/2021/06/make-faiss-4bitpq-60x-faster-on-aarch64/">blog by Imaizumi (in Japanese)</a>] [<a href="https://mti-lab.github.io/blog/yusuke%20matsui/research/2021/06/21/4bitpq.html">blog by Matsui (in Japanese)</a>]`,
-    new2: `[ 2021.05 ] I was selected as <a href="http://cvpr2021.thecvf.com/node/184">an outstanding reviewer for CVPR 2021</a>.`,
-    new3: `[ 2021.01 ] Updated: <a href="project/position/position.html">For prospective students</a>.`,
+  curriculums: {
+    //new1: `[ 2021.06 ] Our team (I and Fixstars) implemented the 4-bit PQ algorithm on ARM for the faiss library, enabling 60x speedup. [<a href="https://github.com/facebookresearch/faiss/issues/1812">issue</a>] [<a href="https://github.com/facebookresearch/faiss/pull/1815">PR</a>] [<a href="https://proc-cpuinfo.fixstars.com/2021/06/make-faiss-4bitpq-60x-faster-on-aarch64/">blog by Imaizumi (in Japanese)</a>] [<a href="https://mti-lab.github.io/blog/yusuke%20matsui/research/2021/06/21/4bitpq.html">blog by Matsui (in Japanese)</a>]`,
+    //new2: `[ 2021.05 ] I was selected as <a href="http://cvpr2021.thecvf.com/node/184">an outstanding reviewer for CVPR 2021</a>.`,
+    //new3: `[ 2021.01 ] Updated: <a href="project/position/position.html">For prospective students</a>.`,
+    curr1:'1. コンピュータビジョン (点数 96 等级 A+)',
+    curr2:'2. 人工知能 (点数 98.2 等级 A+)',
+    curr3:'3. 数字画像処理 (点数 96 等级 A+)',
+    curr4:'4. 機械学習 (点数 93 等级 A+)',
+    curr5:'5. 深層学習 (点数 93 等级 A+)',
+    curr6:'6. Python データ分析と応用 (点数 95 等级 A+)',
+    curr7:'7. 数学モデル化 (点数 98 等级 A+)',
+    curr8:'8. 離散数学 (点数 96 等级 A+)',
+    curr9:'9. オペレーティングシステム (点数 92 等级 A+)',
+    curr10:'10. アルゴリズムとデータ構造 (点数 95 等级 A+)',
+    curr11:'11. データベースシステム原理 (点数 93 等级 A+)',
+    curr12:'12. コンテスト--コーディング (点数 98 等级 A+)',
+    curr13:'13. クラウドコンピューティングとデータ応用開発 (点数 92 等级 A+)',
+    curr14:'14. ブロックチェーン技術と応用 (点数 100 等级 A+)'
   },
   biographyTitle: "バイオグラフィー",
   biography: {
@@ -61,47 +75,110 @@ const jp = {
   exchange: [
     {
       imgName: "清华大学",
-      intro: `sdas<br> <p style="font-size: 40px">清华大学</p>`
+      intro: `<p style="font-size: 20px">
+              清華大学
+              </p> 
+              <br><p style="font-size: 15px">
+              QS 2021: 世界大学のランキングーーNo.17
+              </p>
+              <br><p style="font-size: 15px">
+              U.S. New : 世界大学のランキングーーNo.28
+              </p>
+              <br><p style="font-size: 15px">
+              THE 2021: 世界大学のランキングーーNo.20
+              </p>
+              <br><p style="font-size: 15px">
+              ARWU 2021: 世界大学のランキングーーNo.29
+              </p>
+                `
     },
     {
       imgName: "NUS",
-      intro: "NUS介绍"
+      intro: `<p style="font-size: 20px">
+              シンガポール国立大学（NUS）
+              </p> 
+              <br><p style="font-size: 15px">
+              QS 2021: 世界大学のランキングーーNo.11
+              </p>
+              <br><p style="font-size: 15px">
+              U.S. New : 世界大学のランキングーーNo.32
+              </p>
+              <br><p style="font-size: 15px">
+              THE 2021: 世界大学のランキングーーNo.25
+              </p>
+              <br><p style="font-size: 15px">
+
+              </p>
+      `
     },
     {
       imgName: "TORONTO",
-      intro: "加拿大多伦多大学介绍介绍"
+      intro: `<p style="font-size: 20px">
+              トロント大学（UofT）
+              </p> 
+              <br><p style="font-size: 14.9px">
+              QS 2021: 世界大学のランキングーーNo.26
+              </p>
+              <br><p style="font-size: 14.9px">
+              U.S. New : 世界大学のランキングーーNo.17
+              </p>
+              <br><p style="font-size: 14.9px">
+              THE 2021: 世界大学のランキングーーNo.18
+              </p>
+              <br><p style="font-size: 14.9px">
+              ARWU 2021: 世界大学のランキングーーNo.23
+              </p>
+      `
     },
     {
       imgName: "香港科技大学",
-      intro: "香港科技大学介绍"
+      intro: `
+              <p style="font-size: 20px">
+              ホンコン科技大学（HKUST）
+              </p> 
+              <br><p style="font-size: 15px">
+              QS 2021: 世界大学のランキングーーNo.34
+              </p>
+              <br><p style="font-size: 15px">
+              U.S. New : 世界大学のランキングーーNo.109
+              </p>
+              <br><p style="font-size: 15px">
+              THE 2021: 世界大学のランキングーーNo.56
+              </p>
+              <br><p style="font-size: 15px">
+           
+              </p>
+      `
     },
   ],
   researchTitle: "研究興味",
   researchInterest: [
     "1.コンピュータビジョン",
     "2.数字画像処理",
-    "3.機械学習",
-    "4.リモートセンシング画像",
-    "5............",
+    "3.人工知能--機械学習",
+    "4.人工知能--深層学習",
+    "5.リモートセンシング画像",
+    "............",
   ],
   awardsTitle: "荣誉奖项",
   awards: [
     {
-      subtitle: "Competetion Awards",
+      subtitle: "コンテスト受賞",
       content: [
-        "Mathematical Contest In Modeling(MCM/ICM 2020)The International Second Prize",
-        "Big Data & Computing Intelligence Contest(CCF BDCI)The Honourable Mentions(Rank 13/2207)",
-        "Electronic Design Competition The Third Prize",
+        "MCM/ICM アメリカン・インターナショナル・数学モデル化・コンテスト ------アメリカン栄誉受賞",
+        "CCF BDCI データと人工知能コンテスト------栄誉受賞 (グローバル・ランキング 13/2207)",
+        "中国・インターナショナル・クリエーティブ・コンテスト------銀牌栄誉受賞",
+        "5G-AI人工知能・中国電子情報設計コンテスト------銅牌栄誉受賞",
       ],
     },
     {
-      subtitle: "Honors Awards",
+      subtitle: "栄誉受賞",
       content: [
-        "National University of Singapore's Excellent Award",
-        "National Paten(Submitted)",
-        "The First Prize Scholarship",
-        "The Gao Weiguang Scholarship",
-        "Outstanding Volunteer of Huawei",
+        "NUS シンガポール国立大学栄誉受賞",
+        "学部学生一等賞奨学金栄誉受賞",
+        "中国社会奨学金公開栄誉受賞",
+        "中華人民共和国発明特许栄誉受賞",
+        "HUAWEI 華為ファーウェイ・テクノロジーズ栄誉受賞",
       ],
     },
   ],
@@ -110,7 +187,7 @@ const jp = {
     {
       name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
       author: `<a href="#">Nie Lin</a>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
-      date: "IEEE International Conference on Signal and Image Processing (ICSIP),2021",
+      date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
     },
   ],
 
@@ -127,7 +204,7 @@ const jp = {
   patent: [
     {
       name: `アナログ信号処理による自動車用雨除け装置及び自動車`,
-      author: `<a href="#">リン ネエ</a>、リウ　チンジー、リー　ハオフェン、…`,
+      author: `<a href="#">リン ネエ</a>リウ　チンジー、リー　ハオフェン、ゾウ　シハオ、リー　ジュユウ`,
       number: `CN 202022246705.5`,
     },
   ],
@@ -212,6 +289,16 @@ const jp = {
       name: `<a href="#">国家自然科学ファンド</a>`,
       //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
       match: `国家自然科学ファンド号：No. 61971138`
+    },
+    {
+      name: `広東省基礎と応用基礎研究助成プロジェクト`,
+      //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      match: `项目基金号：No. 2019A1515111149`
+    },
+    {
+      name: `広東省高等教育イノベーションと高校発展プロジェクト`,
+      //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
+      match: `工程基金号：No. 2020ZDZX3047`
     }
   ],
   footer: {

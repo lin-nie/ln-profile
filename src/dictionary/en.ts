@@ -21,12 +21,12 @@ const en = {
   email: "Email: linnienirvana@gmail.com",
   phone: "Phone: +86 131-3835-0137",
   web: "Web: linnie.com.cn",
-  newTitle: "New",
+  newTitle: "Core Curriculum (Grade)",
   navigation: {
     name: "Nie Lin",
     address: [
       "Home",
-      "New",
+      "Core Curriculum",
       "Biography",
       "Exchange Experience",
       "Awards",
@@ -39,10 +39,24 @@ const en = {
       "Fund Participation"
     ]
   },
-  news: {
-    new1: `[ 2021.06 ] Our team (I and Fixstars) implemented the 4-bit PQ algorithm on ARM for the faiss library, enabling 60x speedup. [<a href="https://github.com/facebookresearch/faiss/issues/1812">issue</a>] [<a href="https://github.com/facebookresearch/faiss/pull/1815">PR</a>] [<a href="https://proc-cpuinfo.fixstars.com/2021/06/make-faiss-4bitpq-60x-faster-on-aarch64/">blog by Imaizumi (in Japanese)</a>] [<a href="https://mti-lab.github.io/blog/yusuke%20matsui/research/2021/06/21/4bitpq.html">blog by Matsui (in Japanese)</a>]`,
-    new2: `[ 2021.05 ] I was selected as <a href="http://cvpr2021.thecvf.com/node/184">an outstanding reviewer for CVPR 2021</a>.`,
-    new3: `[ 2021.01 ] Updated: <a href="project/position/position.html">For prospective students</a>.`,
+  curriculums: {
+    //new1: `[ 2021.06 ] Our team (I and Fixstars) implemented the 4-bit PQ algorithm on ARM for the faiss library, enabling 60x speedup. [<a href="https://github.com/facebookresearch/faiss/issues/1812">issue</a>] [<a href="https://github.com/facebookresearch/faiss/pull/1815">PR</a>] [<a href="https://proc-cpuinfo.fixstars.com/2021/06/make-faiss-4bitpq-60x-faster-on-aarch64/">blog by Imaizumi (in Japanese)</a>] [<a href="https://mti-lab.github.io/blog/yusuke%20matsui/research/2021/06/21/4bitpq.html">blog by Matsui (in Japanese)</a>]`,
+    //new2: `[ 2021.05 ] I was selected as <a href="http://cvpr2021.thecvf.com/node/184">an outstanding reviewer for CVPR 2021</a>.`,
+    //new3: `[ 2021.01 ] Updated: <a href="project/position/position.html">For prospective students</a>.`,
+    curr1:'1. Machine Vision (Grade 96 A+)',
+    curr2:'2. Artificial Intelligence (Grade 98.2 A+)',
+    curr3:'3. Digital Image Processing (Grade 96 A+)',
+    curr4:'4. Machine Learning based on Python (Grade 93 A+)',
+    curr5:'5. Deep Learning based on Python (Grade 93 A+)',
+    curr6:'6. Python Data Interpretation and Utilization (Grade 95 A+)',
+    curr7:'7. Mathematical Modeling (Grade 98 A+)',
+    curr8:'8. Descrete Mathematics (Grade 96 A+)',
+    curr9:'9. Operating System (Grade 92 A+)',
+    curr10:'10. Algorithm and Data Structure (Grade 95 A+)',
+    curr11:'11. Principles of Database System (Grade 93 A+)',
+    curr12:'12. Contest Programming (Grade 98 A+)',
+    curr13:'13. Cloud Computing and Large Data Application Development (Grade 92 A+)',
+    curr14:'14. Block Chain Technology and Application (Grade 100 A+)'
   },
   biographyTitle: "Biography",
   biography: {
@@ -61,27 +75,89 @@ const en = {
   exchange: [
     {
       imgName: "清华大学",
-      intro: `清华university介绍 <br><p style="font-size: 20px">qinghua</p> `
+      intro: `<p style="font-size: 20px">
+              Tsinghua University
+              </p> 
+              <br><p style="font-size: 15px">
+              QS 2021: No.17 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              U.S. New : No.28 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              THE 2021: No.20 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              ARWU 2021: No.29 in the world University Rankings
+              </p>
+               `
     },
     {
       imgName: "NUS",
-      intro: "NUS介绍"
+      intro: `<p style="font-size: 20px">
+              National University of Singapore
+              </p> 
+              <br><p style="font-size: 15px">
+              QS 2021: No.11 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              U.S. New : No.32 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              THE 2021: No.25 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+
+              </p>
+      `
     },
     {
       imgName: "TORONTO",
-      intro: "TORONTO介绍"
+      intro: `<p style="font-size: 20px">
+              University of Toronto
+              </p> 
+              <br><p style="font-size: 15px">
+              QS 2021: No.26 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              U.S. New : No.17 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              THE 2021: No.18 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              ARWU 2021: No.23 in the world University Rankings
+              </p>
+      `
     },
     {
       imgName: "香港科技大学",
-      intro: "香港科技大学介绍"
+      intro: `
+              <p style="font-size: 20px">
+              Hong Kong University of Science and Technology
+              </p> 
+              <br><p style="font-size: 15px">
+              QS 2021: No.34 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              U.S. New : No.109 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+              THE 2021: No.56 in the world University Rankings
+              </p>
+              <br><p style="font-size: 15px">
+           
+              </p>
+      `
     },
     ],
   researchTitle: "Research Interest",
   researchInterest: [
-    "Computer Vision",
-    "Digital Image Processing",
-    "Machine Learning",
-    "Remote Sensing Images",
+    "1. Computer Vision",
+    "2. Digital Image Processing",
+    "3. Machine Learning",
+    "4. Deep Learning",
+    "5. Remote Sensing Images",
     ".........................."
   ],
   awardsTitle: "Awards",
@@ -89,19 +165,20 @@ const en = {
     {
       subtitle: "Competetion Awards",
       content: [
-        "Mathematical Contest In Modeling(MCM/ICM 2020)The International Second Prize",
-        "Big Data & Computing Intelligence Contest(CCF BDCI)The Honourable Mentions(Rank 13/2207)",
-        "Electronic Design Competition The Third Prize",
+        "Mathematical Contest In Modeling(MCM/ICM 2020)--The International Second Prize",
+        "Big Data & Computing Intelligence Contest(CCF BDCI)--The Honourable Mentions(Global Rank 13/2207)",
+        "International Innovation Competition in China--Silver Award",
+        "5G-AI Electronic Design Competition in China--The Third Prize",
       ],
     },
     {
       subtitle: "Honors Awards",
       content: [
         "National University of Singapore's Excellent Award",
-        "National Paten(Submitted)",
         "The First Prize Scholarship",
         "The Gao Weiguang Scholarship",
-        "Outstanding Volunteer of Huawei",
+        "National Patent in China",
+        "Outstanding Developer of Huawei",
       ],
     },
   ],
@@ -110,7 +187,7 @@ const en = {
     {
       name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
       author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
-      date: "IEEE International Conference on Signal and Image Processing (ICSIP),2021",
+      date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
     },
 
   ],
@@ -127,7 +204,7 @@ const en = {
   patent: [
     {
       name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
-      author: `<a href="">Nie Lin</a>, Chanzhi Liu, Haofeng Li, Shihao Zou, Junyu Li,......`,
+      author: `<a href="">Nie Lin</a>, Chanzhi Liu, Haofeng Li, Shihao Zou, Junyu Li, Ruofan Hu`,
       number: `CN 202022246705.5`,
     },
   ],
