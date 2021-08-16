@@ -19,7 +19,7 @@
         </p>
         <p class="small-line">
           {{ words.department }}
-          <i style="font-weight: 600">{{ words.researchStudent }}</i>
+          <span style="font-weight: 600">{{ words.researchStudent }}</span>
         </p>
         <hr style="margin-top: 10px"/>
         <div class="introduction">

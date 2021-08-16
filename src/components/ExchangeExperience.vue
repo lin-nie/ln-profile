@@ -7,15 +7,19 @@
         </h2>
       </section>
     </div>
-
+    <div class="subtitle">
+      <strong>{{words.exchangeSubtitle}}</strong>
+    </div>
     <div class="img-box">
       <div class="exchange-img" v-for="msg in words.exchange">
         <img
           :src="require(`@/assets/experienceImg/${msg.imgName}.jpg`)"
           alt=""
         />
-        <a :href=msg.href>
-          <div class="mask-desc" v-html="msg.intro"></div>
+        <a :href="msg.href">
+          <div class="mask-desc">
+            <div class="mask-content" v-html="msg.intro"></div>
+          </div>
         </a>
       </div>
     </div>
@@ -41,6 +45,13 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
+.subtitle{
+  margin-top: -10px; 
+  margin-bottom: 3px; 
+  font-size: .95rem;
+  line-height: 1.8rem;
+}
+
 .img-box {
   padding: 0 20px;
   display: flex;
@@ -64,13 +75,18 @@ export default class Profile extends Vue {
       left: 0;
       right: 0;
       bottom: 0;
+      .mask-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
     }
 
     &:hover {
       cursor: pointer;
       .mask-desc {
         opacity: 1;
-        padding: 10px;
+        padding: 0 10px;
         line-height: 18px;
       }
 

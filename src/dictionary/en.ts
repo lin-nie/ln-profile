@@ -72,6 +72,7 @@ const en = {
     },
   },
   exchangeTitle: "Exchange Experience",
+  exchangeSubtitle: "abcabcabcaaaaaaaaa",
   exchange: [
     {
       imgName: "清华大学",
