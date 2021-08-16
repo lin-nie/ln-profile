@@ -18,6 +18,7 @@
         <strong>{{ val.name }}</strong>
         <p v-html="val.author"></p>
         <p>{{ val.match }}</p>
+        <p>{{ val.match2 }}</p>
         <span class="label" v-for="msg in val.label">{{msg}}</span>
       </div>
     </div>

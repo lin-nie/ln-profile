@@ -206,7 +206,7 @@ const zh = {
   patent: [
     {
       name: `一种基于模拟信号处理的汽车挡雨装置及汽车`,
-      author: `<a href="#">林涅</a>, 刘婵梓, 黎浩锋, 邹世豪, 李俊裕, 胡若帆`,
+      author: `<a href="#">林涅</a>, 刘婵梓博士, 黎浩锋, 邹世豪, 李俊裕, 胡若帆`,
       number: `CN 202022246705.5`,
     },
   ],
@@ -225,57 +225,42 @@ const zh = {
   projectsTitle: "项目经验",
   projects: [
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "清华大学——面向灾害监视的多源异构遥感信息智能融合",
+      author: `<strong>林涅</strong>, 陈高博士, 周清峰教授 和 李刚教授`,
+      match: "清华大学",
+      match2: "",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "基于扩张残差收缩网络的SAR图像去噪",
+      author: `<strong>林涅</strong>, 陈高博士, 周清峰教授 和 刘婵梓博士`,
+      match: "国家自然科学基金",
+      match2: "",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "新加坡国立大学(NUS) 交换项目",
+      author: `<strong>林涅</strong>, 赖紫嫣，Amelia Bte Mohama, Choong教授 和 郭教授`,
+      match: "新加坡国立大学",
+      match2: "",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "基于第一人称视角下的美国大黄蜂图像处理与数据分析",
+      author: `<strong>林涅</strong>, 郑珺禹, 古皓, 刘博士, 吴博士 和 王教授`,
+      match: "美国数学学会 (MAA)",
+      match2: "美国统计学会 (ASA)",
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "日文邮政支付票据 OCR识别安卓客户端App",
+      author: `丁烨, <strong>林涅</strong> 和 郭凡`,
+      match: "Well-Net日本株式会社",
+      match2: "",
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "基于openMV机器视觉的板球控制系统（机器学习）",
+      author: `<strong>林涅</strong>, 王斌, 黎浩锋 和 周清峰教授`,
+      match: "中国工业和信息化部",
     },
   ],
   // tutorialTitle: "Tutorial",
@@ -306,7 +291,7 @@ const zh = {
   ],
   footer: {
     period: `© 2018 - 2021   林涅`,
-    lastUpdated: `上次更新: 2021年7月20日`
+    lastUpdated: `上次更新: 2021年8月16日`
   }
 }
 

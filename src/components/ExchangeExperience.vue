@@ -7,6 +7,7 @@
         </h2>
       </section>
     </div>
+
     <div class="img-box">
       <div class="exchange-img" v-for="msg in words.exchange">
         <img

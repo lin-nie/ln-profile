@@ -227,57 +227,43 @@ const en = {
   projectsTitle: "Projects",
   projects: [
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "Tsinghua University——Intelligent Fusion of Multi-source Remote Sensing Image for Disaster Monitoring",
+      author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou and Gang Li`,
+      match: "Tsinghua University",
+      match2: "",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "Dilated Residual Shrinkage Network for SAR Image Despeckling",
+      author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou and Chanzhi Liu`,
+      match: "The National Natural Science Foundation of China",
+      match2: "",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "National University of Singapore Exchange Programme",
+      author: `<strong>Nie Lin</strong>, Ziyan Lai, Nur Amelia Bte Mohama, Dr.Choong and Dr.Guo`,
+      match: "National University of Singapore",
+      match2: "",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "MCM/ICM——Image Processing and Data Analysis of American Bumblebee Images from First-person Perspective",
+      author: `<strong>Nie Lin</strong>, Junyu Zheng, Hao Gu, Dr.Liu, Dr.Wu and Dr.Wang`,
+      match: "The Mathematical Association of America (MAA)",
+      match2: "The American Statistical Association (ASA)",
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "OCR Recognition System for Japanese Postal Payment Notes",
+      author: `Ye Ding, <strong>Nie Lin</strong> and Fan Guo`,
+      match: "WELLNET CORPORATION",
+      match2: "",
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "OpenMV Machine Vision Based Cricket Control System (Machine Learning)",
+      author: `<strong>Nie Lin</strong>,Bin Wang and Qingfeng Zhou`,
+      match: "China's Ministry of Industry and Information Technology",
+      match2: "",
     },
   ],
   scientificFundTitle: "Fund Participation",
@@ -301,7 +287,7 @@ const en = {
 
   footer: {
     period: `© 2018 - 2021   Nie Lin`,
-    lastUpdated: `Last updated: July 20,2021`
+    lastUpdated: `Last updated: August 16,2021`
   }
 };
 

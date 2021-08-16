@@ -18,7 +18,7 @@ const jp = {
       "アドレス1: 中国広東省東莞市 DGUT-9A411 Ai-Net電子情報&人工知能研究所",
   address2:
       "アドレス2: 中国北京市海淀区 清華大学-ロム楼 電子情報システム研究所",
-  email: "メアド: nie.lin@hotmail.com",
+  email: "メールアドレス: nie.lin@hotmail.com",
   phone: "電話番号: +86 131-3835-0137",
   web: "ホームページ: linnie.com.cn",
   newTitle: "コアカリキュラム（点数）",
@@ -198,7 +198,7 @@ const jp = {
   journalTitle: "ジャーナル論文",
   journalPublication: [
     {
-      name: '無',
+      name: '暂無',
       //name: `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
       //author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
       //date: `IEEE Transactions on Multimedia(<strong>TMM</strong>),2018`,
@@ -215,7 +215,7 @@ const jp = {
   copyrghtTitle: "ソフトウエア著作権",
   softwareCopyrght: [
     {
-      name: '日本郵便の支払伝票ocr認識システム',
+      name: '日本郵便の支払伝票OCR認識システム',
       Number: `ソフトウエア著作権 No.A0003976`,
     },
     {
@@ -226,57 +226,41 @@ const jp = {
   projectsTitle: "プロジェクト",
   projects: [
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "清華大学——災害監視に向けたマルチソースアイソレーションリモートセンシング情報知能融合",
+      author: `<strong>リン ネエ</strong>、 チエン博士、 チオン教授 と リー教授`,
+      match: "清華大学",
+      match2: "",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "拡張残差収縮ネットワークによるSAR画像ノイズ除去",
+      author: `<strong>リン ネエ</strong>、 チエン博士、 チオン教授 と リウ博士`,
+      match: "国家自然科学ファンド",
+      match2: "",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-      label: ["Paper", "Project"],
+      name: "シンガポール国立大学（NUS）交換プログラム",
+      author: `<strong>リン ネエ</strong>、 ジイヤン　ライ、 ヌル アメリア ブテ モハマ、 チオン教授 と　グオ教授`,
+      match: "シンガポール国立大学（NUS）",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "ー人称視点によるスズメバチの画像処理とデータ分析",
+      author: `<strong>リン ネエ</strong>、 ゼン　ジュニュ、 グ　ハオ、 リウ博士、 ウー博士 と ワング教授`,
+      match: "アメリカ数学学会 (MAA)",
+      match2: "アメリカ統計学会 (ASA)",
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "日本郵便の支払伝票OCR認識システム",
+      author: `ヂン教授、 <strong>リン ネエ</strong> と グウ　ファン`,
+      match: "ウェルネット株式会社",
+      match2: "",
     },
     {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
-    },
-    {
-      name: "Project Name",
-      author: `<strong>Nie Lin</strong>,Jie Wang and Ye Ding`,
-      match: "ICCV 2021",
+      name: "OpenMV・コンピュータビジョン・によるクリケット制御システム(機械学習)",
+      author: `<strong>リン ネエ</strong>、 ワン　ビン、 リー　ハオフェン　と チオン教授`,
+      match: "中国工業と情報化省",
     },
   ],
   tutorialTitle: "Tutorial",
@@ -287,7 +271,7 @@ const jp = {
   //     match: `IEEE Transactions on Multimedia(TMM),2018`
   //   }
   // ],
-  scientificFundTitle: "Scientific Fund",
+  scientificFundTitle: "研究ファンド",
   scientificFund: [
     {
       name: `<a href="#">国家自然科学ファンド</a>`,
@@ -307,7 +291,7 @@ const jp = {
   ],
   footer: {
     period: `© 2018 - 2021  リン ネエ`,
-    lastUpdated: `前回のアップデート: 2021年7月20日`
+    lastUpdated: `前回のアップデート: 2021年8月16日`
   }
 }
 
