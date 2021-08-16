@@ -70,6 +70,7 @@ const zh = {
     },
   },
   exchangeTitle: "国际交流",
+  exchangeSubtitle: "本人非常热衷于科研交流，以下为经常交流学习的大学：",
   exchange: [
     {
       imgName: "清华大学",

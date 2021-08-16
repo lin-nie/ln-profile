@@ -72,6 +72,7 @@ const jp = {
     },
   },
   exchangeTitle: "国際交流",
+  exchangeSubtitle: "私は非常に科学研究の交流に熱心です、以下はよく交流して勉強している大学です ：",
   exchange: [
     {
       imgName: "清华大学",

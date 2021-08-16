@@ -72,7 +72,7 @@ const en = {
     },
   },
   exchangeTitle: "Exchange Experience",
-  exchangeSubtitle: "abcabcabcaaaaaaaaa",
+  exchangeSubtitle: "I am very keen on scientific research exchange，the following are the Universities where I often communicate and study :",
   exchange: [
     {
       imgName: "清华大学",
