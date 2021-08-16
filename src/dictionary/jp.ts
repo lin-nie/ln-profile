@@ -75,6 +75,7 @@ const jp = {
   exchange: [
     {
       imgName: "清华大学",
+      href : "https://www.tsinghua.edu.cn/en/",
       intro: `<p style="font-size: 20px">
               清華大学
               </p> 
@@ -94,6 +95,7 @@ const jp = {
     },
     {
       imgName: "NUS",
+      href: "https://www.nus.edu.sg/",
       intro: `<p style="font-size: 20px">
               シンガポール国立大学（NUS）
               </p> 
@@ -113,6 +115,7 @@ const jp = {
     },
     {
       imgName: "TORONTO",
+      href: "https://www.utoronto.ca/",
       intro: `<p style="font-size: 20px">
               トロント大学（UofT）
               </p> 
@@ -132,6 +135,7 @@ const jp = {
     },
     {
       imgName: "香港科技大学",
+      href: "https://hkust.edu.hk/",
       intro: `
               <p style="font-size: 20px">
               ホンコン科技大学（HKUST）

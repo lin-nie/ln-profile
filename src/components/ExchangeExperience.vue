@@ -13,8 +13,9 @@
           :src="require(`@/assets/experienceImg/${msg.imgName}.jpg`)"
           alt=""
         />
-        <div class="mask-desc" v-html="msg.intro">
-        </div>
+        <a :href=msg.href>
+          <div class="mask-desc" v-html="msg.intro"></div>
+        </a>
       </div>
     </div>
   </div>
@@ -68,6 +69,8 @@ export default class Profile extends Vue {
       cursor: pointer;
       .mask-desc {
         opacity: 1;
+        padding: 10px;
+        line-height: 18px;
       }
 
       img {

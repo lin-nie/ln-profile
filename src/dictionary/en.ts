@@ -75,6 +75,7 @@ const en = {
   exchange: [
     {
       imgName: "清华大学",
+      href : "https://www.tsinghua.edu.cn/en/",
       intro: `<p style="font-size: 20px">
               Tsinghua University
               </p> 
@@ -94,6 +95,7 @@ const en = {
     },
     {
       imgName: "NUS",
+      href: "https://www.nus.edu.sg/",
       intro: `<p style="font-size: 20px">
               National University of Singapore
               </p> 
@@ -113,6 +115,7 @@ const en = {
     },
     {
       imgName: "TORONTO",
+      href: "https://www.utoronto.ca/",
       intro: `<p style="font-size: 20px">
               University of Toronto
               </p> 
@@ -132,6 +135,7 @@ const en = {
     },
     {
       imgName: "香港科技大学",
+      href: "https://hkust.edu.hk/",
       intro: `
               <p style="font-size: 20px">
               Hong Kong University of Science and Technology

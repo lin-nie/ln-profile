@@ -20,6 +20,7 @@
     </div>
     <div class="icons">
       <div class="icon" v-for="(item, index) in icons" :key="index">
+      <a :href=item.href style="display: block">
         <font-awesome-icon
           @mouseenter="() => setColor(item)"
           @mouseleave="() => resetColor(item)"
@@ -27,6 +28,8 @@
           class="icon"
           :icon="item.icon"
         />
+      </a>
+
       </div>
     </div>
   </div>
@@ -84,22 +87,26 @@ export default class extends Vue {
   icons = [
     {
       hovTheme: "#000",
-      icon: ["fab", "facebook-square"],
-      theme: "rgb(59, 87, 157)",
-    },
-    {
-      hovTheme: "#000",
       icon: ["fab", "github"],
+      href: "https://github.com/LNirvana",
       theme: "lightseagreen",
     },
     {
       hovTheme: "#000",
       icon: ["fab", "linkedin"],
+      href: "https://www.linkedin.com/in/nie-lin/",
       theme: "rgb(24, 119, 242)",
     },
     {
       hovTheme: "#000",
+      icon: ["fab", "facebook-square"],
+      href: "https://www.facebook.com/profile.php?id=100028198980924",
+      theme: "rgb(59, 87, 157)",
+    },
+    {
+      hovTheme: "#000",
       icon: ["fab", "twitter-square"],
+      href: "https://twitter.com/NieLin6",
       theme: "rgb(59, 200, 244)",
     },
   ];
@@ -122,8 +129,8 @@ export default class extends Vue {
   padding: 6px 0;
 }
 
-.long-info-list{
-  font-size: .85rem;
+.long-info-list {
+  font-size: 0.85rem;
   white-space: nowrap;
 }
 
@@ -131,7 +138,7 @@ export default class extends Vue {
   float: left;
   overflow: hidden;
   margin-right: 24px;
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 .icons {
