@@ -4,7 +4,7 @@ const jp = {
   name: "リン ネエ",
   blog: "私のブログ",
   degree: "学部学生 (B4)",
-  major: "コンピューター ソフトウェア工学 (GPA: 3.6+ 排列: 専攻 No.1)",
+  major: "コンピューター ソフトウェア工学 (GPA: 3.6+ ランキング: 専攻 1st/78 位)",
   academy: "電子情報&人工知能学院, DGUT",
   department: "電子工学科, 清華大学",
   researchStudent: "(プロジェクト研究员)",

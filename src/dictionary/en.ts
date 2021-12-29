@@ -4,8 +4,8 @@ const en = {
   name: "Nie Lin",
   blog: "My Blog",
   degree: "Undergraduate Student (B4)",
-  major: "Computer Science Software Engineering (GPA: 3.6+ Rank: 1th Place)",
-  academy: "School of Electrical Engineering and Intelligentization, DGUT",
+  major: "Computer Science Software Engineering (GPA: 3.6+ Ranked: 1st/78 students)",
+  academy: "School of Electrical Engineering & Intelligentization, DGUT",
   department: "Department of Electronic Engineering, Tsinghua University ",
   researchStudent: "(Project Researcher)",
   personalIntroduction: `I am Nie Lin, a college student from China.I am studying at DGUT in China now

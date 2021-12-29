@@ -4,8 +4,8 @@ const zh = {
   name: "林 涅",
   blog: "我的博客",
   degree: "本科生 (大四)",
-  major: "计算机 软件工程专业 (GPA: 3.6+ 排名: 专业第 1名)",
-  academy: "电智化学院, 东莞理工",
+  major: "计算机 软件工程专业 (GPA: 3.6+ 排名: 专业 第1st/78 名)",
+  academy: "电子工程与智能化学院, 东莞理工大学",
   department: "电子工程系, 清华大学",
   researchStudent: "(项目研究员)",
   personalIntroduction: `Hi，我是林涅，是一名来自中国的大学生。我现在就读于中国的东莞理工大学，
