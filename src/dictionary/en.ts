@@ -6,19 +6,34 @@ const en = {
   degree: "Undergraduate Student (B4)",
   major: "Computer Science Software Engineering (GPA: 3.6+ Ranked: 1st/78 students)",
   academy: "School of Electrical Engineering & Intelligentization, DGUT",
-  department: "Department of Electronic Engineering, Tsinghua University ",
-  researchStudent: "(Project Researcher)",
-  personalIntroduction: `I am Nie Lin, a college student from China.I am studying at DGUT in China now
-  and my major is Computer Software Engineering. At the same time, I am a project researcher of Tsinghua University, 
-  China Computer Federation (CCF) and China Society of Image and Graphics (CSIG).
-  My research interests are Computer Vision, Image Processing, Machine Learning and 
-  other Artificial Intelligence-related research. 
-  I have a strong interest and hobby in computer research, welcome to communicate with me.`,
+  department: "College of Computer Science and Electronic Engineering, Hunan University ",
+  researchStudent: "(Now)",
+  personalIntroduction: 
+  `Hi! I am <strong>Nie Lin</strong>, an undergraduate student at the Dongguan University of Technology
+  in China, 
+  and now I study at 
+  <a href="http://www-en.hnu.edu.cn/index.htm" target="_blank">
+  Hunan University</a>, supervised by 
+  <a href="https://cai-mj.github.io/" target="_blank">
+  Prof. Minjie Cai</a>. 
+  <br>My research interests include 
+  <strong>Computer Vision (CV)</strong>, 
+  <strong>First-person Vision (FPV)</strong>, 
+  <strong>Computer Graphics (CG)</strong>, 
+  <strong>human-computer interactions(HCI)</strong>, 
+  especially 
+  <strong>sensing and understanding <br>of human activities</strong>.
+  I have a strong interest in Vision research, welcome to 
+  <a herf="mailto:nie.lin@hotmail.com">
+  contact me</a>.
+  `
+
+  ,
   address1:
-    "Address1: Room 9A-411 Institute of AI-Net Electronic Information & Artificial Intelligence, Songshan Lake, DGUT, Dongguan, China",
+    "Address1: Room 9A411 Institute of AI-Net Electronic Information & Artificial Intelligence, DGUT, Dongguan, China",
   address2:
-    "Address2: Institute of Electronic Information Systems, Department of Electronic Engineering, Tsinghua University, Beijing, China",
-  email: "Email: linnienirvana@gmail.com",
+    "Address2: Room 433 College of Computer Science and Electronic Engineering, Hunan University, Changsha, China (Now)",
+  email: "Email: nie.lin@hotmail.com",
   phone: "Phone: +86 131-3835-0137",
   web: "Web: linnie.com.cn",
   newTitle: "Core Curriculum (Grade)",
@@ -270,7 +285,7 @@ const en = {
   scientificFundTitle: "Fund Participation",
   scientificFund: [
     {
-      name: `<a href="http://www.nsfc.gov.cn/">The National Natural Science Foundation of China</a>`,
+      name: `<a href="https://www.nsfc.gov.cn/english/site_1/index.html">The National Natural Science Foundation of China</a>`,
       //author: `<strong>Nie Lin</strong>,Gao Chen,Qingfeng Zhou`,
       match: `No. 61971138 in the Scientific Fund`
     },

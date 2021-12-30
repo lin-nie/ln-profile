@@ -88,7 +88,7 @@ export default class extends Vue {
     {
       hovTheme: "#000",
       icon: ["fab", "github"],
-      href: "https://github.com/LNirvana",
+      href: "https://github.com/lin-nie",
       theme: "lightseagreen",
     },
     {

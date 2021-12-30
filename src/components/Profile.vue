@@ -23,9 +23,10 @@
         </p>
         <hr style="margin-top: 10px"/>
         <div class="introduction">
-          <p>
-            {{ words.personalIntroduction }}
-          </p>
+          <ul class="content">
+              <p v-html="words.personalIntroduction"></p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

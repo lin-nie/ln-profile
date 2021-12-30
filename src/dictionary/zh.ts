@@ -6,16 +6,23 @@ const zh = {
   degree: "本科生 (大四)",
   major: "计算机 软件工程专业 (GPA: 3.6+ 排名: 专业 第1st/78 名)",
   academy: "电子工程与智能化学院, 东莞理工大学",
-  department: "电子工程系, 清华大学",
-  researchStudent: "(项目研究员)",
-  personalIntroduction: `Hi，我是林涅，是一名来自中国的大学生。我现在就读于中国的东莞理工大学，
-  专业是计算机软件工程专业，同时我是清华大学的项目研究人员，中国计算机协会(CCF)、中国图像图形学学会
-  (CSIG)等组织会员，我的研究兴趣爱好是计算机视觉，图像图形学，机器学习等人工智能有关的课题XXX。
-  我对计算机研究有着浓厚的兴趣和爱好，欢迎和我交流。`,
+  department: "信息科学与工程学院, 湖南大学",
+  researchStudent: "",
+  personalIntroduction: `Hi! 我叫<strong>林涅</strong>，是来自中国东莞理工大学的一名本科生。我现在正在
+  <a href="https://www.hnu.edu.cn/" target="_blank">
+  湖南大学</a>
+  学习，
+  <br>同时指导我学术科研的导师是
+  <a href="http://csee.hnu.edu.cn/people/caiminjie" target="_blank">
+  蔡敏捷</a>
+  教授。
+  <br>我的研究兴趣包括<strong>计算机视觉(CV)</strong>，<strong>第一人称视觉(FPV)</strong>，<strong>计算机图形学(CG)</strong>，<strong>人机
+  <br>交互(HCI)</strong>，特别是计算机视觉应用在<strong>感知和理解与人类相关的活动</strong>的领域。我在
+  <br>计算机视觉领域有着浓厚的兴趣与爱好，欢迎各位通过我的邮箱与我联系与交流。`,
   address1:
-    "地址1: 中国广东省东莞市松山湖东莞理工9A-411 Ai-Net智能化研究所",
+    "地址1: 中国广东省东莞市松山湖 东莞理工大学 Ai-Net智能研究所 9A-411",
   address2:
-    "地址2: 中国北京市海淀区清华大学罗姆楼 电子信息系统研究所",
+    "地址2: 中国湖南省长沙市湖南大学 信息科学与工程学院 研究生办公室433 （现在）",
   email: "个人邮箱: nie.lin@hotmail.com",
   phone: "个人电话: +86 131-3835-0137",
   web: "个人网站: linnie.com.cn",

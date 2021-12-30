@@ -6,13 +6,23 @@ const jp = {
   degree: "学部学生 (B4)",
   major: "コンピューター ソフトウェア工学 (GPA: 3.6+ ランキング: 専攻 1st/78 位)",
   academy: "電子情報&人工知能学院, DGUT",
-  department: "電子工学科, 清華大学",
-  researchStudent: "(プロジェクト研究员)",
-  personalIntroduction: `Hi，私はリン ネエです，中国から来た大学生です。私は今中国の東莞理工大学に通っています
-  コンピュータソフトウェア工学を専攻し。私は清華大学のプロジェクト研究员で、中国コンピュータ協会(CCF)、
-  中国画像グラフィックス学会(CSIG)などの会員。
-  私の研究の趣味はコンピュータビジョン、画像グラフィックス、機械学習など人工知能に関するテーマです。
-  私はコンピュータ研究に深い興味と趣味を持っていて、私と交流することを歓迎します。
+  department: "情報科学工学部, 湖南大学",
+  researchStudent: "(いま)",
+  personalIntroduction: `Hi，私は<strong>リン ネエ</strong>です，中国から学部学生です。今東莞理工大学に通っています ソフトウェア工学を専攻し。
+  私は
+  <a href="http://www-en.hnu.edu.cn/index.htm" target="_blank">
+  湖南大学</a>
+  で研究と勉強をしています、指導先生は
+  <a href="https://cai-mj.github.io/" target="_blank">
+  蔡敏捷</a>
+  教授です。
+  <br>私の研究の趣味は
+  <strong>コンピュータビジョン(CV)</strong>、
+  <strong>一人称視点映像解析(FPV)</strong>、
+  <strong>コンピュータグラフィック(CG)</strong>、
+  <strong>ヒューマンコンピュータインタラクション(HMI)</strong>
+  スに関するテーマです。
+  <br>私はコンピュータビジョン研究に深い興味を持っていて、交流することを歓迎します。
   `,
   address1:
       "アドレス1: 中国広東省東莞市 DGUT-9A411 Ai-Net電子情報&人工知能研究所",
