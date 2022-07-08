@@ -17,7 +17,7 @@ import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText }
 
  
 
-library.add(fas, far, fab)
+library.add(fas as any, far as any, fab as any)
 
  
 

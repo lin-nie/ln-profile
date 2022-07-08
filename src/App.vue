@@ -65,7 +65,7 @@ html{
 
 body{
     font-family: segoeui,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
-
+    zoom: 1.2;
 }
 
 // 组件基础样式
