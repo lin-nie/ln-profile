@@ -11,12 +11,12 @@
         <p class="biography-content">
             {{words.biography.bio1.introduce}}<br>
             {{words.biography.bio1.brief1}}<br>
-            {{words.biography.bio1.brief2}}
+            <strong>{{words.biography.bio1.brief2}}</strong>
         </p>
         <p class="biography-content">
             {{words.biography.bio2.introduce}}<br>
             {{words.biography.bio2.brief1}}<br>
-            {{words.biography.bio2.brief2}}
+            <strong>{{words.biography.bio2.brief2}}</strong>
         </p>
     </div>
   </div>

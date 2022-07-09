@@ -24,16 +24,17 @@ const en = {
   especially 
   <strong>sensing and understanding <br>of human activities</strong>.
   I have a strong interest in Vision research, welcome to 
-  <a herf="mailto:nie.lin@hotmail.com">
-  contact me</a>.
-  `
-
-  ,
+  <a herf="mailto:nielin@hnu.edu.cn">
+  contact me</a>.`,
+  notification: 
+  `<strong>Currently, I am working on domain generalization for semantic segmentation and object detection. 
+  I am looking for undergraduate or master students to engage in ongoing research papers. 
+  Don't hesitate to email me if you are interested.</strong>`,
   address1:
     "Address1: Room 9A411 Institute of AI-Net Electronic Information & Artificial Intelligence, DGUT, Dongguan, China",
   address2:
     "Address2: Room 433 College of Computer Science and Electronic Engineering, Hunan University, Changsha, China (Now)",
-  email: "Email: nie.lin@hotmail.com",
+  email: "Email: nielin@hnu.edu.cn",
   phone: "Phone: +86 131-3835-0137",
   web: "Web: linnie.com.cn",
   newTitle: "Core Curriculum (Grade)",
@@ -76,9 +77,9 @@ const en = {
   biographyTitle: "Biography",
   biography: {
     bio1: {
-      introduce: "(2020.6 - Now) Project Researcher",
-      brief1: "Institute of Electronic Information Systems",
-      brief2: "Tsinghua University",
+      introduce: "(2020.6 - Now) Research Assistant",
+      brief1: "College of Computer Science and Electronic Engineering, FPV Lab",
+      brief2: "Hunan University",
     },
     bio2: {
       introduce: "(2018.9 - 2022.7) BSc in Computer Science Software Engineering (Now B4)",
@@ -177,7 +178,6 @@ const en = {
     "2. Digital Image Processing",
     "3. Machine Learning",
     "4. Deep Learning",
-    "5. Remote Sensing Images",
     ".........................."
   ],
   awardsTitle: "Awards",

@@ -28,7 +28,7 @@ const jp = {
       "アドレス1: 中国広東省東莞市 DGUT-9A411 Ai-Net電子情報&人工知能研究所",
   address2:
       "アドレス2: 中国北京市海淀区 清華大学-ロム楼 電子情報システム研究所",
-  email: "メールアドレス: nie.lin@hotmail.com",
+  email: "メールアドレス: nielin@hnu.edu.cn",
   phone: "電話番号: +86 131-3835-0137",
   web: "ホームページ: linnie.com.cn",
   newTitle: "コアカリキュラム（点数）",

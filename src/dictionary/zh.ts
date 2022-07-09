@@ -23,7 +23,7 @@ const zh = {
     "地址1: 中国广东省东莞市松山湖 东莞理工大学 Ai-Net智能研究所 9A-411",
   address2:
     "地址2: 中国湖南省长沙市湖南大学 信息科学与工程学院 研究生办公室433 （现在）",
-  email: "个人邮箱: nie.lin@hotmail.com",
+  email: "个人邮箱: nielin@hnu.edu.cn",
   phone: "个人电话: +86 131-3835-0137",
   web: "个人网站: linnie.com.cn",
   newTitle: "核心课程（成绩&评级）",

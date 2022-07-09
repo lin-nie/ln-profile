@@ -25,7 +25,10 @@
         <div class="introduction">
           <ul class="content">
               <p v-html="words.personalIntroduction"></p>
-            </li>
+              <p style="margin-top: 5px">
+                <font color='red' v-html="words.notification">
+                </font>
+              </p>
           </ul>
         </div>
       </div>
