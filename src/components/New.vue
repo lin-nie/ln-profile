@@ -8,20 +8,10 @@
       </section>
     </div>
     <ul class="show-list">
-      <li v-html="words.curriculums.curr1"></li>
-      <li v-html="words.curriculums.curr2"></li>
-      <li v-html="words.curriculums.curr3"></li>
-      <li v-html="words.curriculums.curr4"></li>
-      <li v-html="words.curriculums.curr5"></li>
-      <li v-html="words.curriculums.curr6"></li>
-      <li v-html="words.curriculums.curr7"></li>
-      <li v-html="words.curriculums.curr8"></li>
-      <li v-html="words.curriculums.curr9"></li>
-      <li v-html="words.curriculums.curr10"></li>
-      <li v-html="words.curriculums.curr11"></li>
-      <li v-html="words.curriculums.curr12"></li>
-      <li v-html="words.curriculums.curr13"></li>
-      <li v-html="words.curriculums.curr14"></li>
+      <li v-html="words.new.new1"></li>
+      <li v-html="words.new.new2"></li>
+      <li v-html="words.new.new3"></li>
+
     </ul>
   </div>
 </template>
