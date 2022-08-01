@@ -16,11 +16,12 @@
         </li>
       </ul>
     </div>
+
     <div class="journal-wrapper wrapper-style">
       <div>
         <section class="title">
           <h2>
-            {{words.journalTitle}}
+             {{words.journalTitle}}
           </h2>
         </section>
       </div>

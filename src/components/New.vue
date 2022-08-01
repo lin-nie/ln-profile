@@ -11,6 +11,15 @@
       <li v-html="words.new.new1"></li>
       <li v-html="words.new.new2"></li>
       <li v-html="words.new.new3"></li>
+      <li v-html="words.new.new4"></li>
+      <li v-html="words.new.new5"></li>
+      <li v-html="words.new.new6"></li>
+      <li v-html="words.new.new7"></li>
+      <li v-html="words.new.new8"></li>
+      <li v-html="words.new.new9"></li>
+      <li v-html="words.new.new10"></li>
+      <li v-html="words.new.new11"></li>
+      <li v-html="words.new.new12"></li>
 
     </ul>
   </div>

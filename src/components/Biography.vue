@@ -9,7 +9,8 @@
     </div>
     <div>
         <p class="biography-content">
-            {{words.biography.bio1.introduce}}<br>
+            {{words.biography.bio1.introduce}}
+            <a href="https://cai-mj.github.io/">{{words.biography.bio1.mentor}}</a><br>
             {{words.biography.bio1.brief1}}<br>
             <strong>{{words.biography.bio1.brief2}}</strong>
         </p>

@@ -12,24 +12,21 @@ const en = {
   `Hi! I am <strong>Nie Lin</strong>, an undergraduate student at the Dongguan University of Technology
   in China, 
   and now I study at 
-  <a href="http://www-en.hnu.edu.cn/index.htm" target="_blank">
+  <a href='http://www-en.hnu.edu.cn/index.htm' target="_blank">
   Hunan University</a>, supervised by 
-  <a href="https://cai-mj.github.io/" target="_blank">
+  <a href='https://cai-mj.github.io/' target="_blank">
   Prof. Minjie Cai</a>. 
   <br>My research interests include 
-  <strong>Computer Vision (CV)</strong>, 
-  <strong>First-person Vision (FPV)</strong>, 
-  <strong>Computer Graphics (CG)</strong>, 
+  <strong>Computer Vision (CV)</strong>. 
+  <strong>Especially in First-person Vision (FPV)</strong>, 
   <strong>human-computer interactions(HCI)</strong>, 
-  especially 
-  <strong>sensing and understanding <br>of human activities</strong>.
+  I focus on
+  <strong>Human sensing and understanding <br>of human activities</strong>.
   I have a strong interest in Vision research, welcome to 
   <a herf="mailto:nielin@hnu.edu.cn">
   contact me</a>.`,
   notification: 
-  `<strong>Currently, I am working on domain generalization for semantic segmentation and object detection. 
-  I am looking for undergraduate or master students to engage in ongoing research papers. 
-  Don't hesitate to email me if you are interested.</strong>`,
+  `XXX`,
   address1:
     "Address1: Room 9A411 Institute of AI-Net Electronic Information & Artificial Intelligence, DGUT, Dongguan, China",
   address2:
@@ -57,9 +54,18 @@ const en = {
   },
   newTitle: "New",
   new: {
-    new1: `[ 2022.06 ] I successfully graduated from DGUT with <a href="xxx">Certification of Diploma</a> and <a href="xxx">Certification of Bachelor's Degree</a>`,
-    new2: `[ 2021.05 ] I was selected as <a href="http://cvpr2021.thecvf.com/node/184">an outstanding reviewer for CVPR 2021</a>.`,
-    new3: `[ 2021.01 ] Updated: <a href="project/position/position.html">For prospective students</a>.`,
+    new1: `[ 2022.07 ] Our paper on <Strong>Knowledge Transfer Learning</Strong> has been accepted for <Strong>ECCV 22</Strong>!! Code is available. <a href="https://github.com/dzy3/KCD">[Github Code]</a>`,
+    new2: `[ 2022.07 ] I was invited to attend this year's <a href="https://cvpr2022.thecvf.com/">CVPR 22</a> and participate in the <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 22</a> presentation. <a>Here</a> is the description.`,
+    new3: `[ 2022.06 ] Congratulations! My paper on <a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a> about <Strong>UDA Frist-person Action Recognition</Strong> has been successfully accepted, under the supervision of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a> and the arXiv and code is available. <a href="https://arxiv.org/abs/2207.03095">[ArXiv]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github Code]</a>`,
+    new4: `[ 2022.06 ] Congratulations! I successfully graduated from <a herf="">DGUT Computer Software Engineering</a> with <strong>the first place</strong> in my major (<strong>Rank 1st / 78</strong> ) with a <a>Bachelor of Engineering degree</a>. And won the <Strong>Outstanding Undergraduate Graduate</Strong>`,
+    new5: `[ 2022.06 ] My graduation thesis <Strong>"First-person Action Recognition Based on Unsupervised Domain Adaptation in Egocentric Video"</Strong> successfully pass the thesis defense of undergraduate graduation design.`,
+    new6: `[ 2022.05 ] Congratulations! I won the <a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>National Scholarship of the People's Republic of China</a>, issued by the <a href='http://en.moe.gov.cn/'>Ministry of Education of China</a>, which is the highest level scholarship program in China! (<Strong>TOP 0.01% Students in China</Strong>).`,
+    new7: `[ 2021.12 ] I won 2021 year's <Strong>First Level Scholarship</Strong> and <Strong>Enterprise Scholarship</Strong> for being the first in my grade. Thanks!`, 
+    new8: `[ 2021.06 ] Started research working as a <Strong>Research Assistant</Strong> at FPV Lab, Hunan University. Supervised by Prof. <a href='https://cai-mj.github.io/'>Minjie Cai</a>`, 
+    new9: `[ 2021.05 ] I won the <Strong>international second prize</Strong> in the American Mathematical Contest In Modeling (USA MCM). <a>[Project]</a>`, 
+    new10: `[ 2021.04 ] I participated in the computer vision work related to <Strong>Multi-modal Information Fusion and Transfer Learning</Strong> in <Strong>Tsinghua University</Strong>, and the project was successfully completed.`, 
+    new11: `[ 2020.12 ] I won 2020 year's <Strong>First Level Scholarship</Strong> and <Strong>Enterprise Scholarship</Strong> for being the first in my grade. Thanks!`, 
+    new12: `[ 2020.08 ] I completed my study in the field of <Strong>Artificial Intelligence and Deep Learning</Strong> in the <Strong>National University of Singapore</Strong>. And won the <Strong>Honorary Award of the National University of Singapore</Strong>.`, 
     //curr1:'1. Machine Vision (Grade 96 A+)',
     //curr2:'2. Artificial Intelligence (Grade 98.2 A+)',
     //curr3:'3. Digital Image Processing (Grade 96 A+)',
@@ -78,12 +84,13 @@ const en = {
   biographyTitle: "Biography",
   biography: {
     bio1: {
-      introduce: "(2020.6 - Now) Research Assistant",
+      introduce: "(2020.6 - Now) Research Assistant. Supervised by Prof.",
+      mentor: "Minjie Cai",
       brief1: "College of Computer Science and Electronic Engineering, FPV Lab",
       brief2: "Hunan University",
     },
     bio2: {
-      introduce: "(2018.9 - 2022.7) BSc in Computer Science Software Engineering (Now B4)",
+      introduce: "(2018.9 - 2022.7) BSc in Computer Science Software Engineering (Graduate at 2022.06)",
       brief1: "Ai-Net Institute of Electronic Information & Artificial Intelligence",
       brief2: "Dongguan University of Technology",
     },
@@ -203,7 +210,7 @@ const en = {
       ],
     },
   ],
-  conferenceTitle: "Conference Publication",
+  conferenceTitle: "Publication",
   conferencePublication: [
     {
       name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
@@ -215,7 +222,7 @@ const en = {
   journalTitle: "Journal Publication",
   journalPublication: [
     {
-      name: 'None',
+      //name: 'None',
       //name: `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`,
       //author: `xxxxx,xxx,<strong>Nie Lin</strong>,xxxxxx,xxx`,
       //date: `IEEE Transactions on Multimedia(<strong>TMM</strong>),2018`,
@@ -303,8 +310,8 @@ const en = {
   ],
 
   footer: {
-    period: `© 2018 - 2021   Nie Lin`,
-    lastUpdated: `Last updated: August 16,2021`
+    period: `© 2018 - 2022   Nie Lin`,
+    lastUpdated: `Last updated: July 31,2022`
   }
 };
 
