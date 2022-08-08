@@ -8,19 +8,25 @@
       </section>
     </div>
     <ul class="show-list">
-      <li v-html="words.new.new1"></li>
-      <li v-html="words.new.new2"></li>
-      <li v-html="words.new.new3"></li>
-      <li v-html="words.new.new4"></li>
-      <li v-html="words.new.new5"></li>
-      <li v-html="words.new.new6"></li>
-      <li v-html="words.new.new7"></li>
-      <li v-html="words.new.new8"></li>
-      <li v-html="words.new.new9"></li>
-      <li v-html="words.new.new10"></li>
-      <li v-html="words.new.new11"></li>
+      <li v-html="words.new.new19"></li>
+      <li v-html="words.new.new18"></li>
+      <li v-html="words.new.new17"></li>
+      <li v-html="words.new.new16"></li>
+      <li v-html="words.new.new15"></li>
+      <li v-html="words.new.new14"></li>
+      <li v-html="words.new.new13"></li>
       <li v-html="words.new.new12"></li>
-
+      <li v-html="words.new.new11"></li>
+      <li v-html="words.new.new10"></li>
+      <li v-html="words.new.new9"></li>
+      <li v-html="words.new.new8"></li>
+      <li v-html="words.new.new7"></li>
+      <li v-html="words.new.new6"></li>
+      <li v-html="words.new.new5"></li>
+      <li v-html="words.new.new4"></li>
+      <li v-html="words.new.new3"></li>
+      <li v-html="words.new.new2"></li>
+      <li v-html="words.new.new1"></li>
     </ul>
   </div>
 </template>

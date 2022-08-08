@@ -17,6 +17,7 @@
       </ul>
     </div>
 
+<!--  暂时不需要期刊发表部分
     <div class="journal-wrapper wrapper-style">
       <div>
         <section class="title">
@@ -33,6 +34,8 @@
         </li>
       </ul>
     </div>
+  -->
+
     <div class="patent-wrapper wrapper-style">
       <div>
         <section class="title">

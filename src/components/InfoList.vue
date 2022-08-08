@@ -49,11 +49,7 @@ export default class extends Vue {
     return [
       {
         icon: ["fas", "home"],
-        msg: this.words.address1,
-      },
-      {
-        icon: ["fas", "home"],
-        msg: this.words.address2,
+        msg: this.words.address,
       },
     ];
   }

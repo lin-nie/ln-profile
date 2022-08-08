@@ -1,3 +1,5 @@
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+
 const en = {
   __identity: "English",
   __langKey: "en",
@@ -5,7 +7,7 @@ const en = {
   blog: "My Blog",
   degree: "Undergraduate Student (Graduate at 2022.06)",
   major: "Computer Science Software Engineering (GPA: 3.6+ Ranked: 1st/78 students)",
-  academy: "School of Electrical Engineering & Intelligentization, DGUT",
+  academy: "Research Assistant",
   department: "College of Computer Science and Electronic Engineering, Hunan University ",
   researchStudent: "(Now)",
   personalIntroduction: 
@@ -19,18 +21,21 @@ const en = {
   <br>My research interests include 
   <strong>Computer Vision (CV)</strong>. 
   <strong>Especially in First-person Vision (FPV)</strong>, 
-  <strong>human-computer interactions(HCI)</strong>, 
+  <strong>Human-computer Interactions (HCI)</strong>, 
   I focus on
   <strong>Human sensing and understanding <br>of human activities</strong>.
-  I have a strong interest in Vision research, welcome to 
+  I have a strong interest in FPV research, welcome to 
   <a herf="mailto:nielin@hnu.edu.cn">
   contact me</a>.`,
   notification: 
-  `XXX`,
+  `Currently, I am working on domain generalization for semantic segmentation and object detection. 
+  I am looking for undergraduate or master students to engage in ongoing research papers. 
+  Don't hesitate to email me if you are interested.`,
+  notificationSupp:'[Project]',
   address1:
     "Address1: Room 9A411 Institute of AI-Net Electronic Information & Artificial Intelligence, DGUT, Dongguan, China",
-  address2:
-    "Address2: Room 433 College of Computer Science and Electronic Engineering, Hunan University, Changsha, China (Now)",
+  address:
+    "Address: Room 433 College of Computer Science and Electronic Engineering, Hunan University, Changsha, China (Now)",
   email: "Email: nielin@hnu.edu.cn",
   phone: "Phone: +86 131-3835-0137",
   web: "Web: linnie.com.cn",
@@ -44,8 +49,8 @@ const en = {
       "Core Curriculum",
       "Awards",
       "Research Interest",
-      "Conference Publication",
-      "Journal Publication",
+      "Publication",
+
       "Patent",
       "Software Copyrght",
       "Projects",
@@ -54,18 +59,26 @@ const en = {
   },
   newTitle: "New",
   new: {
-    new1: `[ 2022.07 ] Our paper on <Strong>Knowledge Transfer Learning</Strong> has been accepted for <Strong>ECCV 22</Strong>!! Code is available. <a href="https://github.com/dzy3/KCD">[Github Code]</a>`,
-    new2: `[ 2022.07 ] I was invited to attend this year's <a href="https://cvpr2022.thecvf.com/">CVPR 22</a> and participate in the <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 22</a> presentation. <a>Here</a> is the description.`,
-    new3: `[ 2022.06 ] Congratulations! My paper on <a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a> about <Strong>UDA Frist-person Action Recognition</Strong> has been successfully accepted, under the supervision of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a> and the arXiv and code is available. <a href="https://arxiv.org/abs/2207.03095">[ArXiv]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github Code]</a>`,
-    new4: `[ 2022.06 ] Congratulations! I successfully graduated from <a herf="">DGUT Computer Software Engineering</a> with <strong>the first place</strong> in my major (<strong>Rank 1st / 78</strong> ) with a <a>Bachelor of Engineering degree</a>. And won the <Strong>Outstanding Undergraduate Graduate</Strong>`,
-    new5: `[ 2022.06 ] My graduation thesis <Strong>"First-person Action Recognition Based on Unsupervised Domain Adaptation in Egocentric Video"</Strong> successfully pass the thesis defense of undergraduate graduation design.`,
-    new6: `[ 2022.05 ] Congratulations! I won the <a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>National Scholarship of the People's Republic of China</a>, issued by the <a href='http://en.moe.gov.cn/'>Ministry of Education of China</a>, which is the highest level scholarship program in China! (<Strong>TOP 0.01% Students in China</Strong>).`,
-    new7: `[ 2021.12 ] I won 2021 year's <Strong>First Level Scholarship</Strong> and <Strong>Enterprise Scholarship</Strong> for being the first in my grade. Thanks!`, 
-    new8: `[ 2021.06 ] Started research working as a <Strong>Research Assistant</Strong> at FPV Lab, Hunan University. Supervised by Prof. <a href='https://cai-mj.github.io/'>Minjie Cai</a>`, 
+    new1: `[ 2019.08 ] Under the leadership of Prof. Lvy Wang, I completed a research project on mathematics and machine learning in <Strong>University of Toronto, Canada</Strong>. Lay a mathematical foundation for my future research in <Strong>Computer Vision</Strong>.`, 
+    new2: `[ 2019.12 ] I won 2019 year's <Strong>The First Prize Scholarship</Strong> for being the first in my grade. Thanks!`, 
+    new3: `[ 2020.03 ] During the winter vacation, I worked as a research intern under the guidance of Prof. Qing Liao from <Strong>Harbin Institute of Technology (HIT)</Strong> to complete the project of <Strong>video understanding and analysis</Strong> through deep learning.`, 
+    new4: `[ 2020.08 ] I completed my exchange programme study in the field of <Strong>Artificial Intelligence and Deep Learning</Strong> in the <Strong>National University of Singapore</Strong>. And won the <Strong>Honorary Award of the National University of Singapore</Strong>.`, 
+    new5: `[ 2020.09 ] Congratulations, I successfully joined the <Strong>Institute of Industrial Artificial Intelligence Technology (IIAIT)</Strong> in Songshan Lake, Dongguan through multiple selection, and was supervised by <Strong>Prof. Gao Chen from Tsinghua University</Strong>.`, 
+    new6: `[ 2020.10 ] I got The Third prize of China Artificial Intelligence Electronic Design Competition. Congratulations !!`, 
+    new7: `[ 2020.12 ] I won 2020 year's <Strong>The First Prize Scholarship</Strong> and <Strong>The Kao Wei-kwong Enterprise Scholarship (Outstanding Engineering Representative) </Strong> for being the first in my grade. Thanks!`, 
+    new8: `[ 2021.01 ] Our team successfully entered the <a href='https://www.ccf.org.cn/en/'>China Computer Federation (CCF) </a> <Strong>Artificial Intelligence Vision Algorithm Competition</Strong> and final with the rank of <Strong>13/2207</Strong>. A great team work experience !!`, 
     new9: `[ 2021.05 ] I won the <Strong>international second prize</Strong> in the American Mathematical Contest In Modeling (USA MCM). <a>[Project]</a>`, 
-    new10: `[ 2021.04 ] I participated in the computer vision work related to <Strong>Multi-modal Information Fusion and Transfer Learning</Strong> in <Strong>Tsinghua University</Strong>, and the project was successfully completed.`, 
-    new11: `[ 2020.12 ] I won 2020 year's <Strong>First Level Scholarship</Strong> and <Strong>Enterprise Scholarship</Strong> for being the first in my grade. Thanks!`, 
-    new12: `[ 2020.08 ] I completed my study in the field of <Strong>Artificial Intelligence and Deep Learning</Strong> in the <Strong>National University of Singapore</Strong>. And won the <Strong>Honorary Award of the National University of Singapore</Strong>.`, 
+    new10: `[ 2021.06 ] Started research working as a <Strong>Research Assistant</Strong> at FPV Lab, Hunan University. Supervised by Prof. <a href='https://cai-mj.github.io/'>Minjie Cai</a>`, 
+    new11: `[ 2021.12 ] I won 2021 year's <Strong>The First Prize Scholarship</Strong> and <Strong>The Lingnan Academic Scholarship (Outstanding Academic Representative) </Strong> for being the first in my grade. Thanks!`, 
+    new12: `[ 2022.05 ] Congratulations! I won the <a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>National Scholarship of the People's Republic of China</a>, issued by the <a href='http://en.moe.gov.cn/'>Ministry of Education of China</a>, which is the highest level scholarship program in China! (<Strong>TOP 0.01% Students in China</Strong>).`,
+    new13: `[ 2022.06 ] My graduation thesis <Strong>"First-person Action Recognition Based on Unsupervised Domain Adaptation in Egocentric Video"</Strong> successfully pass the thesis defense of undergraduate graduation design.`,
+    new14: `[ 2022.06 ] Congratulations! I successfully graduated from <a herf="">DGUT Computer Software Engineering</a> with <strong>the first place</strong> in my major (<strong>Rank 1st / 78</strong> ) with a <a>Bachelor of Engineering degree</a>. And won the <Strong>Outstanding Undergraduate Graduate</Strong>`,
+    new15: `[ 2022.06 ] Congratulations! My paper on <a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a> about <Strong>UDA Frist-person Action Recognition</Strong> has been successfully accepted, under the supervision of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a>. The arXiv and code is available. <a href="https://arxiv.org/abs/2207.03095">[ArXiv]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github Code]</a>`,
+    new16: `[ 2022.07 ] I was invited to attend this year's <a href="https://cvpr2022.thecvf.com/">CVPR 22</a> and participate in the <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 22</a> presentation. <a>Here</a> is the description.`,
+    new17: `[ 2022.07 ] Our paper on <Strong>Knowledge Transfer Learning</Strong> has been accepted for <Strong>ECCV 22</Strong>!! Code is available. <a href="https://github.com/dzy3/KCD">[Github Code]</a>`,
+    new18: `[ 2022.08 ] Under the guidance of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a>, I submitted a paper at BMVC 2022 this year based on <Strong>hand regions in egocentric videos related to first-personaction recognition</Strong>. Code will be open source !!`,
+    new19: `[ 2022.09 ] I really hope that I can apply for a research student and master as soon as possible to start my new project: <Strong>EgoV: From Virtual to Real </Strong>. <a href="https://github.com/dzy3/KCD">[Github Code]</a><a href="https://github.com/dzy3/KCD">[Project Page]</a><a href="https://github.com/dzy3/KCD">[Research Proposal]</a>`,
+    
     //curr1:'1. Machine Vision (Grade 96 A+)',
     //curr2:'2. Artificial Intelligence (Grade 98.2 A+)',
     //curr3:'3. Digital Image Processing (Grade 96 A+)',
@@ -84,14 +97,14 @@ const en = {
   biographyTitle: "Biography",
   biography: {
     bio1: {
-      introduce: "(2020.6 - Now) Research Assistant. Supervised by Prof.",
+      introduce: "(2021.6 - Now) Research Assistant. Supervised by Prof.",
       mentor: "Minjie Cai",
       brief1: "College of Computer Science and Electronic Engineering, FPV Lab",
       brief2: "Hunan University",
     },
     bio2: {
-      introduce: "(2018.9 - 2022.7) BSc in Computer Science Software Engineering (Graduate at 2022.06)",
-      brief1: "Ai-Net Institute of Electronic Information & Artificial Intelligence",
+      introduce: "(2018.9 - 2022.6) BSc in Computer Science & Software Engineering (Graduate at 2022.06)",
+      brief1: "Institute of Industrial Artificial Intelligence Technology (IIAIT)",
       brief2: "Dongguan University of Technology",
     },
   },
@@ -181,43 +194,66 @@ const en = {
     },
     ],
   researchTitle: "Research Interest",
-  researchInterest: [
-    "1. Computer Vision",
-    "2. Digital Image Processing",
-    "3. Machine Learning",
-    "4. Deep Learning",
+  overallField: "Overall Field",
+  researchOverInterest: [
+    "Computer Vision (CV)",
+    "First-person Vision (FPV)",
+    "Human-computer Interactions (HCI),"
+  ],
+  specialField: "Special Interests",
+  researchSpecialInterest: [
+    "1. Egocentric Video Understanding and Analysis",
+    "2. Domain Adaptation & Generalization",
+    "3. Action Recognition",
+    "4. Hand Region Analysis",
+    "5. Knowledge Transfer Learning",
     ".........................."
   ],
-  awardsTitle: "Awards",
+  awardsTitle: "Honors",
+  scholarship: "Scholarship",
+  scholar1: "1. National Scholarship of the People's Republic of China",
+  scholar1explain:"[Ministry of Education of China]",
+  scholar1supp:"(TOP 0.1\% Students in China)",
+  scholar2:"2. The Lingnan Academic Scholarship  [Outstanding Academic Representative]",
+  scholar3:"3. The First Prize Scholarship   [The First Place of GPA in the Grade, 2021]",
+  scholar4:"4. The Kao Wei-kwong Enterprise Scholarship   [Outstanding Engineering Representative]",
+  scholar5:"5. The First Prize Scholarship   [The First Place of GPA in the Grade, 2020]",
+  scholar6:"6. The First Prize Scholarship   [The First Place of GPA in the Grade, 2019]",
   awards: [
     {
-      subtitle: "Competetion Awards",
+      subtitle: "Awards",
       content: [
-        "Mathematical Contest In Modeling(MCM/ICM 2020)--The International Second Prize",
-        "Big Data & Computing Intelligence Contest(CCF BDCI)--The Honourable Mentions(Global Rank 13/2207)",
-        "International Innovation Competition in China--Silver Award",
-        "5G-AI Electronic Design Competition in China--The Third Prize",
-      ],
-    },
-    {
-      subtitle: "Honors Awards",
-      content: [
-        "National University of Singapore's Excellent Award",
-        "The First Prize Scholarship",
-        "The Gao Weiguang Scholarship",
-        "National Patent in China",
-        "Outstanding Developer of Huawei",
+        "Outstanding Undergraduate of Guangdong Province",
+        "Outstanding Undergraduate's Thesis",
+        "International Second Prize in the American Mathematical Contest In Modeling",
+        "China Computer Federation AI Vision Algorithm Competition (Rank 13/2207)",
+        "The Third prize of China Artificial Intelligence Electronic Design Competition",
+        "Honorary Award of the National University of Singapore",
+        "Excellent Huawei Developer Award",
       ],
     },
   ],
   conferenceTitle: "Publication",
   conferencePublication: [
+    //{
+    //  name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
+    //  author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
+    //  date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
+    //},
     {
-      name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
-      author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
-      date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
+      name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022: Team HNU-FPV Report`,
+      author: `<a href="#">Nie Lin</a>, Minjie Cai*`,
+      date: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop, 2022`,
+      arixv:`xxxx`,
+      code: `xxxxx`
     },
-
+    {
+      name: `Knowledge Condensation Distillation`,
+      author: `Chenxin Li, Mingbao Lin, Zhiyuan Ding, <a href="#">Nie Lin</a>, Yihong Zhuang, Yue Huang*`,
+      date: "European Conference on Computer Vision (ECCV), 2022",
+      arixv:`xxxx`,
+      code: `xxxxx`
+    },
   ],
   journalTitle: "Journal Publication",
   journalPublication: [
@@ -249,45 +285,83 @@ const en = {
   ],
 
   projectsTitle: "Projects",
-  projects: [
+  projectsNote:" projects are recently projects.",
+  recentlyProjects: [
     {
-      name: "Tsinghua University——Intelligent Fusion of Multi-source Remote Sensing Image for Disaster Monitoring",
-      author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou and Gang Li`,
-      match: "Tsinghua University",
+      name: "EgoV: A New Datasets of Egocentric Videos Across Real and Virtual",
+      author: `<strong>!! As a new research project will be carried out at the master's level !!</strong>`,
+      match: "",
       match2: "",
+      arxiv:"[arxiv]",
+      projectPage:"[project page]",
+      code:"[code]",
+      video:"[video]",
       //label: ["Paper", "Project"],
     },
     {
-      name: "Dilated Residual Shrinkage Network for SAR Image Despeckling",
-      author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou and Chanzhi Liu`,
-      match: "The National Natural Science Foundation of China",
+      name: "UDA First-person Action Recognition based on Hand Regions in Egocentric Videos",
+      author: `<strong>Nie Lin</strong>, Minjie Cai`,
+      match: "Hunan University",
       match2: "",
+      arxiv:"[arXiv]",
+      projectPage:"[project page]",
+      code:"[code]",
+      video:"[video]",
       //label: ["Paper", "Project"],
     },
     {
-      name: "National University of Singapore Exchange Programme",
-      author: `<strong>Nie Lin</strong>, Ziyan Lai, Nur Amelia Bte Mohama, Dr.Choong and Dr.Guo`,
-      match: "National University of Singapore",
+      name: "Hand Keypoint Detection based on Domain Adaptation",
+      author: `<strong>Nie Lin</strong>, Pingping Wen, Minjie Cai`,
+      match: "Hunan University",
       match2: "",
+      arxiv:"[arXiv]",
+      projectPage:"[project page]",
+      code:"[code]",
+      video:"[video]",
+      //label: ["Paper", "Project"],a
+    },
+    {
+      name: "Knowledge Condensation Distillation base on Transfer Learning",
+      author: `Chenxin Li, Mingbao Lin, <strong>Nie Lin</strong>, Yihong Zhuang, Yue Huang`,
+      match: `Xiamen & Hunan University, Tencent Youtu Lab`,
+      arxiv:"[arXiv]",
+      projectPage:"[project page]",
+      code:"<a href='https://github.com/dzy3/KCD'>[Github Code]</a>",
+      video:"[video]",
+    },
+  ],
+  pastProjects: [
+    {
+      name: "Dilated Residual Shrinkage Network for Digital Image Despeckling",
+      author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
+      match: "Institute of Industrial Artificial Intelligence Technology (IIAIT)",
+      match2: "",
+      arxiv:"",
+      projectPage:"",
+      code:"",
+      video:"",
       //label: ["Paper", "Project"],
     },
     {
-      name: "MCM/ICM——Image Processing and Data Analysis of American Bumblebee Images from First-person Perspective",
-      author: `<strong>Nie Lin</strong>, Junyu Zheng, Hao Gu, Dr.Liu, Dr.Wu and Dr.Wang`,
-      match: "The Mathematical Association of America (MAA)",
-      match2: "The American Statistical Association (ASA)",
+      name: "Multi-Modal Video Analysis and Understanding",
+      author: `<strong>Nie Lin</strong>, Fan Guo, Jie Wang, Ye Ding, Qing Liao`,
+      match: "Harbin Institute of Technology (HIT) ",
+      match2: ``,
+      arxiv:"",
+      projectPage:"",
+      code:"",
+      video:"",
+      //label: ["Paper", "Project"],
     },
     {
-      name: "OCR Recognition System for Japanese Postal Payment Notes",
-      author: `Ye Ding, <strong>Nie Lin</strong> and Fan Guo`,
-      match: "WELLNET CORPORATION",
+      name: "Hand-ball Action Recognition Control System based on OpenMV Machine Vision",
+      author: `<strong>Nie Lin</strong>, Bing Wang, Qingfeng Zhou`,
+      match: "China Artificial Intelligence Electronic Design Competition",
       match2: "",
-    },
-    {
-      name: "OpenMV Machine Vision Based Cricket Control System (Machine Learning)",
-      author: `<strong>Nie Lin</strong>,Bin Wang and Qingfeng Zhou`,
-      match: "China's Ministry of Industry and Information Technology",
-      match2: "",
+      arxiv:"",
+      projectPage:"",
+      code:"",
+      video:"",
     },
   ],
   scientificFundTitle: "Fund Participation",

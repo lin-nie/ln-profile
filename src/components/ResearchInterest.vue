@@ -8,7 +8,13 @@
       </section>
     </div>
     <ul class="research-content">
-      <li v-for="interest in words.researchInterest">
+      <Strong>{{words.overallField}}</Strong><br>
+      <li v-for="interest in words.researchOverInterest">
+        {{ interest }}
+      </li>
+      <br>
+      <Strong>{{words.specialField}}</Strong><br>  
+      <li v-for="interest in words.researchSpecialInterest">
         {{ interest }}
       </li>
     </ul>

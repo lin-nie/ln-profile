@@ -7,11 +7,47 @@
         </h2>
       </section>
     </div>
-    <div class="project-component" v-for="(val, index) in words.projects">
+    <h4>
+      <span style="background-color: #ffffd0">Highlighted</span>{{words.projectsNote}}
+    </h4>
+
+    <!-- Recently Projects 最近的项目-->
+    <div style="background:#ffffd0">
+      <div class="project-component" v-for="(val, index) in words.recentlyProjects">
+        <div class="projects-img">
+          <a href="javascript:;">
+            <!-- 项目图片要按照升序命名 -->
+            <img :src="require(`@/assets/recentlyProjectImg/${index}.gif`)" alt="" />
+          </a>
+        </div>
+        <div class="content">
+          <strong>{{ val.name }}</strong>
+          <p v-html="val.author"></p>
+          <p>{{ val.match }}</p>
+          <p>{{ val.match2 }}</p>
+          <div v-if="index==0">
+            <a href='https://www.ccf.org.cn/en/'>{{ val.arxiv }}</a>
+            {{ val.projectPage }}
+            {{ val.code }}
+            {{ val.video }}
+          </div>
+          <div v-if="index==1">
+            <a href='#'>{{ val.arxiv }}</a>
+            {{ val.projectPage }}
+            {{ val.code }}
+            {{ val.video }}
+          </div>
+          <span class="label" v-for="msg in val.label">{{msg}}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pass Projects 过去的项目-->
+    <div class="project-component" v-for="(val, index) in words.pastProjects">
       <div class="projects-img">
         <a href="javascript:;">
           <!-- 项目图片要按照升序命名 -->
-          <img :src="require(`@/assets/projectImg/${index}.png`)" alt="" />
+          <img :src="require(`@/assets/pastProjectImg/${index}.png`)" alt="" />
         </a>
       </div>
       <div class="content">
@@ -19,6 +55,9 @@
         <p v-html="val.author"></p>
         <p>{{ val.match }}</p>
         <p>{{ val.match2 }}</p>
+        <p>{{ val.arxiv }}</p>
+        {{ val.projectPage}}
+        {{ val.code }}
         <span class="label" v-for="msg in val.label">{{msg}}</span>
       </div>
     </div>

@@ -3,11 +3,11 @@ const zh = {
   __langKey: 'zh',
   name: "林 涅",
   blog: "我的博客",
-  degree: "本科生 (大四)",
-  major: "计算机 软件工程专业 (GPA: 3.6+ 排名: 专业 第1st/78 名)",
-  academy: "电子工程与智能化学院, 东莞理工大学",
+  degree: "本科生 (毕业于 2022.06)",
+  major: "计算机 & 软件工程专业 (GPA: 3.6+ 排名: 专业 第1st/78 名)",
+  academy: "助理研究员",
   department: "信息科学与工程学院, 湖南大学",
-  researchStudent: "",
+  researchStudent:"（现在）",
   personalIntroduction: `Hi! 我叫<strong>林涅</strong>，是来自中国东莞理工大学的一名本科生。我现在正在
   <a href="https://www.hnu.edu.cn/" target="_blank">
   湖南大学</a>
@@ -16,17 +16,19 @@ const zh = {
   <a href="http://csee.hnu.edu.cn/people/caiminjie" target="_blank">
   蔡敏捷</a>
   教授。
-  <br>我的研究兴趣包括<strong>计算机视觉(CV)</strong>，<strong>第一人称视觉(FPV)</strong>，<strong>计算机图形学(CG)</strong>，<strong>人机
-  <br>交互(HCI)</strong>，特别是计算机视觉应用在<strong>感知和理解与人类相关的活动</strong>的领域。我在
-  <br>计算机视觉领域有着浓厚的兴趣与爱好，欢迎各位通过我的邮箱与我联系与交流。`,
+  <br>我的研究兴趣包括<strong>计算机视觉(CV)</strong>，特别是在<strong>第一人称视觉(FPV)</strong> 以及<strong>人机交互(HCI)</strong>，
+  特别是计算机视觉应用在<strong>感知和理解与人类相关的活动</strong>的领域。
+  我对计算机视觉中的第一人称视觉有着浓厚的兴趣与爱好，欢迎各位通过我的邮箱与我联系与交流。`,
+  notification: 
+  `XXX`,
   address1:
     "地址1: 中国广东省东莞市松山湖 东莞理工大学 Ai-Net智能研究所 9A-411",
-  address2:
-    "地址2: 中国湖南省长沙市湖南大学 信息科学与工程学院 研究生办公室433 （现在）",
+  address:
+    "地址: 中国湖南省长沙市湖南大学 信息科学与工程学院 研究生办公室433 （现在）",
   email: "个人邮箱: nielin@hnu.edu.cn",
   phone: "个人电话: +86 131-3835-0137",
   web: "个人网站: linnie.com.cn",
-  newTitle: "核心课程（成绩&评级）",
+  newTitle: "消息",
   navigation: {
     name: "林涅",
     address: [
@@ -36,43 +38,45 @@ const zh = {
       "国际交流",
       "研究兴趣",
       "荣誉奖项",
-      "会议论文",
-      "期刊论文",
+      "论文发表",
       "发表专利",
       "软件著作",
       "项目经验",
       "参与基金"
     ]
   },
-  curriculums: {
-    //new1: `[ 2021.06 ] Our team (I and Fixstars) implemented the 4-bit PQ algorithm on ARM for the faiss library, enabling 60x speedup. [<a href="https://github.com/facebookresearch/faiss/issues/1812">issue</a>] [<a href="https://github.com/facebookresearch/faiss/pull/1815">PR</a>] [<a href="https://proc-cpuinfo.fixstars.com/2021/06/make-faiss-4bitpq-60x-faster-on-aarch64/">blog by Imaizumi (in Japanese)</a>] [<a href="https://mti-lab.github.io/blog/yusuke%20matsui/research/2021/06/21/4bitpq.html">blog by Matsui (in Japanese)</a>]`,
-    //new2: `[ 2021.05 ] I was selected as <a href="http://cvpr2021.thecvf.com/node/184">an outstanding reviewer for CVPR 2021</a>.`,
-    //new3: `[ 2021.01 ] Updated: <a href="project/position/position.html">For prospective students</a>.`,
-    curr1:'1. 机器视觉 (成绩 96 评级 A+)',
-    curr2:'2. 人工智能 (成绩 98.2 评级 A+)',
-    curr3:'3. 数字图像处理 (成绩 96 评级 A+)',
-    curr4:'4. Python 机器学习 (成绩 93 评级 A+)',
-    curr5:'5. Python 深度学习 (成绩 93 评级 A+)',
-    curr6:'6. Python数据分析与应用 (成绩 95 评级 A+)',
-    curr7:'7. 数学建模 (成绩 98 评级 A+)',
-    curr8:'8. 离散数学 (成绩 96 评级 A+)',
-    curr9:'9. 操作系统 (成绩 92 评级 A+)',
-    curr10:'10. 算法与数据结构 (成绩 95 评级 A+)',
-    curr11:'11. 数据库系统原理 (成绩 93 评级 A+)',
-    curr12:'12. 竞赛编程 (成绩 98 评级 A+)',
-    curr13:'13. 云计算与大数据应用开发 (成绩 92 评级 A+)',
-    curr14:'14. 区块链技术与应用 (成绩 100 评级 A+)'
+  new: {
+    new1: `[ 2019.08 ] 在Prof. Lvy Wang的指导下，我在<strong>加拿大多伦多大学</strong>完成了一个关于数学与机器学习的研究项目。为我以后关于<strong>计算机视觉</strong>的研究奠定数学基础。`, 
+    new2: `[ 2019.12 ] 我以年级第一的优异成绩获得了2019年的<strong>一等奖学金</strong>。谢谢!`, 
+    new3: `[ 2020.03 ] 在大二寒假期间，我在<strong>哈尔滨工业大学（深圳）</strong>廖教授的指导下参与研究实习，通过深度学习完成关于<strong>视频理解与分析</strong>项目。`, 
+    new4: `[ 2020.08 ] 我在<strong>新加坡国立大学</strong>完成了<strong>人工智能与深度学习</strong>领域的项目学习。并获得由新加坡国立大学版发的<strong>荣誉奖</strong>。`, 
+    new5: `[ 2020.09 ] 恭喜，我通过层层选拔加入<strong>工业人工智能技术研究院(IIAIT)</strong>，并由来自<strong>清华大学</strong>的陈高教授指导展开关于数字图像处理方面的研究。`, 
+    new6: `[ 2020.10 ] 我获得中国人工智能电子设计大赛三等奖 !!`, 
+    new7: `[ 2020.12 ] 我以年级第一的优异成绩获得了2020年的<Strong>一等奖学金</Strong>以及<Strong> 高伟光企业奖学金(杰出工程代表) </Strong>。谢谢!`, 
+    new8: `[ 2021.01 ] 我们团队以<Strong>13/2207</Strong>的排名进入<a href="https://www.ccf.org.cn/en/">中国计算机学会(CCF) </a> <Strong>人工智能视觉算法大赛</Strong>决赛。一次很赞的团队合作体验!!`, 
+    new9: `[ 2021.05 ] 我在美国数学建模竞赛USA MCM/ICM 中获得<Strong>国际二等奖</Strong>。<a>[项目]</a>`, 
+    new10: `[ 2021.06 ] 开始在湖南大学的FPV实验室担任 <Strong>研究助理</Strong>。 由<a href='https://cai-mj.github.io/'>蔡 敏捷</a>教授担任指导老师。`, 
+    new11: `[ 2021.12 ] 我以年级第一的优异成绩获得了2021年的<Strong>一等奖奖学金</Strong>、<Strong>岭南学术奖学金(优秀学术代表)</Strong>，谢谢!`, 
+    new12: `[ 2022.05 ] 恭喜! 我获得了<a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>中华人民共和国国家奖学金</a>, 由<a href='http://en.moe.gov.cn/'>中华人民共和国教育部</a>颁布, 这是中国最高级别的奖学金项目! (<Strong>全国排名前0.01%的学生</Strong>).`,
+    new13: `[ 2022.06 ] 我的毕业论文<strong>《基于自我中心视频中无监督域适应的第一人称动作识别》</strong>顺利通过了本科毕业设计论文答辩。`,
+    new14: `[ 2022.06 ] 恭喜! 我以<strong>专业第一名</strong>(<strong>Rank 1st / 78</strong>)取得<a>工学学士</a>，并且顺利毕业于<a>东莞理工 计算机软件工程专业</a>， 获得<strong>优秀本科毕业生</strong>。`,
+    new15: `[ 2022.06 ] 恭喜! 我的论文在<a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a>中关于<Strong>无监督域适应第一人称动作识别</Strong>顺利被接收, 在<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授的指导下。 预印本和代码均可用. <a href="https://arxiv.org/abs/2207.03095">[ArXiv 预印本]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github代码]</a>`,
+    new16: `[ 2022.07 ] 我受邀参加今年<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a> 并参与 <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 2022</a> 演讲。<a>此处</a> 有相关描述。`,
+    new17: `[ 2022.07 ] 我们关于<Strong>知识迁移学习</Strong>的论文已经被今年的<Strong>ECCV 2022</Strong>正式接受!! 代码已经开源。<a href="https://github.com/dzy3/KCD">[Github 代码]</a>`,
+    new18: `[ 2022.08 ] 在<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授的指导下，我在今年的BMVC 2022上提交了一篇<Strong>基于自我中心视频中手部区域与第一人称动作识别相关的</Strong>论文。代码将会开源！！`,
+    new19: `[ 2022.08 ] 我非常希望我能尽快申请研究生和硕士，开始我的新项目:<Strong>EgoV: 从虚拟到现实</Strong>。<a href="https://github.com/dzy3/KCD">[Github 代码]</a><a href="https://github.com/dzy3/KCD">[项目页面]</a><a href="https://github.com/dzy3/KCD">[研究计划书]</a>`,
   },
   biographyTitle: "个人经历",
   biography: {
     bio1: {
-      introduce: "(2020.6-至今)  项目研究员",
-      brief1: "电子信息系统研究所",
-      brief2: "清华大学",
+      introduce: "(2021.6-至今)  助理研究员. 指导教授为",
+      mentor: "蔡 敏捷",
+      brief1: "信息科学与工程学院, FPV Lab",
+      brief2: "湖南大学",
     },
     bio2: {
-      introduce: "(2018-至今)  计算机软件工程在读 (B4)",
-      brief1: "Ai-Net电子信息&人工智能研究所",
+      introduce: "(2018-至今)  计算机软件工程在读 (毕业于 2022.06)",
+      brief1: "工业人工智能技术研究所 (IIAIT)",
       brief2: "东莞理工大学",
     },
   },
@@ -162,42 +166,65 @@ const zh = {
     },
   ],
   researchTitle: "研究兴趣",
-  researchInterest: [
-    "1.计算机视觉",
-    "2.数字图像处理",
-    "3.机器学习",
-    "4.深度学习",
-    "5.遥感图像处理",
-    "............",
+  overallField: "整体领域",
+  researchOverInterest: [
+    "计算机视觉 (CV)",
+    "第一人称视觉 (FPV)",
+    "人机交互 (HCI),"
   ],
-  awardsTitle: "荣誉奖项",
+  specialField: "特别兴趣",
+  researchSpecialInterest: [
+    "1. 自我中心的视频理解和分析",
+    "2. 域适应与泛化",
+    "3. 行为识别",
+    "4. 手部区域分析",
+    "5. 知识迁移学习",
+    ".........................."
+  ],
+  awardsTitle: "荣誉",
+  scholarship: "所获奖学金",
+  scholar1: "1. 中华人民共和国国家奖学金",
+  scholar1explain:"[中华人民共和国教育部]",
+  scholar1supp:"(中国排名前0.1\%的学生)",
+  scholar2:"2. 岭南学术奖学金  [杰出的学术代表]",
+  scholar3:"3. 2021年学年度一等奖奖学金   [年级GPA第一名，2021年]",
+  scholar4:"4. 高伟光企业奖学金   [杰出的工程代表]",
+  scholar5:"5. 2020年学年度一等奖奖学金   [年级GPA第一名，2020年]",
+  scholar6:"6. 2019年学年度一等奖奖学金   [年级GPA第一名，2019年]",
   awards: [
     {
-      subtitle: "比赛&竞赛奖项",
+      subtitle: "奖励",
       content: [
-        "MCM/ICM 美国国际大学生数学建模联赛--USA荣誉奖",
-        "CCF大数据与人工智能大赛(CCF BDCI)--荣誉奖 (全球队伍排行 13/2207)",
-        "第七届 中国国际“互联网+”创新大赛--银奖牌",
-        "5G-AI 全国电子设计大赛--赛区三等奖",
-      ],
-    },
-    {
-      subtitle: "所获荣誉",
-      content: [
-        "NUS 新加坡国立大学荣誉奖",
-        "校级一等奖学金（综合测评专业第1名）",
-        "高伟光学社会奖学金（表彰突出学术成就）",
-        "中华人民共和国 发明专利",
-        "HUAWEI 华为开发者荣誉奖",
+        "广东省优秀本科毕业生",
+        "优秀本科生的论文",
+        "美国数学建模竞赛国际二等奖",
+        "中国计算机学会AI视觉算法大赛 (排名13/2207)",
+        "中国人工智能电子设计大赛三等奖",
+        "新加坡国立大学荣誉奖",
+        "华为优秀开发者奖",
       ],
     },
   ],
-  conferenceTitle: "会议论文",
+  conferenceTitle: "论文发表",
   conferencePublication: [
+    //{
+    //  name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
+    //  author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
+    //  date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
+    //},
     {
-      name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
-      author: `<a href="#">Nie Lin</a>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
-      date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
+      name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022: Team HNU-FPV Report`,
+      author: `<a href="#">Nie Lin</a>, Minjie Cai*`,
+      date: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop, 2022`,
+      arixv:`xxxx`,
+      code: `xxxxx`
+    },
+    {
+      name: `Knowledge Condensation Distillation`,
+      author: `Chenxin Li, Mingbao Lin, Zhiyuan Ding, <a href="#">Nie Lin</a>, Yihong Zhuang, Yue Huang*`,
+      date: "European Conference on Computer Vision (ECCV), 2022",
+      arixv:`xxxx`,
+      code: `xxxxx`
     },
   ],
 

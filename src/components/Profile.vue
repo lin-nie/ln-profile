@@ -28,6 +28,7 @@
               <p style="margin-top: 5px">
                 <font color='red' v-html="words.notification">
                 </font>
+                <a href=''>{{words.notificationSupp}}</a>
               </p>
           </ul>
         </div>

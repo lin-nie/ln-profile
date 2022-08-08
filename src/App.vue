@@ -31,7 +31,7 @@ import ExchangeExperience from "./components/ExchangeExperience.vue";
 import ResearchInterest from "./components/ResearchInterest.vue";
 import PublicationAndPatent from "./components/PublicationAndPatent.vue";
 import SoftwareCopyrght from "./components/SoftwareCopyrght.vue";
-import Awards from "./components/Awards.vue";
+import Awards from "./components/Honors.vue";
 import Projects from "./components/Projects.vue";
 import ScientificFund from "./components/ScientificFund.vue";
 import Footer from "./components/Footer.vue";
