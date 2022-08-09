@@ -52,7 +52,6 @@ const en = {
       "Awards",
       "Research Interest",
       "Publication",
-
       "Patent",
       "Software Copyrght",
       "Projects",

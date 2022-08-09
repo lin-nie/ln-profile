@@ -2,7 +2,9 @@
   <div class="navigation-wrapper">
     <ul>
       <p class="name">{{ words.navigation.name }}</p>
-      <li v-for="address in words.navigation.address">{{ address }}</li>
+      <li v-for="address in words.navigation.address">
+        <a class="menu-item" :href="`#${address}`">{{ address }}</a>
+      </li>
     </ul>
   </div>
 </template>
@@ -26,6 +28,13 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
+
+
+.menu-item {
+  text-decoration: none;
+  list-style: none;
+  color: steelblue;
+}
 .navigation-wrapper {
   // top: 100px;
   // left: 12%;

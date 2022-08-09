@@ -2,7 +2,7 @@
   <div class="biography-wrapper wrapper-style">
     <div>
       <section class="title">
-        <h2>
+        <h2 id="Biography" class="href">
           {{words.biographyTitle}}
         </h2>
       </section>

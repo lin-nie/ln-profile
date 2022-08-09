@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
-    <div class="container">
+    <div class="container href" id="Home">
       <Profile></Profile>
       <info-list></info-list>
       <NavigationBar></NavigationBar>
@@ -91,6 +91,5 @@ body{
 .container{
   width: 1150px;
   margin: 0 auto;
-  margin-top: 89px;
 }
 </style>
