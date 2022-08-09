@@ -2,8 +2,8 @@
   <div class="navigation-wrapper">
     <ul>
       <p class="name">{{ words.navigation.name }}</p>
-      <li v-for="address in words.navigation.address">
-        <a class="menu-item" :href="`#${address}`">{{ address }}</a>
+      <li v-for="(address, index) in words.navigation.address">
+        <a class="menu-item" :href="`#${href[index]}`">{{ address }}</a>
       </li>
     </ul>
   </div>
@@ -19,6 +19,21 @@ export default class Profile extends Vue {
   @Getter("words") words?: word;
   @State("dictionary") dictionary: any;
 
+  href = [
+    "Home",
+    "New",
+    "Biography",
+    "Exchange Experience",
+    "Core Curriculum",
+    "Awards",
+    "Research Interest",
+    "Publication",
+    "Patent",
+    "Software Copyrght",
+    "Projects",
+    "Fund Participation",
+  ];
+
   get LanguageItems() {
     return Object.keys(this.dictionary).map((key) => {
       return this.dictionary[key].__identity;
@@ -28,8 +43,6 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
-
-
 .menu-item {
   text-decoration: none;
   list-style: none;
