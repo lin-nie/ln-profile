@@ -27,7 +27,7 @@ import Profile from "./components/Profile.vue";
 import NavigationBar from "./components/NavigationBar.vue";
 import New from "./components/New.vue";
 import Biography from "./components/Biography.vue";
-import ExchangeExperience from "./components/ExchangeExperience.vue";
+import ExchangeExperience from "./components/ProfessionalExperience.vue";
 import ResearchInterest from "./components/ResearchInterest.vue";
 import PublicationAndPatent from "./components/PublicationAndPatent.vue";
 import SoftwareCopyrght from "./components/SoftwareCopyrght.vue";

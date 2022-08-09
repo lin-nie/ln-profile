@@ -8,6 +8,7 @@
       </section>
     </div>
     <ul class="show-list">
+      <li v-html="words.new.new20"></li>
       <li v-html="words.new.new19"></li>
       <li v-html="words.new.new18"></li>
       <li v-html="words.new.new17"></li>

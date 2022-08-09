@@ -8,7 +8,7 @@
       </section>
     </div>
     <h4>
-      <span style="background-color: #ffffd0">Highlighted</span>{{words.projectsNote}}
+      <span style="background-color: #ffffd0">{{words.projectsHightLight}}</span>{{words.projectsNote}}
     </h4>
 
     <!-- Recently Projects 最近的项目-->
@@ -26,15 +26,22 @@
           <p>{{ val.match }}</p>
           <p>{{ val.match2 }}</p>
           <div v-if="index==0">
-            <a href='https://www.ccf.org.cn/en/'>{{ val.arxiv }}</a>
+            {{ val.paper }}
             {{ val.projectPage }}
             {{ val.code }}
             {{ val.video }}
           </div>
           <div v-if="index==1">
-            <a href='#'>{{ val.arxiv }}</a>
+            <a href='https://arxiv.org/pdf/2207.03095.pdf'>{{ val.paper }}</a>
             {{ val.projectPage }}
-            {{ val.code }}
+            <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">{{ val.code }}</a>
+            {{ val.video }}
+          </div>
+          <div v-if="index==2">
+            <a href='https://arxiv.org/abs/2207.05409'>{{ val.paper }}</a>
+            <a href='https://github.com/dzy3/KCD'>{{ val.code }}</a>
+          </div>
+          <div v-if="index==3">
             {{ val.video }}
           </div>
           <span class="label" v-for="msg in val.label">{{msg}}</span>
@@ -55,9 +62,12 @@
         <p v-html="val.author"></p>
         <p>{{ val.match }}</p>
         <p>{{ val.match2 }}</p>
-        <p>{{ val.arxiv }}</p>
-        {{ val.projectPage}}
-        {{ val.code }}
+          <div v-if="index==0">
+            <a href='https://ieeexplore.ieee.org/document/9689024'>{{ val.paper }}</a>
+            {{ val.projectPage }}
+            {{ val.code }}
+            {{ val.video }}
+          </div>
         <span class="label" v-for="msg in val.label">{{msg}}</span>
       </div>
     </div>
