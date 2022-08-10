@@ -22,15 +22,14 @@ export default class Profile extends Vue {
   href = [
     "Home",
     "New",
-    "Biography",
-    "Exchange Experience",
-    "Core Curriculum",
-    "Awards",
     "Research Interest",
     "Publication",
+    "Projects",
+    "Biography",
+    "Professional Experience",
+    "Honors",
     "Patent",
     "Software Copyrght",
-    "Projects",
     "Fund Participation",
   ];
 
@@ -65,7 +64,7 @@ export default class Profile extends Vue {
     background: #ffffff;
     list-style: none;
     width: 200px;
-    height: 440px;
+    height: 420px;
     padding-top: 30px;
     padding-left: 20px;
     font-size: 0.95rem;

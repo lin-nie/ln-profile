@@ -1,5 +1,5 @@
 <template>
-  <div class="awards-wrapper wrapper-style">
+  <div class="awards-wrapper wrapper-style href" id="Honors">
     <div>
       <section class="title">
         <h2>

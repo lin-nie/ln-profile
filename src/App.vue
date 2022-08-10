@@ -6,13 +6,14 @@
       <info-list></info-list>
       <NavigationBar></NavigationBar>
       <New></New>
-      <Biography></Biography>
-      <ExchangeExperience></ExchangeExperience>
       <ResearchInterest></ResearchInterest>
-      <PublicationAndPatent></PublicationAndPatent>
-      <SoftwareCopyrght></SoftwareCopyrght>
-      <Awards></Awards>
+      <Publication></Publication>
       <Projects></Projects>
+      <Biography></Biography>
+      <ProfessionalExperience></ProfessionalExperience>
+      <Honors></Honors>   
+      <Patent></Patent>
+      <SoftwareCopyrght></SoftwareCopyrght>
       <ScientificFund></ScientificFund>
       <Footer></Footer>
     </div>
@@ -26,13 +27,14 @@ import InfoList from "./components/InfoList.vue";
 import Profile from "./components/Profile.vue";
 import NavigationBar from "./components/NavigationBar.vue";
 import New from "./components/New.vue";
-import Biography from "./components/Biography.vue";
-import ExchangeExperience from "./components/ProfessionalExperience.vue";
 import ResearchInterest from "./components/ResearchInterest.vue";
-import PublicationAndPatent from "./components/PublicationAndPatent.vue";
-import SoftwareCopyrght from "./components/SoftwareCopyrght.vue";
-import Awards from "./components/Honors.vue";
+import Publication from "./components/Publication.vue";
 import Projects from "./components/Projects.vue";
+import Biography from "./components/Biography.vue";
+import ProfessionalExperience from "./components/ProfessionalExperience.vue";
+import Honors from "./components/Honors.vue";
+import Patent from "./components/Patent.vue";
+import SoftwareCopyrght from "./components/SoftwareCopyrght.vue";
 import ScientificFund from "./components/ScientificFund.vue";
 import Footer from "./components/Footer.vue";
 
@@ -43,13 +45,14 @@ import Footer from "./components/Footer.vue";
     InfoList,
     NavigationBar,
     New,
-    Biography,
-    ExchangeExperience,
     ResearchInterest,
-    PublicationAndPatent,
-    SoftwareCopyrght,
-    Awards,
+    Publication,
     Projects,
+    Biography,
+    ProfessionalExperience,
+    Honors,
+    Patent,
+    SoftwareCopyrght,
     ScientificFund,
     Footer,
   },
@@ -72,7 +75,6 @@ body{
 .wrapper-style {
   width: 870px;
   margin-left: 22%;
-  margin-top: 50px;
   overflow: hidden;
 }
 

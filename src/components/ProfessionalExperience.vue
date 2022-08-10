@@ -1,5 +1,5 @@
 <template>
-  <div class="experience-wrapper wrapper-style href" id="Exchange Experience">
+  <div class="experience-wrapper wrapper-style href" id="Professional Experience">
     <div>
       <section class="title">
         <h2>

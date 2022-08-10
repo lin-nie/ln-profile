@@ -1,5 +1,5 @@
 <template>
-  <div class="projects-wrapper wrapper-style">
+  <div class="projects-wrapper wrapper-style href" id="Projects">
     <div>
       <section class="title">
         <h2>

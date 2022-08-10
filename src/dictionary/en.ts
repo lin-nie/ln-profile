@@ -31,9 +31,10 @@ const en = {
   `Currently, I am working on domain generalization for semantic segmentation and object detection. 
   I am looking for undergraduate or master students to engage in ongoing research papers. 
   Don't hesitate to email me if you are interested.`,
-  notificationSupp1:'[Project]',
-  notificationSupp2:'[CV]',
+  notificationSupp1:'[Research Proposal]',
+  notificationSupp2:'[Curriculum Vitae]',
   notificationSupp3:'[Project Page]',
+  notificationSupp4:'Academic Transcripts',
   address1:
     "Address1: Room 9A411 Institute of AI-Net Electronic Information & Artificial Intelligence, DGUT, Dongguan, China",
   address:
@@ -46,15 +47,14 @@ const en = {
     address: [
       "Home",
       "New",
-      "Biography",
-      "Exchange Experience",
-      "Core Curriculum",
-      "Awards",
       "Research Interest",
       "Publication",
+      "Projects",
+      "Biography",
+      "Professional Experience",
+      "Honors",
       "Patent",
       "Software Copyrght",
-      "Projects",
       "Fund Participation"
     ]
   },
@@ -78,7 +78,7 @@ const en = {
     new16: `[ 2022.06 ] Congratulations! My paper on <a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a> about <Strong>UDA Frist-person Action Recognition</Strong> has been successfully accepted, under the supervision of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a>. The arXiv and code is available. <a href="https://arxiv.org/abs/2207.03095">[ArXiv]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github Code]</a>`,
     new17: `[ 2022.07 ] I was invited to attend this year's <a href="https://cvpr2022.thecvf.com/">CVPR 22</a> and participate in the <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 22</a> presentation. <a>Here</a> is the description.`,
     new18: `[ 2022.07 ] Our paper on <Strong>Knowledge Transfer Learning</Strong> has been accepted for <Strong>ECCV 22</Strong>!! Code is available. <a href="https://github.com/dzy3/KCD">[Github Code]</a>`,
-    new19: `[ 2022.08 ] Under the guidance of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a>, I submitted a paper at BMVC 2022 this year based on <Strong>hand regions in egocentric videos related to first-personaction recognition</Strong>. Code will be open source !!`,
+    new19: `[ 2022.08 ] Under the guidance of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a>, I submitted a paper at <Strong>BMVC 2022</Strong> this year based on <Strong>hand regions in egocentric videos related to first-personaction recognition</Strong>. Code will be open source !!`,
     new20: `[ 2022.09 ] I really hope that I can apply for a research student and master as soon as possible to start my new project: <Strong>EgoV: From Virtual to Real </Strong>. <a href="https://github.com/dzy3/KCD">[Github Code]</a><a href="https://github.com/dzy3/KCD">[Project Page]</a><a href="https://github.com/dzy3/KCD">[Research Proposal]</a>`,
     
     //curr1:'1. Machine Vision (Grade 96 A+)',
@@ -304,7 +304,7 @@ const en = {
   patentTitle: "Patent",
   patent: [
     {
-      name: `Automobile rain-shielding device based on analog signal processing and automobile with the device`,
+      name: `Human-computer Interaction (HCI) Sensing Devices based on Analog Signal Processing`,
       author: `<a href="">Nie Lin</a>, Chanzhi Liu, Haofeng Li, Shihao Zou, Junyu Li, Ruofan Hu`,
       number: `CN 202022246705.5`,
     },

@@ -37,15 +37,15 @@ const jp = {
     name: "リン ネエ",
     address: [
       "ホームページ",
-      "コアカリキュラム",
-      "バイオグラフィー",
-      "国際交流",
+      "ニュース",
       "研究興味",
-      "栄誉受賞",
       "発表論文",
-      "発明特许",
-      "ソフトウエア著作権",
       "プロジェクト",
+      "バイオグラフィー",
+      "専門経験",
+      "栄誉受賞",
+      "発明特许",
+      "ソフトウエア著作権",  
       "研究ファンド"
     ]
   },
@@ -58,7 +58,7 @@ const jp = {
     new6: `[ 2020.10 ] 人工知能電子デザインコンテストで三等賞を受賞しました !!`, 
     new7: `[ 2020.12 ] 私は学年トップの優秀な成績で2020年の<strong>一等奨学金</strong>および<strong>高偉光企業奨学金(傑出工程代表)</strong>を獲得しました。ありがとうございます！`, 
     new8: `[ 2021.01 ] 私たちのチームは13/2207分の1に<判断> < /判断>のランキングに< aきゃ= " https://www.ccf.org.cn/en/ " >中国のコンピューター学会(ccf) < / a > <判断>人工知能視覚アルゴリズム大会決勝< /判断>。素晴らしいチームワーク体験でした!!`, 
-    new9: `[ 2021.05 ] アメリカ数学モデリングコンテストUSA MCM/ICMで「strong」国際二等賞を受賞しました. <a>[プロジェクト]</a>`, 
+    new9: `[ 2021.05 ] アメリカ数学モデリングコンテストUSA MCM/ICMで<Strong>国際二等賞</Strong>を受賞しました. <a href="#">[プロジェクト]</a>`, 
     new10: `[ 2021.06 ] 湖南大学のFPV実験室で<strong>研究アシスタント</strong>を始めました。<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授がインストラクターを務めます。`, 
     new11: `[ 2021.10 ] 私の研究室から自分の<Strong>ヘッドセット・カメラ</Strong>を入手し、将来的には一人称データセットの収集を試みます。ありがとうございます。`, 
     new12: `[ 2021.12 ] 私は学年トップの優秀な成績で2021年の<strong>一等奨学金</strong>、<strong>嶺南学術奨学金(優秀学術代表)</strong>を獲得しました。ありがとうございます!!`, 
@@ -68,7 +68,7 @@ const jp = {
     new16: `[ 2022.06 ] おめでとうございます! 私の論文は<a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a>で<Strong>無監督ドメイン適応について一人称動作認識</Strong>がスムーズに受信され, 在<a href="https://cai-mj.github.io/"蔡 敏捷</a>教授的指导下. 预印本和代码均可用. <a href="https://arxiv.org/abs/2207.03095">[ArXiv 预印本]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github代码]</a>`,
     new17: `[ 2022.07 ] 我受邀参加今年<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a> 并参与 <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 2022</a> 演讲。<a>此处</a> 有相关描述.`,
     new18: `[ 2022.07 ] 我们关于<Strong>知识迁移学习</Strong>的论文已经被今年的<Strong>ECCV 2022</Strong>正式接受!! 代码已经开源. <a href="https://github.com/dzy3/KCD">[Github 代码]</a>`,
-    new19: `[ 2022.08 ] 在<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授的指导下，我在今年的BMVC 2022上提交了一篇<Strong>基于自我中心视频中手部区域与第一人称动作识别相关的</Strong>论文。代码将会开源！！`,
+    new19: `[ 2022.08 ] 在<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授的指导下，我在今年的<Strong>BMVC 2022</Strong>上提交了一篇<Strong>基于自我中心视频中手部区域与第一人称动作识别相关的</Strong>论文。代码将会开源！！`,
     new20: `[ 2022.08 ] 我非常希望我能尽快申请研究生和硕士，开始我的新项目:<Strong>EgoV: 从虚拟到现实</Strong>. <a href="https://github.com/dzy3/KCD">[Github Code]</a><a href="https://github.com/dzy3/KCD">[Project Page]</a><a href="https://github.com/dzy3/KCD">[Research Proposal]</a>`,
   },
   biographyTitle: "バイオグラフィー",
@@ -85,7 +85,7 @@ const jp = {
       brief2: "東莞理工大學",
     },
   },
-  exchangeTitle: "国際交流",
+  exchangeTitle: "専門経験",
   exchangeSubtitle: "私は非常に科学研究の交流に熱心です、以下はよく交流して勉強している大学です：",
   exchange: [
     {
@@ -238,7 +238,7 @@ const jp = {
         "広東省の優秀な学部卒業生",
         "優秀な学部生の論文",
         "米国数学モデリングコンテスト国際2位",
-        "中国コンピュータ学会AI視覚アルゴリズム大会(順位13/2207)",
+        "中国コンピュータ学会AI視覚アルゴリズム大会 (順位13/2207)",
         "中国人工知能電子デザインコンテスト3等賞",
         "シンガポール国立大学名誉賞",
         "ファーウェイ優秀開発者賞",
@@ -280,7 +280,7 @@ const jp = {
   patentTitle: "発明特许",
   patent: [
     {
-      name: `アナログ信号処理による自動車用雨除け装置及び自動車`,
+      name: `アナログ信号処理ベースのヒューマンインタラクション感知装置`,
       author: `<a href="#">林 涅</a>、劉 嬋梓、黎 浩鋒、鄒 世豪、李 俊裕`,
       number: `CN 202022246705.5`,
     },

@@ -33,15 +33,15 @@ const zh = {
     name: "林涅",
     address: [
       "主页",
-      "核心课程",
-      "个人经历",
-      "国际交流",
+      "消息",
       "研究兴趣",
-      "荣誉奖项",
       "论文发表",
+      "项目经验",
+      "个人经历",
+      "专业经验",
+      "荣誉奖项",
       "发表专利",
       "软件著作",
-      "项目经验",
       "参与基金"
     ]
   },
@@ -64,7 +64,7 @@ const zh = {
     new16: `[ 2022.06 ] 恭喜! 我的论文在<a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a>中关于<Strong>无监督域适应第一人称动作识别</Strong>顺利被接收, 在<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授的指导下。 预印本和代码均可用. <a href="https://arxiv.org/abs/2207.03095">[ArXiv 预印本]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github代码]</a>`,
     new17: `[ 2022.07 ] 我受邀参加今年<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a> 并参与 <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 2022</a> 演讲。<a>此处</a> 有相关描述。`,
     new18: `[ 2022.07 ] 我们关于<Strong>知识迁移学习</Strong>的论文已经被今年的<Strong>ECCV 2022</Strong>正式接受!! 代码已经开源。<a href="https://github.com/dzy3/KCD">[Github 代码]</a>`,
-    new19: `[ 2022.08 ] 在<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授的指导下，我在今年的BMVC 2022上提交了一篇<Strong>基于自我中心视频中手部区域与第一人称动作识别相关的</Strong>论文。代码将会开源！！`,
+    new19: `[ 2022.08 ] 在<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授的指导下，我在今年的<Strong>BMVC 2022</Strong>上提交了一篇<Strong>基于自我中心视频中手部区域与第一人称动作识别相关的</Strong>论文。代码将会开源！！`,
     new20: `[ 2022.08 ] 我非常希望我能尽快申请研究生和硕士，开始我的新项目:<Strong>EgoV: 从虚拟到现实</Strong>。<a href="https://github.com/dzy3/KCD">[Github 代码]</a><a href="https://github.com/dzy3/KCD">[项目页面]</a><a href="https://github.com/dzy3/KCD">[研究计划书]</a>`,
   },
   biographyTitle: "个人经历",
@@ -81,7 +81,7 @@ const zh = {
       brief2: "东莞理工大学",
     },
   },
-  exchangeTitle: "国际交流",
+  exchangeTitle: "专业经验",
   exchangeSubtitle: "本人非常热衷于科研交流，以下为经常交流学习的大学：",
   exchange: [
     {
@@ -217,7 +217,7 @@ const zh = {
     "5. 知识迁移学习",
     ".........................."
   ],
-  awardsTitle: "荣誉",
+  awardsTitle: "荣誉奖项",
   scholarship: "所获奖学金",
   scholar1: "1. 中华人民共和国国家奖学金",
   scholar1explain:"[中华人民共和国教育部]",
@@ -276,7 +276,7 @@ const zh = {
   patentTitle: "发表专利",
   patent: [
     {
-      name: `一种基于模拟信号处理的汽车挡雨装置及汽车`,
+      name: `基于模拟信号处理的人机交互感知设备`,
       author: `<a href="#">林涅</a>, 刘婵梓博士, 黎浩锋, 邹世豪, 李俊裕`,
       number: `CN 202022246705.5`,
     },
@@ -292,7 +292,7 @@ const zh = {
       Number: `软著登字第 4840268号`,
     },
   ],
-  projectsTitle: "项目",
+  projectsTitle: "项目经验",
   projectsHightLight:"高亮",
   projectsNote:" 表示最近开展的项目。",
   recentlyProjects: [

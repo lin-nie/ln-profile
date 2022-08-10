@@ -1,5 +1,5 @@
 <template>
-  <div class="tutorial-wrapper wrapper-style">
+  <div class="tutorial-wrapper wrapper-style href" id="Fund Participation">
     <div>
       <section class="title">
         <h2>
