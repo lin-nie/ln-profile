@@ -29,9 +29,10 @@
                 <font color='red' v-html="words.notification">
                 </font>
                 <br>
-                <a href=''>{{words.notificationSupp1}}</a>
-                <a href='http://www.linnie.com.cn/resume.pdf'>{{words.notificationSupp2}}</a>
-                <a href='http://www.linnie.com.cn/egov/'>{{words.notificationSupp3}}</a>
+                <a href='http://www.linnie.com.cn/document/rp.pdf'>{{words.notificationSupp1}}</a>
+                <a href='http://www.linnie.com.cn/document/resume.pdf'>{{words.notificationSupp2}}</a>
+                <a href='http://www.linnie.com.cn/document/transcript.pdf'>{{words.notificationSupp4}}</a>
+                <a href='http://www.linnie.com.cn/project/egov/'>{{words.notificationSupp3}}</a>
               </p>
           </ul>
         </div>

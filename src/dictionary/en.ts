@@ -34,7 +34,7 @@ const en = {
   notificationSupp1:'[Research Proposal]',
   notificationSupp2:'[Curriculum Vitae]',
   notificationSupp3:'[Project Page]',
-  notificationSupp4:'Academic Transcripts',
+  notificationSupp4:'[Academic Transcripts]',
   address1:
     "Address1: Room 9A411 Institute of AI-Net Electronic Information & Artificial Intelligence, DGUT, Dongguan, China",
   address:
