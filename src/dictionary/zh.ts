@@ -4,7 +4,7 @@ const zh = {
   name: "林 涅",
   //blog: "我的博客",
   degree: "本科生 (毕业于 2022.06)",
-  major: "计算机 & 软件工程专业 (GPA: 3.6+ 排名: 专业 第1st/78 名)",
+  major: "计算机 & 软件工程专业 (GPA: 3.6 排名: 专业 第1st/78 名)",
   academy: "助理研究员",
   department: "信息科学与工程学院, 湖南大学",
   researchStudent:"（现在）",
@@ -14,7 +14,7 @@ const zh = {
   学习，
   <br>同时指导我学术科研的导师是
   <a href="http://csee.hnu.edu.cn/people/caiminjie" target="_blank">
-  蔡敏捷</a>
+  蔡 敏捷</a>
   教授。
   <br>我的研究兴趣包括<strong>计算机视觉(CV)</strong>，特别是在<strong>第一人称视觉(FPV)</strong> 以及<strong>人机交互(HCI)</strong>，
   特别是计算机视觉应用在<strong>感知和理解与人类相关的活动</strong>的领域。
@@ -49,7 +49,7 @@ const zh = {
     new1: `[ 2019.08 ] 在Prof. Lvy Wang的指导下，我在<strong>加拿大多伦多大学</strong>完成了一个关于数学与机器学习的研究项目。为我以后关于<strong>计算机视觉</strong>的研究奠定数学基础。`, 
     new2: `[ 2019.12 ] 我以年级第一的优异成绩获得了2019年的<strong>一等奖学金</strong>。谢谢!`, 
     new3: `[ 2020.03 ] 在大二寒假期间，我在<strong>哈尔滨工业大学（深圳）</strong>廖教授的指导下参与研究实习，通过深度学习完成关于<strong>视频理解与分析</strong>项目。`, 
-    new4: `[ 2020.08 ] 我在<strong>新加坡国立大学</strong>完成了<strong>人工智能与深度学习</strong>领域的项目学习。并获得由新加坡国立大学版发的<strong>荣誉奖</strong>。`, 
+    new4: `[ 2020.08 ] 我在<strong>新加坡国立大学</strong>完成了<strong>人工智能与深度学习</strong>领域的项目学习。并获得由新加坡国立大学颁发的<strong>荣誉奖</strong>。`, 
     new5: `[ 2020.09 ] 恭喜，我通过层层选拔加入<strong>工业人工智能技术研究院(IIAIT)</strong>，并由来自<strong>清华大学</strong>的陈高教授指导展开关于数字图像处理方面的研究。`, 
     new6: `[ 2020.10 ] 我获得中国人工智能电子设计大赛三等奖 !!`, 
     new7: `[ 2020.12 ] 我以年级第一的优异成绩获得了2020年的<Strong>一等奖学金</Strong>以及<Strong> 高伟光企业奖学金(杰出工程代表) </Strong>。谢谢!`, 
@@ -76,7 +76,7 @@ const zh = {
       brief2: "湖南大学",
     },
     bio2: {
-      introduce: "(2018-至今)  计算机软件工程在读 (毕业于 2022.06)",
+      introduce: "(2018.9 - 2022.6)  计算机软件工程在读 (毕业于 2022.06)",
       brief1: "工业人工智能技术研究所 (IIAIT)",
       brief2: "东莞理工大学",
     },
@@ -211,9 +211,9 @@ const zh = {
   specialField: "特别兴趣",
   researchSpecialInterest: [
     "1. 自我中心的视频理解和分析",
-    "2. 域适应与泛化",
-    "3. 行为识别",
-    "4. 手部区域分析",
+    "2. 动作识别",
+    "3. 手部区域分析",
+    "4. 域适应与泛化",
     "5. 知识迁移学习",
     ".........................."
   ],
@@ -243,27 +243,29 @@ const zh = {
   ],
   conferenceTitle: "论文发表",
   conferencePublication: [
-    //{
-    //  name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
-    //  author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
-    //  date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
-    //},
     {
-      name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022: Team HNU-FPV Report`,
-      author: `<a href="#">Nie Lin</a>, Minjie Cai*`,
-      date: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop, 2022`,
-      arixv:`xxxx`,
-      code: `xxxxx`
+      name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022 Technical Report`,
+      author: `<Strong>Nie Lin</Strong>, <a href='https://cai-mj.github.io/' target="_blank">Minjie Cai</a><sup>✉</sup>*`,
+      match: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC 2022)`,
+      match2: "",
+      paper:"[Paper]",
+      projectPage:"[Project Page]",
+      code:"[Github Code]",
+      video:"[Video]",
+      //label: ["Paper", "Project"],
     },
     {
       name: `Knowledge Condensation Distillation`,
-      author: `Chenxin Li, Mingbao Lin, Zhiyuan Ding, <a href="#">Nie Lin</a>, Yihong Zhuang, Yue Huang*`,
-      date: "European Conference on Computer Vision (ECCV), 2022",
-      arixv:`xxxx`,
-      code: `xxxxx`
+      author: `Chenxin Li, <a href='https://lmbxmu.github.io/'>Mingbao Lin</a>, Zhiyuan Ding, <Strong>Nie Lin</Strong>, Yihong Zhuang, <a href='https://huangyue05.github.io/'>Yue Huang</a><sup>✉</sup>,...`,
+      match: "European Conference on Computer Vision (ECCV), 2022",
+      match2: "",
+      paper:"[Paper]",
+      projectPage:"",
+      code:"[Github Code]",
+      video:"",
+      //label: ["Paper", "Project"],
     },
   ],
-
   journalTitle: "期刊论文",
   journalPublication: [
     {
@@ -329,7 +331,7 @@ const zh = {
     },
     {
       name: "第一人称视角下的数据集采集 (通过头戴式摄像头)",
-      author: `<strong>林 涅</strong>, 蔡 敏捷`,
+      author: `<strong>林 涅</strong>`,
       match: `湖南大学`,
       paper:"",
       projectPage:"",
@@ -398,8 +400,8 @@ const zh = {
     }
   ],
   footer: {
-    period: `© 2018 - 2021   林涅`,
-    lastUpdated: `上次更新: 2021年8月16日`
+    period: `© 2018 - 2022   林涅`,
+    lastUpdated: `上次更新: 2022年8月31日`
   }
 }
 

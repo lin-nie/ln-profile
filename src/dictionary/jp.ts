@@ -3,32 +3,32 @@ const jp = {
   __langKey: 'jp',
   name: "林 涅（リン ネエ）",
   //blog: "私のブログ",
-  degree: "学部学生 (卒業は2022年6月)",
-  major: "コンピューター ソフトウェア工学 (GPA: 3.6+ ランキング: 専攻 1st/78 位)",
+  degree: "学部生 (2022年6月卒業しました)",
+  major: "コンピューター ソフトウェア工学 (GPA: 3.6 ランキング: 専攻 1st/78 位)",
   academy: "助手研究員",
   department: "情報科学工学部, 湖南大学",
-  researchStudent: "(いま)",
-  personalIntroduction: `Hi，私は<strong>林 涅</strong>です，中国から学部学生です。今東莞理工大学に通っています ソフトウェア工学を専攻し。
-  私は
+  researchStudent: "(現在)",
+  personalIntroduction: `こんにちは~ 中国からの<strong>林 涅</strong>です。専攻はソフトウェア工学で、東莞理工大学を卒業しました。 
+  現在、私は
+  <a href="https://cai-mj.github.io/" target="_blank">
+  蔡 敏捷</a>
+  教授のもとで、
   <a href="http://www-en.hnu.edu.cn/index.htm" target="_blank">
   湖南大学</a>
-  で研究と勉強をしています、指導先生は
-  <a href="https://cai-mj.github.io/" target="_blank">
-  蔡敏捷</a>
-  教授です。
-  <br>私の研究の趣味は
+  で研究と勉強をしています。
+  <br>私の研究趣味は
   <strong>コンピュータビジョン(CV)</strong>、
-  特に<strong>一人称視点映像解析(FPV)</strong> と
+  特に<strong>一人称視点映像解析(FPV)</strong>、
   <strong>コンピュータグラフィック(CG)</strong>、
-  <strong>ヒューマンコンピュータインタラクション(HCI)</strong>
-  スに関するテーマです。私は<strong>一人称視点映像解析研究</strong>に深い興味を持っていて、交流することを歓迎します。
+  <strong>ヒューマンコンピュータインタラクション(HCI)</strong>です。
+  私は<strong>一人称視点映像解析研究</strong>に深い興味を持っており、交流することを歓迎します。
   `,
   notification: 
   `XXX`,
   address1:
       "アドレス1: 中国広東省東莞市 DGUT-9A411 Ai-Net電子情報&人工知能研究所",
   address:
-      "アドレス: 中国湖南省長沙市 湖南大学 情報科学及び工程学院研究生弁公室433 (いま)",
+      "アドレス: 中国湖南省長沙市 湖南大学 情報科学及び工程学院研究生弁公室433 (現在)",
   email: "メールアドレス: nielin@hnu.edu.cn",
   phone: "電話番号: +86 131-3835-0137",
   web: "ホームページ: linnie.com.cn",
@@ -38,12 +38,12 @@ const jp = {
     address: [
       "ホームページ",
       "ニュース",
-      "研究興味",
+      "研究趣味",
       "発表論文",
       "プロジェクト",
       "バイオグラフィー",
       "専門経験",
-      "栄誉受賞",
+      "奨学金・受賞",
       "発明特许",
       "ソフトウエア著作権",  
       "研究ファンド"
@@ -59,7 +59,7 @@ const jp = {
     new7: `[ 2020.12 ] 私は学年トップの優秀な成績で2020年の<strong>一等奨学金</strong>および<strong>高偉光企業奨学金(傑出工程代表)</strong>を獲得しました。ありがとうございます！`, 
     new8: `[ 2021.01 ] 私たちのチームは13/2207分の1に<判断> < /判断>のランキングに< aきゃ= " https://www.ccf.org.cn/en/ " >中国のコンピューター学会(ccf) < / a > <判断>人工知能視覚アルゴリズム大会決勝< /判断>。素晴らしいチームワーク体験でした!!`, 
     new9: `[ 2021.05 ] アメリカ数学モデリングコンテストUSA MCM/ICMで<Strong>国際二等賞</Strong>を受賞しました. <a href="#">[プロジェクト]</a>`, 
-    new10: `[ 2021.06 ] 湖南大学のFPV実験室で<strong>研究アシスタント</strong>を始めました。<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授がインストラクターを務めます。`, 
+    new10: `[ 2021.06 ] 湖南大学のFPV実験室で<strong>助手研究員</strong>を始めました。<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授がインストラクターを務めます。`, 
     new11: `[ 2021.10 ] 私の研究室から自分の<Strong>ヘッドセット・カメラ</Strong>を入手し、将来的には一人称データセットの収集を試みます。ありがとうございます。`, 
     new12: `[ 2021.12 ] 私は学年トップの優秀な成績で2021年の<strong>一等奨学金</strong>、<strong>嶺南学術奨学金(優秀学術代表)</strong>を獲得しました。ありがとうございます!!`, 
     new13: `[ 2022.05 ] 恭喜! 我获得了<a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>中华人民共和国国家奖学金</a>, 由<a href='http://en.moe.gov.cn/'>中华人民共和国教育部</a>颁布, 这是中国最高级别的奖学金项目! (<Strong>全国排名前0.01%的学生</Strong>).`,
@@ -74,13 +74,13 @@ const jp = {
   biographyTitle: "バイオグラフィー",
   biography: {
     bio1: {
-      introduce: "(2021.6-至今)  助手研究員. 指導教員は准教授",
+      introduce: "(2021.6-現在)  助手研究員. 指導教員は准教授",
       mentor: "蔡 敏捷",
-      brief1: "情報科学及び工程學院, FPV Lab",
+      brief1: "情報科学工学部, FPV Lab",
       brief2: "湖南大學",
     },
     bio2: {
-      introduce: "(2018-至今)  コンピューター ソフトウェア工学 (卒業は2022年6月)",
+      introduce: "(2018.9 - 2022.6)  コンピューター ソフトウェア工学 (卒業は2022年6月)",
       brief1: "産業用人工知能技術研究所 (IIAIT)",
       brief2: "東莞理工大學",
     },
@@ -205,7 +205,7 @@ const jp = {
       supervisor: ` 指导教授: Lvy Wang教授 [多伦多大学]`
     },
   ],
-  researchTitle: "研究興味",
+  researchTitle: "研究趣味",
   overallField: "Overall Field",
   researchOverInterest: [
     "コンピュータビジョン (CV)",
@@ -215,14 +215,14 @@ const jp = {
   specialField: "Special Interests",
   researchSpecialInterest: [
     "1. 自己中心的なビデオ理解と分析",
-    "2. ドメイン適応と一般化",
-    "3. 行動認識",
-    "4. 手部区域解析",
+    "2. 行動認識",
+    "3. 手部区域解析",
+    "4. ドメイン適応と一般化",
     "5. 知識移動学習",
     ".........................."
   ],
-  awardsTitle: "栄誉受賞",
-  scholarship: "受けた奨学金",
+  awardsTitle: "奨学金・受賞",
+  scholarship: "奨学金",
   scholar1: "1. 中華人民共和国国家奨学金",
   scholar1explain:"[中華人民共和国教育部]",
   scholar1supp:"(中国の上位0.1%の学生)",
@@ -233,7 +233,7 @@ const jp = {
   scholar6:"6. 2019度 一等奨学金   [学年GPA 1位、2019年]",
   awards: [
     {
-      subtitle: "受赏",
+      subtitle: "受賞",
       content: [
         "広東省の優秀な学部卒業生",
         "優秀な学部生の論文",
@@ -247,27 +247,29 @@ const jp = {
   ],
   conferenceTitle: "発表論文",
   conferencePublication: [
-    //{
-    //  name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
-    //  author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
-    //  date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
-    //},
     {
-      name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022: Team HNU-FPV Report`,
-      author: `<a href="#">Nie Lin</a>, Minjie Cai*`,
-      date: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop, 2022`,
-      arixv:`xxxx`,
-      code: `xxxxx`
+      name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022 Technical Report`,
+      author: `<Strong>Nie Lin</Strong>, <a href='https://cai-mj.github.io/' target="_blank">Minjie Cai</a>*`,
+      match: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC 2022)`,
+      match2: "",
+      paper:"[Paper]",
+      projectPage:"[Project Page]",
+      code:"[Github Code]",
+      video:"[Video]",
+      //label: ["Paper", "Project"],
     },
     {
       name: `Knowledge Condensation Distillation`,
-      author: `Chenxin Li, Mingbao Lin, Zhiyuan Ding, <a href="#">Nie Lin</a>, Yihong Zhuang, Yue Huang*`,
-      date: "European Conference on Computer Vision (ECCV), 2022",
-      arixv:`xxxx`,
-      code: `xxxxx`
+      author: `Chenxin Li, <a href='https://lmbxmu.github.io/'>Mingbao Lin</a>, Zhiyuan Ding, <Strong>Nie Lin</Strong>, Yihong Zhuang, <a href='https://huangyue05.github.io/'>Yue Huang</a>*,...`,
+      match: "European Conference on Computer Vision (ECCV), 2022",
+      match2: "",
+      paper:"[Paper]",
+      projectPage:"",
+      code:"[Github Code]",
+      video:"",
+      //label: ["Paper", "Project"],
     },
   ],
-
   journalTitle: "ジャーナル論文",
   journalPublication: [
     {
@@ -333,7 +335,7 @@ const jp = {
     },
     {
       name: "一人称視点でのデータ収集 (ヘッドマウントカメラによる)",
-      author: `<strong>林 涅</strong>, 蔡 敏捷`,
+      author: `<strong>林 涅</strong>`,
       match: `湖南大学`,
       paper:"",
       projectPage:"",
@@ -402,8 +404,8 @@ const jp = {
     }
   ],
   footer: {
-    period: `© 2018 - 2021  リン ネエ`,
-    lastUpdated: `前回のアップデート: 2021年8月16日`
+    period: `© 2018 - 2022  リン ネエ`,
+    lastUpdated: `前回のアップデート: 2022年8月31日`
   }
 }
 

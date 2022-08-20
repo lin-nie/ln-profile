@@ -5,8 +5,8 @@ const en = {
   __langKey: "en",
   name: "Nie Lin",
   //blog: "My Blog",
-  degree: "Undergraduate Student (Graduate at 2022.06)",
-  major: "Computer Science Software Engineering (GPA: 3.6+ Ranked: 1st/78 students)",
+  degree: "Undergraduate Student (Graduated at 2022.06)",
+  major: "Computer Science Software Engineering (GPA: 3.6 Ranked: 1st/78 students)",
   academy: "Research Assistant",
   department: "College of Computer Science and Electronic Engineering, Hunan University ",
   researchStudent: "(Now)",
@@ -46,26 +46,26 @@ const en = {
     name: "Nie Lin",
     address: [
       "Home",
-      "New",
-      "Research Interest",
-      "Publication",
+      "News",
+      "Research Interests",
+      "Publications",
       "Projects",
       "Biography",
       "Professional Experience",
       "Honors",
-      "Patent",
-      "Software Copyrght",
+      "Patents",
+      "Software Copyright",
       "Fund Participation"
     ]
   },
-  newTitle: "New",
+  newTitle: "News",
   new: {
     new1: `[ 2019.08 ] Under the leadership of Prof. Lvy Wang, I completed a research project on mathematics and machine learning in <Strong>University of Toronto, Canada</Strong>. Lay a mathematical foundation for my future research in <Strong>Computer Vision</Strong>.`, 
     new2: `[ 2019.12 ] I won 2019 year's <Strong>The First Prize Scholarship</Strong> for being the first in my grade. Thanks!`, 
     new3: `[ 2020.03 ] During the winter vacation, I worked as a research intern under the guidance of Prof. Qing Liao from <Strong>Harbin Institute of Technology (HIT)</Strong> to complete the project of <Strong>video understanding and analysis</Strong> through deep learning.`, 
     new4: `[ 2020.08 ] I completed my exchange programme study in the field of <Strong>Artificial Intelligence and Deep Learning</Strong> in the <Strong>National University of Singapore</Strong>. And won the <Strong>Honorary Award of the National University of Singapore</Strong>.`, 
     new5: `[ 2020.09 ] Congratulations, I successfully joined the <Strong>Institute of Industrial Artificial Intelligence Technology (IIAIT)</Strong> in Songshan Lake, Dongguan through multiple selection, and was supervised by <Strong>Prof. Gao Chen from Tsinghua University</Strong>.`, 
-    new6: `[ 2020.10 ] I got The Third prize of China Artificial Intelligence Electronic Design Competition. Congratulations !!`, 
+    new6: `[ 2020.10 ] I got The Third prize of <Strong>China Artificial Intelligence Electronic Design Competition</Strong>. Congratulations !!`, 
     new7: `[ 2020.12 ] I won 2020 year's <Strong>The First Prize Scholarship</Strong> and <Strong>The Kao Wei-kwong Enterprise Scholarship (Outstanding Engineering Representative) </Strong> for being the first in my grade. Thanks!`, 
     new8: `[ 2021.01 ] Our team successfully entered the <a href='https://www.ccf.org.cn/en/'>China Computer Federation (CCF) </a> <Strong>Artificial Intelligence Vision Algorithm Competition</Strong> and final with the rank of <Strong>13/2207</Strong>. A great team work experience !!`, 
     new9: `[ 2021.05 ] I won the <Strong>international second prize</Strong> in the American Mathematical Contest In Modeling (USA MCM). <a>[Project]</a>`, 
@@ -105,7 +105,7 @@ const en = {
       brief2: "Hunan University",
     },
     bio2: {
-      introduce: "(2018.9 - 2022.6) BSc in Computer Science & Software Engineering (Graduate at 2022.06)",
+      introduce: "(2018.9 - 2022.6) BSc in Computer Science & Software Engineering (Graduated at 2022.06)",
       brief1: "Institute of Industrial Artificial Intelligence Technology (IIAIT)",
       brief2: "Dongguan University of Technology",
     },
@@ -230,19 +230,19 @@ const en = {
         supervisor: ` Supervisor: Prof. Lvy Wang [University of Toronto]`
       },
     ],
-  researchTitle: "Research Interest",
+  researchTitle: "Research Interests",
   overallField: "Overall Field",
   researchOverInterest: [
     "Computer Vision (CV)",
     "First-person Vision (FPV)",
-    "Human-computer Interactions (HCI),"
+    "Human-computer Interactions (HCI)"
   ],
   specialField: "Special Interests",
   researchSpecialInterest: [
     "1. Egocentric Video Understanding and Analysis",
-    "2. Domain Adaptation & Generalization",
-    "3. Action Recognition",
-    "4. Hand Region Analysis",
+    "2. Action Recognition",
+    "3. Hand Region Analysis",
+    "4. Domain Adaptation & Generalization",
     "5. Knowledge Transfer Learning",
     ".........................."
   ],
@@ -270,26 +270,29 @@ const en = {
       ],
     },
   ],
-  conferenceTitle: "Publication",
+  conferenceTitle: "Publications",
   conferencePublication: [
-    //{
-    //  name: `Dilated Residual Shrinkage Network for SAR Image Despeckling`,
-    //  author: `<strong>Nie Lin</strong>, Gao Chen, Qingfeng Zhou, Chanzi Liu`,
-    //  date: "IEEE International Conference on Signal and Image Processing (ICSIP), 2021",
-    //},
     {
-      name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022: Team HNU-FPV Report`,
-      author: `<a href="#">Nie Lin</a>, Minjie Cai*`,
-      date: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop, 2022`,
-      arixv:`xxxx`,
-      code: `xxxxx`
+      name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022 Technical Report`,
+      author: `<Strong>Nie Lin</Strong>, <a href='https://cai-mj.github.io/' target="_blank">Minjie Cai</a><sup>✉</sup>`,
+      match: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC 2022)`,
+      match2: "",
+      paper:"[Paper]",
+      projectPage:"[Project Page]",
+      code:"[Github Code]",
+      video:"[Video]",
+      //label: ["Paper", "Project"],
     },
     {
       name: `Knowledge Condensation Distillation`,
-      author: `Chenxin Li, Mingbao Lin, Zhiyuan Ding, <a href="#">Nie Lin</a>, Yihong Zhuang, Yue Huang*`,
-      date: "European Conference on Computer Vision (ECCV), 2022",
-      arixv:`xxxx`,
-      code: `xxxxx`
+      author: `Chenxin Li, <a href='https://lmbxmu.github.io/'>Mingbao Lin</a>, Zhiyuan Ding, <Strong>Nie Lin</Strong>, Yihong Zhuang, <a href='https://huangyue05.github.io/'>Yue Huang</a><sup>✉</sup>,...`,
+      match: "European Conference on Computer Vision (ECCV), 2022",
+      match2: "",
+      paper:"[Paper]",
+      projectPage:"",
+      code:"[Github Code]",
+      video:"",
+      //label: ["Paper", "Project"],
     },
   ],
   journalTitle: "Journal Publication",
@@ -301,7 +304,7 @@ const en = {
       //date: `IEEE Transactions on Multimedia(<strong>TMM</strong>),2018`,
     },
   ],
-  patentTitle: "Patent",
+  patentTitle: "Patents",
   patent: [
     {
       name: `Human-computer Interaction (HCI) Sensing Devices based on Analog Signal Processing`,
@@ -309,7 +312,7 @@ const en = {
       number: `CN 202022246705.5`,
     },
   ],
-  copyrghtTitle: "Software Copyrght",
+  copyrghtTitle: "Software Copyright",
   softwareCopyrght: [
     {
       name: 'OCR Recognition System for Japanese Postal Payment Notes',
@@ -327,7 +330,7 @@ const en = {
   recentlyProjects: [
     {
       name: "EgoV: A New Datasets of Egocentric Videos Across Real and Virtual",
-      author: `<strong>!! As a new long-term research project will be carried out at the master's level !!</strong>`,
+      author: `<strong>!! As a new long-term research project will be carried out at my master's level !!</strong>`,
       match: "",
       match2: "",
       paper:"[Paper]",
@@ -358,7 +361,7 @@ const en = {
     },
     {
       name: "Dataset Acquisition from First-person Perspective (Through Head-mounted Camera)",
-      author: `<strong>Nie Lin</strong>, Minjie Cai`,
+      author: `<strong>Nie Lin</strong>`,
       match: `Hunan University`,
       paper:"",
       projectPage:"",
@@ -421,7 +424,7 @@ const en = {
 
   footer: {
     period: `© 2018 - 2022   Nie Lin`,
-    lastUpdated: `Last updated: July 31,2022`
+    lastUpdated: `Last updated: August 31,2022`
   }
 };
 
