@@ -85,25 +85,25 @@ export default class extends Vue {
       hovTheme: "#000",
       icon: ["fab", "github"],
       href: "https://github.com/lin-nie",
-      theme: "lightseagreen",
+      theme: "rgb(255, 0, 0)",
+    },
+    {
+      hovTheme: "#000",
+      icon: ["fab", "google"],
+      href: "https://scholar.google.com/citations?hl=en&user=3sybTOUAAAAJ",
+      theme: "rgb(67, 135, 246)",
     },
     {
       hovTheme: "#000",
       icon: ["fab", "linkedin"],
       href: "https://www.linkedin.com/in/nie-lin/",
-      theme: "rgb(24, 119, 242)",
-    },
-    {
-      hovTheme: "#000",
-      icon: ["fab", "facebook-square"],
-      href: "https://www.facebook.com/profile.php?id=100028198980924",
-      theme: "rgb(59, 87, 157)",
+      theme: "rgb(0, 127, 178)",
     },
     {
       hovTheme: "#000",
       icon: ["fab", "twitter-square"],
       href: "https://twitter.com/NieLin6",
-      theme: "rgb(59, 200, 244)",
+      theme: "rgb(29, 155, 240)",
     },
   ];
 }

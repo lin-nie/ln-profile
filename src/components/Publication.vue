@@ -16,15 +16,15 @@
           </a>
         </div>
         <div class="content">
-          <strong>{{ val.name }}</strong><img src="img/new.gif">
+          <strong>{{ val.name }}</strong><img src="http://www.linnie.com.cn/img/new.gif">
           <p v-html="val.author"></p>
           <p>{{ val.match }}</p>
           <p>{{ val.match2 }}</p>
           <div v-if="index==0">
             <a href='https://arxiv.org/abs/2207.03095'>{{ val.paper }}</a>
-            <a href='http://www.linnie.com.cn/project/uda_action/'>{{ val.projectPage }}</a>
+            <a href='http://www.linnie.com.cn/projects/uda_action/'>{{ val.projectPage }}</a>
             <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">{{ val.code }}</a>
-            {{ val.video }}
+            <a href="https://www.youtube.com/watch?v=BnVhNeUBau4">{{ val.video }}</a>
           </div>
           <div v-if="index==1">
             <a href='https://arxiv.org/abs/2207.05409'>{{ val.paper }}</a>

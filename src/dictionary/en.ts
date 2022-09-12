@@ -11,13 +11,11 @@ const en = {
   department: "College of Computer Science and Electronic Engineering, Hunan University ",
   researchStudent: "(Now)",
   personalIntroduction: 
-  `Hi! I am <strong>Nie Lin</strong>, an undergraduate student at the Dongguan University of Technology
-  in China, 
-  and now I study at 
-  <a href='http://www-en.hnu.edu.cn/index.htm' target="_blank">
-  Hunan University</a>, supervised by 
-  <a href='https://cai-mj.github.io/' target="_blank">
-  Prof. Minjie Cai</a>. 
+  `Hi! I am <strong>Nie Lin</strong>. I got my bachelor's degree in engineering in June 2022, and now I am working as a <strong>research assistant</strong> in
+  <strong><a href='http://www-en.hnu.edu.cn/index.htm' target="_blank">
+  Hunan University</a></strong>, supervised by 
+  <strong><a href='https://cai-mj.github.io/' target="_blank">
+  Prof. Minjie Cai</a></strong>. 
   <br>My research interests include 
   <strong>Computer Vision (CV)</strong>. 
   <strong>Especially in First-person Vision (FPV)</strong>, 
@@ -27,14 +25,28 @@ const en = {
   I have a strong interest in FPV research, welcome to 
   <a herf="mailto:nielin@hnu.edu.cn">
   contact me</a>.`,
-  notification: 
-  `Currently, I am working on domain generalization for semantic segmentation and object detection. 
-  I am looking for undergraduate or master students to engage in ongoing research papers. 
-  Don't hesitate to email me if you are interested.`,
-  notificationSupp1:'[Research Proposal]',
-  notificationSupp2:'[Curriculum Vitae]',
-  notificationSupp3:'[Project Page]',
-  notificationSupp4:'[Academic Transcripts]',
+  notification1: 
+  `<img src="http://www.linnie.com.cn/img/new.gif">：<br>
+  (a) <b><i>My application status</i></b>：I am looking for the lab in the direction of <b>the first-person vision in computer vision</b> and applying to the Master's program and PhD program at the university where the lab is located. Email and online meeting are always welcome!<br>
+  (b) <b><i>My research objects</i></b>：My research objects is to build more powerful <b>human-centered artificial intelligence that can 'think'</b> through the exploration and discovery of <b>the first-person perspective in computer vision</b>, , which can <b>adapt to complex and changeable environments!</b><br>
+  (c) <b><i>My life goals</i></b>：My life goal is to become a computer vision researcher, serve as an independent faculty advisor at a university in the future, <b>and do impressive and influential work around the world.</b><br>
+  (d) <b><i>My academic planning</i></b>：After completing the master's course, <b>I will continue to complete the Phd course</b>, so as to continuously improve my scientific research ability.<br><br>
+  The following is about my application materials (academic)：
+  `,
+  curriculum_vitae:'1. [Curriculum Vitae]',
+  academic_transcripts:'2. [Academic Transcripts]',
+  research_proposal:'3. [Research Proposal]',
+  project_page:'[Project Page]',
+  meeting_photo:'4. [CVPR Meeting Photo]',
+  recommendation_letter:'5. [Recommendation Letter (Minjie Cai)]',
+  research_certificate:'6. [Research Certificate (Hunan University)]',
+  PRC_scholarship:'7. [National Scholarship of People’s Republic of China]',
+  notification2: 
+  `The following is about my application materials (basic) :
+  `,
+  diploma_certificate:'8. [Certification of Diploma]',
+  bachelor_certificate:'9. [Certification of Bachelor’s Degree]',
+  ranking_certificate:'10. [Certification of Grade 1st Ranking]',
   address1:
     "Address1: Room 9A411 Institute of AI-Net Electronic Information & Artificial Intelligence, DGUT, Dongguan, China",
   address:
@@ -68,40 +80,25 @@ const en = {
     new6: `[ 2020.10 ] I got The Third prize of <Strong>China Artificial Intelligence Electronic Design Competition</Strong>. Congratulations !!`, 
     new7: `[ 2020.12 ] I won 2020 year's <Strong>The First Prize Scholarship</Strong> and <Strong>The Kao Wei-kwong Enterprise Scholarship (Outstanding Engineering Representative) </Strong> for being the first in my grade. Thanks!`, 
     new8: `[ 2021.01 ] Our team successfully entered the <a href='https://www.ccf.org.cn/en/'>China Computer Federation (CCF) </a> <Strong>Artificial Intelligence Vision Algorithm Competition</Strong> and final with the rank of <Strong>13/2207</Strong>. A great team work experience !!`, 
-    new9: `[ 2021.05 ] I won the <Strong>international second prize</Strong> in the American Mathematical Contest In Modeling (USA MCM). <a>[Project]</a>`, 
-    new10: `[ 2021.06 ] Started research working as a <Strong>Research Assistant</Strong> at FPV Lab, Hunan University. Supervised by Prof. <a href='https://cai-mj.github.io/'>Minjie Cai</a>`, 
+    new9: `[ 2021.05 ] I won the <Strong>international second prize</Strong> in the American Mathematical Contest In Modeling (USA MCM).`, 
+    new10: `[ 2021.06 ] Started research working as a <Strong>Research Assistant</Strong> at Computer Vision Lab, Hunan University. <br>Supervised by Prof. <a href='https://cai-mj.github.io/'>Minjie Cai</a>.<a href="https://www.linnie.com.cn/documents/Research_Assistant_Minjie_Cai_Hunan_University.pdf">[Research Certificate]</a>`, 
     new11: `[ 2021.10 ] I got my own <Strong>head-mounted camera</Strong> from our laboratory and will be trying to collect the first-person dataset in the future. Thanks!`, 
     new12: `[ 2021.12 ] I won 2021 year's <Strong>The First Prize Scholarship</Strong> and <Strong>The Lingnan Academic Scholarship (Outstanding Academic Representative) </Strong> for being the first in my grade. Thanks!`, 
     new13: `[ 2022.05 ] Congratulations! I won the <a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>National Scholarship of the People's Republic of China</a>, issued by the <a href='http://en.moe.gov.cn/'>Ministry of Education of China</a>, which is the highest level scholarship program in China! (<Strong>TOP 0.01% Students in China</Strong>).`,
     new14: `[ 2022.06 ] My graduation thesis <Strong>"First-person Action Recognition Based on Unsupervised Domain Adaptation in Egocentric Video"</Strong> successfully pass the thesis defense of undergraduate graduation design.`,
-    new15: `[ 2022.06 ] Congratulations! I successfully graduated from <a herf="">DGUT Computer Software Engineering</a> with <strong>the first place</strong> in my major (<strong>Rank 1st / 78</strong> ) with a <a>Bachelor of Engineering degree</a>. And won the <Strong>Outstanding Undergraduate Graduate</Strong>`,
-    new16: `[ 2022.06 ] Congratulations! My paper on <a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a> about <Strong>UDA Frist-person Action Recognition</Strong> has been successfully accepted, under the supervision of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a>. The arXiv and code is available. <a href="https://arxiv.org/abs/2207.03095">[ArXiv]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github Code]</a>`,
-    new17: `[ 2022.07 ] I was invited to attend this year's <a href="https://cvpr2022.thecvf.com/">CVPR 22</a> and participate in the <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 22</a> presentation. <a>Here</a> is the description.`,
-    new18: `[ 2022.07 ] Our paper on <Strong>Knowledge Transfer Learning</Strong> has been accepted for <Strong>ECCV 22</Strong>!! Code is available. <a href="https://github.com/dzy3/KCD">[Github Code]</a>`,
+    new15: `[ 2022.06 ] Congratulations! I successfully graduated from <Strong>DGUT Computer Software Engineering</Strong> with <strong>the first place</strong> in my major (<strong>Rank 1st / 78</strong> ) with a <Strong>Bachelor of Engineering degree</Strong>. And won the <Strong>Outstanding Undergraduate Graduate</Strong>`,
+    new16: `[ 2022.06 ] Congratulations! My paper on <a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC 2022</a> about <Strong>UDA Frist-person Action Recognition</Strong> has been successfully accepted, under the supervision of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a>. The arXiv and code is available. <a href="https://arxiv.org/abs/2207.03095">[ArXiv]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github Code]</a>`,
+    new17: `[ 2022.07 ] I was invited to attend this year's <a href="https://cvpr2022.thecvf.com/">CVPR 2022</a> and participate in the <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 2022</a> presentation. <br><a href="./img/cvpr_2022_meeting_photo1.png">[Meeting Photo1]&<a><a href="./img/cvpr_2022_meeting_photo2.png">[Meeting Photo2]&<a><a href="./img/cvpr_2022_meeting_photo3.png">[Meeting Photo3]&<a><a href="./img/cvpr_2022_meeting_photo4.png">[Meeting Photo4]&<a><a href="./img/cvpr_2022_meeting_photo5.png">[Meeting Photo5]&<a><a href="./img/cvpr_2022_meeting_photo6.png">[Meeting Photo6]<a>`,
+    new18: `[ 2022.07 ] Our paper on <Strong>Knowledge Transfer Learning</Strong> has been accepted for <Strong>ECCV 2022</Strong>!! Paper and code is available. <br><a href="https://arxiv.org/pdf/2207.05409.pdf">[Paper]</a><a href="https://arxiv.org/abs/2207.05409">[Arxiv]</a><a href="https://github.com/dzy3/KCD">[Github Code]</a>`,
     new19: `[ 2022.08 ] Under the guidance of Prof. <a href="https://cai-mj.github.io/">Minjie Cai</a>, I submitted a paper at <Strong>BMVC 2022</Strong> this year based on <Strong>hand regions in egocentric videos related to first-personaction recognition</Strong>. Code will be open source !!`,
-    new20: `[ 2022.09 ] I really hope that I can apply for a research student and master as soon as possible to start my new project: <Strong>EgoV: From Virtual to Real </Strong>. <a href="https://github.com/dzy3/KCD">[Github Code]</a><a href="https://github.com/dzy3/KCD">[Project Page]</a><a href="https://github.com/dzy3/KCD">[Research Proposal]</a>`,
-    
-    //curr1:'1. Machine Vision (Grade 96 A+)',
-    //curr2:'2. Artificial Intelligence (Grade 98.2 A+)',
-    //curr3:'3. Digital Image Processing (Grade 96 A+)',
-    //curr4:'4. Machine Learning based on Python (Grade 93 A+)',
-    //curr5:'5. Deep Learning based on Python (Grade 93 A+)',
-    //curr6:'6. Python Data Interpretation and Utilization (Grade 95 A+)',
-    //curr7:'7. Mathematical Modeling (Grade 98 A+)',
-    //curr8:'8. Descrete Mathematics (Grade 96 A+)',
-    //curr9:'9. Operating System (Grade 92 A+)',
-    //curr10:'10. Algorithm and Data Structure (Grade 95 A+)',
-    //curr11:'11. Principles of Database System (Grade 93 A+)',
-    //curr12:'12. Contest Programming (Grade 98 A+)',
-    //curr13:'13. Cloud Computing and Large Data Application Development (Grade 92 A+)',
-    //curr14:'14. Block Chain Technology and Application (Grade 100 A+)'
+    new20: `[ 2022.09 ] I really hope that I can apply for a research student and master as soon as possible to start my new project: <Strong>EgoV: From Virtual to Real </Strong>. <a href="http://www.linnie.com.cn/projects/egov/">[Project Page]</a><a href="http://www.linnie.com.cn/documents/NieLin_HNU_UTokyo_EgoV_Research_Proposal.pdf">[Research Proposal]</a>`,
   },
   biographyTitle: "Biography",
   biography: {
     bio1: {
       introduce: "(2021.6 - Now) Research Assistant. Supervised by Prof.",
       mentor: "Minjie Cai",
-      brief1: "College of Computer Science and Electronic Engineering, FPV Lab",
+      brief1: "College of Computer Science and Electronic Engineering, Computer Vision Lab",
       brief2: "Hunan University",
     },
     bio2: {
@@ -275,7 +272,7 @@ const en = {
     {
       name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022 Technical Report`,
       author: `<Strong>Nie Lin</Strong>, <a href='https://cai-mj.github.io/' target="_blank">Minjie Cai</a><sup>✉</sup>`,
-      match: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC 2022)`,
+      match: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC), 2022`,
       match2: "",
       paper:"[Paper]",
       projectPage:"[Project Page]",
@@ -333,7 +330,7 @@ const en = {
       author: `<strong>!! As a new long-term research project will be carried out at my master's level !!</strong>`,
       match: "",
       match2: "",
-      paper:"[Paper]",
+      paper:"[Research Proposal]",
       projectPage:"[Project Page]",
       code:"[Github Code]",
       video:"[Video]",
@@ -348,6 +345,7 @@ const en = {
       projectPage:"[Project Page]",
       code:"[Github Code]",
       video:"[Video]",
+      photo:"[Meeting Photo]"
       //label: ["Paper", "Project"],
     },
     {
@@ -366,7 +364,7 @@ const en = {
       paper:"",
       projectPage:"",
       code:"",
-      video:"[Video]",
+      video:"",
     },
   ],
   pastProjects: [
@@ -379,7 +377,7 @@ const en = {
       projectPage:"",
       code:"",
       video:"",
-      //label: ["Paper", "Project"],
+      photo:"[Meeting Photo]",
     },
     {
       name: "Multi-Modal Video Analysis and Understanding",

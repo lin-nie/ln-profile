@@ -26,16 +26,17 @@
           <p>{{ val.match }}</p>
           <p>{{ val.match2 }}</p>
           <div v-if="index==0">
-            {{ val.paper }}
-            {{ val.projectPage }}
-            {{ val.code }}
-            {{ val.video }}
+            <a href='http://www.linnie.com.cn/documents/NieLin_HNU_UTokyo_EgoV_Research_Proposal.pdf'>{{ val.paper }}</a>
+            <a href='http://www.linnie.com.cn/projects/egov/'>{{ val.projectPage }}</a>
+            <a href='http://www.linnie.com.cn/projects/egov/'>{{ val.code }}</a>
+            <a href='http://www.linnie.com.cn/projects/egov/videos/egov_4k.mp4'>{{ val.video }}</a>
           </div>
           <div v-if="index==1">
             <a href='https://arxiv.org/pdf/2207.03095.pdf'>{{ val.paper }}</a>
-            {{ val.projectPage }}
+            <a href='http://www.linnie.com.cn/projects/uda_action/'>{{ val.projectPage }}</a>
             <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">{{ val.code }}</a>
-            {{ val.video }}
+            <a href="https://www.youtube.com/watch?v=BnVhNeUBau4">{{ val.video }}</a>
+            <a href="./img/cvpr_2022_meeting_photo1.png">{{ val.photo }}</a>
           </div>
           <div v-if="index==2">
             <a href='https://arxiv.org/abs/2207.05409'>{{ val.paper }}</a>
@@ -67,6 +68,7 @@
             {{ val.projectPage }}
             {{ val.code }}
             {{ val.video }}
+            <a href="./img/ieee_icsip_meeting_photo.png">{{ val.photo }}</a>
           </div>
         <span class="label" v-for="msg in val.label">{{msg}}</span>
       </div>

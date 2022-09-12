@@ -5,7 +5,7 @@ const jp = {
   //blog: "私のブログ",
   degree: "学部生 (2022年6月卒業しました)",
   major: "コンピューター ソフトウェア工学 (GPA: 3.6 ランキング: 専攻 1st/78 位)",
-  academy: "助手研究員",
+  academy: "アシスタント研究員",
   department: "情報科学工学部, 湖南大学",
   researchStudent: "(現在)",
   personalIntroduction: `こんにちは~ 中国からの<strong>林 涅</strong>です。専攻はソフトウェア工学で、東莞理工大学を卒業しました。 
@@ -23,8 +23,31 @@ const jp = {
   <strong>ヒューマンコンピュータインタラクション(HCI)</strong>です。
   私は<strong>一人称視点映像解析研究</strong>に深い興味を持っており、交流することを歓迎します。
   `,
-  notification: 
-  `XXX`,
+  notification1: 
+  `<img src="http://www.linnie.com.cn/img/new.gif">：<br>
+  (a) <b><i>私の現状:</b></i> 私は<b>コンピュータビジョンにおける一人称ビジョン</b>の研究室を探しており、その研究室がある大学の修士課程および博士課程<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  に応募しています。<br>
+  (b) <b><i>私の研究:</b></i> 私の将来の研究目標は、<b>コンピュータビジョンにおける一人称視点の探索と発見</b>を通じて、より強力な<b>人間中心の「思考」型<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  人工知能</b>を構筑することです!<br>
+  (c) <b><i>私の目標:</b></i> 私の目標はコンピュータの視覚の科学研究者になることで、将来大学で独立した指導教員を担当して、<b>世界で印象深く影響力<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  のある仕事をします</b>。<br>
+  (d) <b><i>私の計画:</b></i> 私は修士の段階の課程を完成した后に<b>引き続き博士の課程</b>を申請して、これによって絶えず私の科学研究の能力を高めます。<br><br>
+  以下は私の出願書類についてです(学術):：
+  `,
+  curriculum_vitae:'1. [ポロフィール]',
+  academic_transcripts:'2. [成績表]',
+  research_proposal:'3. [研究計画書]',
+  project_page:'[プロジェクト ページ]',
+  meeting_photo:'4. [CVPR会議参加]',
+  recommendation_letter:'5. [推薦状 (蔡敏捷)]',
+  research_certificate:'6. [研究証明書 (湖南大学))]',
+  PRC_scholarship:'7. [中華人民共和国国家級奨学金]',
+  notification2: 
+  `以下は私の出願書類についてです(基本):
+  `,
+  diploma_certificate:'8. [卒業証明書]',
+  bachelor_certificate:'9. [学士学位証明書]',
+  ranking_certificate:'10. [専攻第一位証明書]',
   address1:
       "アドレス1: 中国広東省東莞市 DGUT-9A411 Ai-Net電子情報&人工知能研究所",
   address:
@@ -50,33 +73,33 @@ const jp = {
     ]
   },
   new:{
-    new1: `[ 2019.08 ] Prof. Lvy Wangの指導の下、<strong>カナダのトロント大学（UofT）</strong>で数学と機械学習に関する研究プロジェクトを行いました。<strong>コンピュータビジョン</strong>についての数学的な基礎を築きました。`, 
-    new2: `[ 2019.12 ] 私は学年トップの優秀な成績で2019年度の<strong>一等奨学金</strong>を獲得しました。ありがとうございます!`, 
-    new3: `[ 2020.03 ] 二年生の冬休みの間、私は<strong>ハルビン工業大学（HIT）のProf. Liaoの指導の下、研究実習に参加し、ディープ・ラーニングを通じて<strong>ビデオの理解と分析</strong>プロジェクトを完成させた。`, 
-    new4: `[ 2020.08 ] 私は<strong>シンガポール国立大学（NUS）</strong>で<strong>人工知能とディープラーニング</strong>分野のプロジェクト学習を終えました。<strong>シンガポール国立大学版より栄誉賞</strong>を受賞。`, 
-    new5: `[ 2020.09 ] おめでとうございます。私は選抜を経て<strong>工業人工知能技術研究院(IIAIT)</strong>に加入し、<strong>清華大学</strong>の陳高教授の指導でデジタル画像処理に関する研究を展開します。`, 
-    new6: `[ 2020.10 ] 人工知能電子デザインコンテストで三等賞を受賞しました !!`, 
-    new7: `[ 2020.12 ] 私は学年トップの優秀な成績で2020年の<strong>一等奨学金</strong>および<strong>高偉光企業奨学金(傑出工程代表)</strong>を獲得しました。ありがとうございます！`, 
-    new8: `[ 2021.01 ] 私たちのチームは13/2207分の1に<判断> < /判断>のランキングに< aきゃ= " https://www.ccf.org.cn/en/ " >中国のコンピューター学会(ccf) < / a > <判断>人工知能視覚アルゴリズム大会決勝< /判断>。素晴らしいチームワーク体験でした!!`, 
-    new9: `[ 2021.05 ] アメリカ数学モデリングコンテストUSA MCM/ICMで<Strong>国際二等賞</Strong>を受賞しました. <a href="#">[プロジェクト]</a>`, 
-    new10: `[ 2021.06 ] 湖南大学のFPV実験室で<strong>助手研究員</strong>を始めました。<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授がインストラクターを務めます。`, 
-    new11: `[ 2021.10 ] 私の研究室から自分の<Strong>ヘッドセット・カメラ</Strong>を入手し、将来的には一人称データセットの収集を試みます。ありがとうございます。`, 
-    new12: `[ 2021.12 ] 私は学年トップの優秀な成績で2021年の<strong>一等奨学金</strong>、<strong>嶺南学術奨学金(優秀学術代表)</strong>を獲得しました。ありがとうございます!!`, 
-    new13: `[ 2022.05 ] 恭喜! 我获得了<a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>中华人民共和国国家奖学金</a>, 由<a href='http://en.moe.gov.cn/'>中华人民共和国教育部</a>颁布, 这是中国最高级别的奖学金项目! (<Strong>全国排名前0.01%的学生</Strong>).`,
-    new14: `[ 2022.06 ] 私の卒業論文<strong>「自己中心的動画における無監督領域適応による一人称動作認識」</strong>は、学部の卒業設計論文の回答を無事通過しました。`,
-    new15: `[ 2022.06 ] おめでとうございます。私は<strong>専門の第一位(<strong>Rank 1st / 78</strong>)で<a>工学学士</a>を取得し、そして順調に<a>東莞理工コンピュータソフトウェア工程専門</a>を卒業しました。<strong>優秀学部卒業生</strong>を獲得。`,
-    new16: `[ 2022.06 ] おめでとうございます! 私の論文は<a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC22</a>で<Strong>無監督ドメイン適応について一人称動作認識</Strong>がスムーズに受信され, 在<a href="https://cai-mj.github.io/"蔡 敏捷</a>教授的指导下. 预印本和代码均可用. <a href="https://arxiv.org/abs/2207.03095">[ArXiv 预印本]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github代码]</a>`,
-    new17: `[ 2022.07 ] 我受邀参加今年<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a> 并参与 <a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 2022</a> 演讲。<a>此处</a> 有相关描述.`,
-    new18: `[ 2022.07 ] 我们关于<Strong>知识迁移学习</Strong>的论文已经被今年的<Strong>ECCV 2022</Strong>正式接受!! 代码已经开源. <a href="https://github.com/dzy3/KCD">[Github 代码]</a>`,
-    new19: `[ 2022.08 ] 在<a href="https://cai-mj.github.io/">蔡 敏捷</a>教授的指导下，我在今年的<Strong>BMVC 2022</Strong>上提交了一篇<Strong>基于自我中心视频中手部区域与第一人称动作识别相关的</Strong>论文。代码将会开源！！`,
-    new20: `[ 2022.08 ] 我非常希望我能尽快申请研究生和硕士，开始我的新项目:<Strong>EgoV: 从虚拟到现实</Strong>. <a href="https://github.com/dzy3/KCD">[Github Code]</a><a href="https://github.com/dzy3/KCD">[Project Page]</a><a href="https://github.com/dzy3/KCD">[Research Proposal]</a>`,
+    new1: `[ 2019.08 ] Prof. Lvy Wangのご指導により、<strong>カナダのトロント大学（UofT）</strong>で私は数学と機械学習に関する研究プロジェクトを取り組みました。今後の<strong>コンピュータビジョン</strong>に関する研究に数学の基礎を築きくれました。`, 
+    new2: `[ 2019.12 ] 私は<strong>学年トップ1の成績</strong>で2019年度の<strong>一等奨学金</strong>を受賞しました。ありがとうございます!`, 
+    new3: `[ 2020.03 ] 二年生の冬休み、<strong>ハルビン工業大学（HIT）</strong>の<strong>Prof. Liao</strong>のご指導により、私は研究実習に参加し、ディープ・ラーニングを用いて<strong>ビデオの理解と分析</strong>に関するプロジェクトを完成しました。`, 
+    new4: `[ 2020.08 ] 私は<strong>シンガポール国立大学（NUS）</strong>で<strong>人工知能とディープラーニングのプロジェクトスタディ</strong>を修了しました。シンガポール国立大学から<strong>栄誉賞</strong>を受賞しました。`, 
+    new5: `[ 2020.09 ] 【祝】数回の選抜を経て、私は<strong>工業人工知能技術研究院(IIAIT)</strong>に入選しました。これから<strong>清華大学</strong>陳高先生のご指導により、デジタル画像処理に関する研究を展開します。`, 
+    new6: `[ 2020.10 ] <Strong>中国人工知能電子デザインコンテスト</Strong>で三等賞を受賞しました !!`, 
+    new7: `[ 2020.12 ] 私は<strong>学年トップ1の成績</strong>で2020年の<strong>一等奨学金</Strong>及び<Strong>高偉光企業奨学金(傑出工程代表)</strong>を受賞しました。ありがとうございます。`, 
+    new8: `[ 2021.01 ] うちのチームは13/2207の順位で<a href= "https://www.ccf.org.cn/en/">中国コンピュータ学会（CCF）</a><Strong>人工知能視覚アルゴリズムコンテストの決勝戦</Strong>に入選しました。素晴らしいチームワークでした！！`, 
+    new9: `[ 2021.05 ] 【祝】アメリカ数学モデリングコンテスト(USA MCM/ICM)で<Strong>国際二等賞</Strong>を受賞しました！`, 
+    new10: `[ 2021.06 ] 湖南大学のコンピュータビジョン研究室で<strong>アシスタント研究員</strong>として務め始めました。<br>指導先生は<a href="https://cai-mj.github.io/">蔡 敏捷教授</a>です, よろしくお願いします~<a href="https://www.linnie.com.cn/documents/Research_Assistant_Minjie_Cai_Hunan_University.pdf">[研究證明]</a>`, 
+    new11: `[ 2021.10 ] 研究室から自分の<Strong>ヘッドセット・カメラ</Strong>をゲットしました。これを使って<Strong>一人称データセット</Strong>の収集を試みます。ありがとうございます。`, 
+    new12: `[ 2021.12 ] 私は<Strong>学年トップ1の成績</Strong>で2021年の<Strong>一等奨学金</Strong>及び<Strong>嶺南学術奨学金(優秀学術代表)</Strong>を獲得しました。ありがとうございます。`, 
+    new13: `[ 2022.05 ] 【祝】<a href='http://en.moe.gov.cn/'>中華人民共和国教育部</a>から<a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>国家レベル奨学金</a>を受賞しました。これは中国最高レベルの奨学金プログラムです。（<Strong>全国上位0.01%の学生</Strong>）.`,
+    new14: `[ 2022.06 ] 私の卒業論文<strong>「エゴセントリックビデオにおけるUDA適応に基づく一人称行動認識」</strong>は、無事に答弁に合格しました。`,
+    new15: `[ 2022.06 ] 【祝】私は<strong>専攻の第一位(Rank 1st / 78</strong>)として<strong>工学学士</strong>を取得し、順調に<strong>東莞理工コンピュータソフトウェア工程</strong>専攻から卒業しました。そして<strong>優秀卒業生を受賞</strong>しました。`,
+    new16: `[ 2022.06 ] 【祝】<a href="https://cai-mj.github.io/">蔡敏捷 先生</a>のご指導のもとで、私の<Strong>無監督ドメイン適応について一人称動作認識</Strong>に関する論文は<a href="https://eyewear-computing.org/EPIC_CVPR22/">CVPR-EPIC 2022</a>に採択されました。論文とコードは利用可能です。<a href="https://arxiv.org/abs/2207.03095">[ArXiv 预印本]</a> <a href="https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA">[Github代码]</a>`,
+    new17: `[ 2022.07 ] 私は今年の<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>に招待されて、<a href="https://eyewear-computing.org/EPIC_CVPR22/">EPIC 2022</a>の講演に参加しました。<br><a href="./img/cvpr_2022_meeting_photo1.png">[会議の写真1]&<a><a href="./img/cvpr_2022_meeting_photo2.png">[会議の写真2]&<a><a href="./img/cvpr_2022_meeting_photo3.png">[会議の写真3]&<a><a href="./img/cvpr_2022_meeting_photo4.png">[会議の写真4]&<a><a href="./img/cvpr_2022_meeting_photo5.png">[会議の写真5]&<a><a href="./img/cvpr_2022_meeting_photo6.png">[会議の写真6]<a>.`,
+    new18: `[ 2022.07 ] 私たちのノウレッジ・トランスファー・ラーニングに関する論文はECCV 2022に採択されました。論文とコードは利用可能です。<a href="https://arxiv.org/pdf/2207.05409.pdf">[論文]</a><a href="https://arxiv.org/abs/2207.05409">[Arxiv プリプリント]</a><a href="https://github.com/dzy3/KCD">[Github コード]</a>`,
+    new19: `[ 2022.08 ] <a href="https://cai-mj.github.io/">蔡敏捷 先生</a>のご指導のもとで、<strong>BMVC 2022</strong>に<strong>エゴセントリックビデオにおける手の一人称行動認識に関する論文</strong>を提出しました。コードはまもなくオープンソースになります~`,
+    new20: `[ 2022.09 ] できるだけ早く日本の大学院に応募して、自分の新たしいプロジェクト「EgoV：バーチャルからリアルへ」を始めたいと思います。<a href="http://www.linnie.com.cn/projects/egov/">[プロジェクト ページ]</a><a href="http://www.linnie.com.cn/documents/NieLin_HNU_UTokyo_EgoV_Research_Proposal.pdf">[研究計画書]</a>`,
   },
   biographyTitle: "バイオグラフィー",
   biography: {
     bio1: {
-      introduce: "(2021.6-現在)  助手研究員. 指導教員は准教授",
+      introduce: "(2021.6-現在)  アシスタント研究員. 指導教員は准教授",
       mentor: "蔡 敏捷",
-      brief1: "情報科学工学部, FPV Lab",
+      brief1: "情報科学工学部, Computer Vision Lab",
       brief2: "湖南大學",
     },
     bio2: {
@@ -180,14 +203,14 @@ const jp = {
       name: `1. 湖南大学 (HNU)`,
       workplace: `長沙, 中国`,
       topic: `研究テーマ: 手部領域に基づく一人称働作認識`,
-      title:`助手研究員`,
+      title:`アシスタント研究員`,
       supervisor: ` 指導教授: 蔡 敏捷 教授 [湖南大学]`
     },
     {
       name: `2. 工业人工智能技术研究所 (IIAIT)`,
       workplace: `东莞, 中国`,
       topic: `研究课题: 数字图像处理`,
-      title:`助理研究员`,
+      title:`アシスタント研究員`,
       supervisor: ` 指导教授: 陈高教授 [清华大学]`
     },
     {
@@ -249,13 +272,13 @@ const jp = {
   conferencePublication: [
     {
       name: `EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022 Technical Report`,
-      author: `<Strong>Nie Lin</Strong>, <a href='https://cai-mj.github.io/' target="_blank">Minjie Cai</a>*`,
-      match: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC 2022)`,
+      author: `<Strong>Nie Lin</Strong>, <a href='https://cai-mj.github.io/' target="_blank">Minjie Cai</a><sup>✉</sup>`,
+      match: `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC), 2022`,
       match2: "",
-      paper:"[Paper]",
-      projectPage:"[Project Page]",
-      code:"[Github Code]",
-      video:"[Video]",
+      paper:"[論文]",
+      projectPage:"[プロジェクト ページ]",
+      code:"[コード]",
+      video:"[ビデオ]",
       //label: ["Paper", "Project"],
     },
     {
@@ -263,9 +286,9 @@ const jp = {
       author: `Chenxin Li, <a href='https://lmbxmu.github.io/'>Mingbao Lin</a>, Zhiyuan Ding, <Strong>Nie Lin</Strong>, Yihong Zhuang, <a href='https://huangyue05.github.io/'>Yue Huang</a>*,...`,
       match: "European Conference on Computer Vision (ECCV), 2022",
       match2: "",
-      paper:"[Paper]",
+      paper:"[論文]",
       projectPage:"",
-      code:"[Github Code]",
+      code:"[コード]",
       video:"",
       //label: ["Paper", "Project"],
     },
@@ -307,10 +330,10 @@ const jp = {
       author: `<strong>!! 新しい長期プロジェクトとして修士課程で始めます !!</strong>`,
       match: "",
       match2: "",
-      paper:"[Paper]",
-      projectPage:"[Project Page]",
-      code:"[Github Code]",
-      video:"[Video]",
+      paper:"[研究計画書]",
+      projectPage:"[プロジェクト ページ]",
+      code:"[コード]",
+      video:"[ビデオ]",
       //label: ["Paper", "Project"],
     },
     {
@@ -318,20 +341,21 @@ const jp = {
       author: `<strong>林 涅</strong>, 蔡 敏捷`,
       match: "湖南大学",
       match2: "",
-      paper:"[Paper]",
-      projectPage:"[Project Page]",
-      code:"[Github Code]",
-      video:"[Video]",
+      paper:"[論文]",
+      projectPage:"[プロジェクト ページ]",
+      code:"[コード]",
+      video:"[ビデオ]",
+      photo:"[会議の写真]"
       //label: ["Paper", "Project"],
     },
     {
       name: "移動学習による知識濃縮蒸留",
       author: `李 宸鑫, 林 明寶, <strong>林 涅</strong>, 莊 毅鴻, 黃 悅`,
       match: `廈門大学 & 湖南大学`,
-      paper:"[Paper]",
-      projectPage:"[Project Page]",
-      code:"[Github Code]",
-      video:"[Video]",
+      paper:"[論文]",
+      projectPage:"[プロジェクト ページ]",
+      code:"[コード]",
+      video:"[ビデオ]",
     },
     {
       name: "一人称視点でのデータ収集 (ヘッドマウントカメラによる)",
@@ -340,7 +364,7 @@ const jp = {
       paper:"",
       projectPage:"",
       code:"",
-      video:"[Video]",
+      video:"",
     },
   ],
   pastProjects: [
@@ -349,10 +373,11 @@ const jp = {
       author: `<strong>林 涅</strong>, 陳 高, 周 清峰, 劉 嬋梓`,
       match: "産業用人工知能技術研究所 (IIAIT)",
       match2: "",
-      paper:"[Paper]",
+      paper:"[論文]",
       projectPage:"",
       code:"",
       video:"",
+      photo:"[会議の写真]"
       //label: ["Paper", "Project"],
     },
     {
@@ -363,7 +388,7 @@ const jp = {
       paper:"",
       projectPage:"",
       code:"",
-      video:"[video]",
+      video:"",
       //label: ["Paper", "Project"],
     },
     {

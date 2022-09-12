@@ -26,13 +26,23 @@
           <ul class="content">
               <p v-html="words.personalIntroduction"></p>
               <p style="margin-top: 5px">
-                <font color='red' v-html="words.notification">
+                <font color='red' v-html="words.notification1">
                 </font>
                 <br>
-                <a href='http://www.linnie.com.cn/document/rp.pdf'>{{words.notificationSupp1}}</a>
-                <a href='http://www.linnie.com.cn/document/resume.pdf'>{{words.notificationSupp2}}</a>
-                <a href='http://www.linnie.com.cn/document/transcript.pdf'>{{words.notificationSupp4}}</a>
-                <a href='http://www.linnie.com.cn/project/egov/'>{{words.notificationSupp3}}</a>
+                <a href='http://www.linnie.com.cn/documents/curriculum_vitae.pdf'>{{words.curriculum_vitae}}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href='http://www.linnie.com.cn/documents/academic_transcripts.pdf'>{{words.academic_transcripts}}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href='http://www.linnie.com.cn/documents/NieLin_HNU_UTokyo_EgoV_Research_Proposal.pdf'>{{words.research_proposal}}</a>&nbsp&&nbsp
+                <a href='http://www.linnie.com.cn/projects/egov/'>{{words.project_page}}</a>&nbsp&nbsp&nbsp
+                <a href="http://www.linnie.com.cn/img/cvpr_2022_meeting_photo1.png">{{words.meeting_photo}}</a>&nbsp&nbsp&nbsp<br>
+                <a href='http://www.linnie.com.cn/documents/recommendation_letter.pdf'>{{words.recommendation_letter}}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href='http://www.linnie.com.cn/documents/research_certificate.pdf'>{{words.research_certificate}}</a>&nbsp&nbsp&nbsp&nbsp
+                <a href='http://www.linnie.com.cn/documents/PRC_scholarship.pdf'>{{words.PRC_scholarship}}</a>&nbsp<br><br>
+                <font color='red' v-html="words.notification2">
+                </font>
+                <br>
+                <a href='http://www.linnie.com.cn/documents/certificate_of_diploma.pdf'>{{words.diploma_certificate}}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href='http://www.linnie.com.cn/documents/certificate_of_bachelor_degree.pdf'>{{words.bachelor_certificate}}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href='http://www.linnie.com.cn/documents/certificate_of_grade_first_ranking.pdf'>{{words.ranking_certificate}}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
               </p>
           </ul>
         </div>
