@@ -214,7 +214,7 @@ Date:   Thu Jul 15 00:07:39 2021 +0800
 Author: 张志远 <1009070595@qq.com>
 Date:   Wed Jul 14 21:34:23 2021 +0800
 
-    修改了一点样式，加了new和biography
+    修改了一点样式，加了new和education
 
 [33mcommit 30b5319b74962291cc73f19fcc9b184e94f46e1d[m
 Author: Doctorwu <wuzhouchun@qq.com>

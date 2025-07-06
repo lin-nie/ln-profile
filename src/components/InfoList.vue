@@ -90,7 +90,7 @@ export default class extends Vue {
     {
       hovTheme: "#000",
       icon: ["fab", "google"],
-      href: "https://scholar.google.com/citations?hl=en&user=3sybTOUAAAAJ",
+      href: "https://scholar.google.com/citations?user=QNRj_g8AAAAJ&hl=en",
       theme: "rgb(67, 135, 246)",
     },
     {

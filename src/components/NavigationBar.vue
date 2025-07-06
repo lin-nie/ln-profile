@@ -24,13 +24,12 @@ export default class Profile extends Vue {
     "New",
     "Research Interest",
     "Publication",
-    "Projects",
-    "Biography",
+    "Education",
     "Professional Experience",
     "Honors",
     "Patent",
     "Software Copyrght",
-    "Fund Participation",
+    "Research Funding",
   ];
 
   get LanguageItems() {

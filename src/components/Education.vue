@@ -1,23 +1,18 @@
 <template>
-  <div class="biography-wrapper wrapper-style">
+  <div class="education-wrapper wrapper-style">
     <div>
       <section class="title">
         <h2 id="Biography" class="href">
-          {{words.biographyTitle}}
+          {{words.educationTitle}}
         </h2>
       </section>
     </div>
     <div>
-        <p class="biography-content">
-            {{words.biography.bio1.introduce}}
-            <a href="https://cai-mj.github.io/">{{words.biography.bio1.mentor}}</a><br>
-            {{words.biography.bio1.brief1}}<br>
-            <strong>{{words.biography.bio1.brief2}}</strong>
-        </p>
-        <p class="biography-content">
-            {{words.biography.bio2.introduce}}<br>
-            {{words.biography.bio2.brief1}}<br>
-            <strong>{{words.biography.bio2.brief2}}</strong>
+        <p class="education-content">
+            {{words.education.bio1.introduce}}
+            <a href="https://cai-mj.github.io/">{{words.education.bio1.mentor}}</a><br>
+            {{words.education.bio1.brief1}}<br>
+            <strong>{{words.education.bio1.brief2}}</strong>
         </p>
     </div>
   </div>
@@ -42,7 +37,7 @@ export default class Profile extends Vue {
 </script>
 
 <style scoped lang="scss">
-.biography-content{
+.education-content{
     font-size: 16px;
     line-height: 1.7em;
     margin-bottom: 16px;

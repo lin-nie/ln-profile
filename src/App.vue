@@ -8,8 +8,7 @@
       <New></New>
       <ResearchInterest></ResearchInterest>
       <Publication></Publication>
-      <Projects></Projects>
-      <Biography></Biography>
+      <Education></Education>
       <ProfessionalExperience></ProfessionalExperience>
       <Honors></Honors>   
       <Patent></Patent>
@@ -29,8 +28,7 @@ import NavigationBar from "./components/NavigationBar.vue";
 import New from "./components/New.vue";
 import ResearchInterest from "./components/ResearchInterest.vue";
 import Publication from "./components/Publication.vue";
-import Projects from "./components/Projects.vue";
-import Biography from "./components/Biography.vue";
+import Education from "./components/Education.vue";
 import ProfessionalExperience from "./components/ProfessionalExperience.vue";
 import Honors from "./components/Honors.vue";
 import Patent from "./components/Patent.vue";
@@ -47,8 +45,7 @@ import Footer from "./components/Footer.vue";
     New,
     ResearchInterest,
     Publication,
-    Projects,
-    Biography,
+    Education,
     ProfessionalExperience,
     Honors,
     Patent,
